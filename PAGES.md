@@ -2,7 +2,7 @@
 
 リポジトリ名は `othello-gomoku` を想定しています。Pagesへ配信するのは `docs/` だけです。`self-host/` や運用資料を公開サイトへ混ぜません。
 
-1. 利用条件を決め、`LICENSE-STATUS.md`の未確定事項を整理します。
+1. `LICENSE-STATUS.md`の現在の利用条件表示を確認します。条件未選定の状態から、AIが勝手にライセンスを追加しないでください。
 2. この独立したプロジェクトをGitHubのリポジトリへ保存します。作者の運用フォルダー全体や個人の設定を追加しないでください。
 3. リポジトリの Settings → Pages → Build and deployment で「Deploy from a branch」を選択します。
 4. 対象ブランチをmain、公開フォルダーを `/docs` に指定します。
