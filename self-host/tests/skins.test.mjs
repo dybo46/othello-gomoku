@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {SKINS,SKIN_CHOICES,chooseSkin,normalizePreferences,DEFAULTS} from '../public/skins.js';
+test('ランダム背景は実スキンだけを選び直前と重ならず、固定指定と設定保存も維持',()=>{assert.equal(SKIN_CHOICES.length,SKINS.length+1);assert.equal(normalizePreferences({skin:'random'}).skin,'random');for(const previous of SKINS)for(let i=0;i<=100;i++){const id=chooseSkin('random',previous.id,()=>i/100);assert.notEqual(id,previous.id);assert.ok(SKINS.some(s=>s.id===id));}for(const skin of SKINS)assert.equal(chooseSkin(skin.id,'F1',()=>0),skin.id);});
+
+test('採用G背景6種は独立した素材を持ち、全20背景を固定・ランダムで利用できる',()=>{assert.equal(SKINS.length,20);const ids=['G1','G2','G3','G4','G5','G8'];for(const id of ids){const skin=SKINS.find(s=>s.id===id);assert.ok(skin);assert.equal(normalizePreferences({skin:id}).skin,id);assert.equal(chooseSkin(id,'F1'),id);}const selected=new Set(Array.from({length:120},(_,i)=>chooseSkin('random','F1',()=>i/120)));for(const id of ids)assert.ok(selected.has(id));});
+
+test('背景の初期値とリセット値はランダム、保存済みの固定選択は保持',()=>{assert.equal(DEFAULTS.skin,'random');assert.equal(normalizePreferences({}).skin,'random');assert.equal(normalizePreferences({skin:'invalid'}).skin,'random');assert.equal(normalizePreferences({skin:'G8'}).skin,'G8');});
+
+test('赤ベルベット4背景は独立素材と余白付き正方形の盤を持つ',()=>{for(const id of ['W1','W4','W5','W2B']){const s=SKINS.find(s=>s.id===id);assert.equal(s.surface,'velvet-red');assert.equal(normalizePreferences({skin:id}).skin,id);assert.equal(s.board.size,id==='W4'?58:54);assert.ok(s.board.left>=20&&s.board.top>=20);assert.ok(s.board.left+s.board.size<=85&&s.board.top+s.board.size<=85);assert.equal(chooseSkin(id,'F1'),id);}});

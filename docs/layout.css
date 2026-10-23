@@ -1,0 +1,24 @@
+.window-actions{display:flex;gap:6px;align-items:center}.window-actions button{font-size:11px;padding:7px 8px}
+.wide-layout #app{width:min(1000px,100%);padding:10px 20px 16px}
+.wide-layout #room{display:grid;grid-template-columns:minmax(0,var(--game-size,566px)) 370px;justify-content:center;gap:24px;align-items:start}
+.wide-layout .game-main{width:100%;max-width:min(566px,var(--game-size,calc(100vh - 230px)));justify-self:center}
+.wide-layout .room-sidebar{display:flex;flex-direction:column;max-height:calc(100vh - 85px);overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding:0 5px 10px}
+.wide-layout #lobbyPanel{order:0;margin-top:0}.wide-layout #practiceControls{order:1}.wide-layout #settings{order:2}
+.wide-layout .room-sidebar .card{flex-shrink:0}.wide-layout #joinPanel,.wide-layout #app> #settings,.wide-layout #handoff{max-width:500px;margin-left:auto;margin-right:auto}
+.wide-layout .skin-picker{grid-template-columns:repeat(3,minmax(0,1fr))}.wide-layout .skin-choice{min-width:0}
+
+@media(max-width:900px){.wide-layout #app{padding:9px 12px 16px}.wide-layout #room{grid-template-columns:minmax(0,var(--game-size,566px)) 320px;gap:12px}.wide-layout .game-main{max-width:min(566px,var(--game-size,100%))}}
+@media(max-width:700px){.wide-layout #room{display:block}.wide-layout .game-main{max-width:500px;margin:auto}.wide-layout .room-sidebar{max-height:none;overflow:visible;max-width:500px;margin:auto;padding:0}.window-actions{gap:3px}.window-actions button{padding:6px;font-size:10px}h1{font-size:20px}}
+
+/* Size is a personal view setting and remains available during play. */
+.game-main{width:100%;max-width:var(--game-size,100%);margin-inline:auto}
+body:not(.wide-layout) #app{width:min(700px,100%)}
+.view-controls{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 8px}
+.view-controls .last-move-option{margin:0}.board-size-option{display:flex;gap:3px;align-items:center;font-size:10px;color:#c4d7cc;white-space:nowrap}.board-size-option select{font-size:10px;padding:3px}
+#status.your-turn{color:#ffe268;font-weight:800}
+.result .winner-text{color:#ffe268;font-weight:800;font-size:18px;line-height:24px}.result[data-counting=true] .winner-text{font-size:14px;line-height:20px}
+@media(max-width:700px){.wide-layout .game-main{max-width:var(--game-size,100%)}}
+
+.entrance-link{color:#bbd7cd;text-decoration:none;font-size:10px;padding:6px;border:1px solid #3a5156;border-radius:7px}.entrance-link:hover{background:#29454a}@media(max-width:550px){.mast{flex-wrap:wrap;gap:6px}.window-actions{margin-left:auto}}
+
+#lobbyPanel,#ready{display:none!important}.demo-about{text-align:center;font-size:11px}.demo-about a{color:#afdece}

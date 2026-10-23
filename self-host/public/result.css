@@ -1,0 +1,15 @@
+/* Each text row has its own space; only the two stone areas share remaining height. */
+.result[data-counting=true]{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:26px minmax(0,var(--black-space)) 26px minmax(0,var(--white-space)) 40px 26px;gap:2px;padding:6px 8px;justify-content:normal;align-items:stretch;overflow:hidden;container-type:size}
+.result[data-counting=true] h2{font-size:20px;line-height:26px;letter-spacing:1.5px;align-self:start;margin:0}
+.result[data-counting=true] .count-tray{width:100%;height:100%;min-width:0;min-height:0;grid-template-columns:repeat(8,minmax(0,1fr));grid-template-rows:repeat(var(--black-rows),minmax(0,1fr));gap:2px;align-content:normal}
+.result[data-counting=true] .count-tray.bottom{grid-template-rows:repeat(var(--white-rows),minmax(0,1fr))}
+.result[data-counting=true] .tally{--tally-size:max(2px,min(18px,calc((100cqh - 144px) / var(--tally-total-rows) - 2px),calc((100cqw - 32px) / 8)));width:var(--tally-size);height:var(--tally-size);max-width:100%;max-height:100%;aspect-ratio:1;justify-self:center;align-self:center;animation:result-pop .22s ease-out}
+.result[data-counting=true] .result-numbers{font:700 23px/26px Georgia,serif;white-space:nowrap;align-self:center;min-width:0}
+.result[data-counting=true] .winner-text{font-size:11px;line-height:14px;align-self:center;overflow-wrap:anywhere;margin:0}
+.result[data-counting=true] .result-buttons{display:flex;justify-content:center;align-items:center;min-height:0}
+.result[data-counting=true] .result-buttons button{font-size:11px;line-height:16px;padding:4px 10px;min-height:26px}
+@keyframes result-pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+
+.result .result-buttons{display:flex;gap:4px;justify-content:center;min-width:0;width:100%}
+.result .result-buttons button,.result[data-counting=true] .result-buttons button{font-size:10px;line-height:16px;padding:4px;min-width:0;min-height:26px;white-space:nowrap;flex:1}
+.result-replay[aria-pressed=true]{border-color:#8cebd0;background:#214d43}

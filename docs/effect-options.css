@@ -1,0 +1,29 @@
+.action-info{font-size:11px;line-height:1.65;padding:7px 10px;margin:4px 0 8px;border-left:2px solid #83d7c0;border-radius:3px;background:#112925;color:#c4e2d1;min-height:32px}.action-info:empty{display:none}#effectOptions{border:1px solid #385056;border-radius:8px;margin:12px 0;padding:9px}#effectOptions legend{font-size:12px;color:#d3ebdf;padding:0 5px}#effectList{display:grid;grid-template-columns:1fr 1fr;gap:7px}.effect-option{display:flex;align-items:flex-start;gap:6px;border:1px solid #304a48;border-radius:6px;padding:7px;background:#102322;cursor:pointer}.effect-option input{margin:2px 0 0;accent-color:#91e1c3}.effect-option b{font-size:11px;display:block;font-weight:600;color:#d2ebdf}.effect-option small{display:block;font-size:9px;line-height:1.5;margin-top:3px;color:#93b5a7}.effect-option:has(input:not(:checked)){opacity:.5}.settings.locked .effect-option{opacity:.5;cursor:default}@media(max-height:720px){#app{width:min(420px,100%)}.action-info{font-size:10px;padding:5px 8px}}
+
+.last-move-option{display:flex;align-items:center;justify-content:center;gap:5px;flex-wrap:wrap;margin:4px 0 8px;color:#f3d77b;font-size:10px}
+.last-move-option input{margin:0;accent-color:#f5d350}.last-move-option span{font-size:9px;color:#a1b7ad}
+.cell.last-move>.stone:not(.old-stone):after{content:'';position:absolute;inset:-2px;border:2px solid #ffe25a;border-radius:inherit;box-shadow:0 0 7px #ffd428b0,inset 0 0 3px #fff2aa;pointer-events:none}
+
+#settings{padding:9px 11px}#settings>summary{font-size:12px;line-height:20px}#settingsSummary{font-size:9px;color:#9cbbb0;font-weight:400;margin-left:8px}#settings .settings-body{margin-top:10px}#settings .section-title h2{font-size:13px}#settings:not([open]){box-shadow:none}.skin-choice[data-skin=random]{border-style:dashed}.skin-choice[data-skin=random].selected{border-style:solid}
+
+.board-frame[data-skin=G8]{border-radius:0}
+
+/* Frame opening geometry drives the board, labels and canvas together. */
+.board{left:var(--board-left,16%);top:var(--board-top,16%);width:var(--board-size,70%);height:var(--board-size,70%)}
+.cols{left:var(--board-left,16%);top:calc(var(--board-top,16%) - 4%);width:var(--board-size,70%)}
+.rows{left:calc(var(--board-left,16%) - 4%);top:var(--board-top,16%);height:var(--board-size,70%)}
+.board-frame[data-surface=velvet-red]{border-radius:0;--line:#f5bba64d;--light:#ef164029;--dark:#2700094d}
+.board-frame[data-surface=velvet-red] .board{background:transparent;box-shadow:0 2px 8px #26000660}
+.board-frame[data-surface=velvet-red] .coords{color:#fff3d1;text-shadow:0 1px 3px #2f000a,0 0 2px #2f000a}
+
+/* Keep the accepted red cloth while only replacing the surrounding frame. */
+.board-frame[data-surface=velvet-red] .board{background-image:var(--velvet-image,none);background-size:var(--velvet-scale,100%) var(--velvet-scale,100%);background-position:center;background-repeat:no-repeat}
+
+/* Coloured fabric and cut-crystal surfaces share the same game geometry. */
+.board-frame:is([data-surface^=velvet-],[data-surface=gem-black]){border-radius:0}
+.board-frame:is([data-surface^=velvet-],[data-surface=gem-black]) .board{background-color:transparent}
+.board-frame[data-surface=velvet-blue]{--line:#cfddf74d;--light:#82a8ff26;--dark:#030c2b40}
+.board-frame[data-surface=velvet-navy]{--line:#c4d2e14d;--light:#8ca6ca29;--dark:#01061745}
+.board-frame[data-surface=velvet-charcoal]{--line:#cad0d640;--light:#b7c6cf2b;--dark:#00000045}
+.board-frame[data-surface=gem-black]{--line:#c3cfda4d;--light:#c0d6e51f;--dark:#00000038}
+.board-frame:is([data-surface=velvet-blue],[data-surface=velvet-navy],[data-surface=velvet-charcoal],[data-surface=gem-black]) .coords{color:#f0f2ef;text-shadow:0 1px 3px #000,0 0 2px #000}

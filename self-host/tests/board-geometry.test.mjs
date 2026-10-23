@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {boardPoint} from '../public/board-geometry.js';
+test('演出の座標は旧背景とベルベットの実盤面どちらでも64マスの中央',()=>{for(const [left,top,width]of [[16,16,70],[23,23,54]]){const rect={left,top,width,height:width};for(let i=0;i<64;i++){const p=boardPoint(i,rect);assert.ok(p.x>left&&p.x<left+width&&p.y>top&&p.y<top+width);assert.equal(p.x,left+(i%8+.5)*width/8);assert.equal(p.y,top+((i>>3)+.5)*width/8);}}});

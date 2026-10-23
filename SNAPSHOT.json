@@ -1,0 +1,30 @@
+{
+  "name": "othello-gomoku",
+  "recordVersion": "1.3-record",
+  "created": "2026-10-23",
+  "sourceVersion": "1.3",
+  "gameplayBaseline": "1.2",
+  "pages": "docs",
+  "selfHost": "self-host",
+  "games": {
+    "othello": "implemented",
+    "gomoku": "not implemented"
+  },
+  "content": {
+    "backgrounds": 20,
+    "stones": 3,
+    "effects": 21,
+    "cpuLevels": 10
+  },
+  "authorServerLinked": false,
+  "githubUploaded": false,
+  "license": "not yet selected",
+  "sourceArchiveSha256": "08ebc07922a0842c0f00a0250b265c1425fb97c8a7b510c74cb49ddb45646f49",
+  "checks": {
+    "publicProject": 3,
+    "sharedGame": 33,
+    "demoApiRequests": 0,
+    "cpuWatchReached64": true,
+    "selfHostNetwork": true
+  }
+}

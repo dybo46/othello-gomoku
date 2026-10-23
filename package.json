@@ -1,0 +1,14 @@
+{
+  "name": "othello-gomoku",
+  "version": "1.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node scripts/serve-demo.mjs",
+    "test": "node --test --test-isolation=none tests/*.test.mjs",
+    "test:self-host": "node --test --test-isolation=none self-host/tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
