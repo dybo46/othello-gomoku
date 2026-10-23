@@ -17,7 +17,7 @@
     "cpuLevels": 10
   },
   "authorServerLinked": false,
-  "githubUploaded": false,
+  "githubUploaded": true,
   "license": "not yet selected",
   "sourceArchiveSha256": "08ebc07922a0842c0f00a0250b265c1425fb97c8a7b510c74cb49ddb45646f49",
   "checks": {
@@ -26,5 +26,7 @@
     "demoApiRequests": 0,
     "cpuWatchReached64": true,
     "selfHostNetwork": true
-  }
+  },
+  "repositoryUrl": "https://github.com/dybo46/othello-gomoku",
+  "demoUrl": "https://dybo46.github.io/othello-gomoku/"
 }

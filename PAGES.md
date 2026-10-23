@@ -1,6 +1,6 @@
 # GitHub PagesでCPU専用デモを公開する
 
-リポジトリ名は `othello-gomoku` を想定しています。Pagesへ配信するのは `docs/` だけです。`self-host/` や運用資料を公開サイトへ混ぜません。
+公開リポジトリは https://github.com/dybo46/othello-gomoku です。CPU専用デモは https://dybo46.github.io/othello-gomoku/ で遊べます。Pagesへ配信するのは `docs/` だけです。`self-host/` や運用資料を公開サイトへ混ぜません。
 
 1. `LICENSE-STATUS.md`の現在の利用条件表示を確認します。条件未選定の状態から、AIが勝手にライセンスを追加しないでください。
 2. この独立したプロジェクトをGitHubのリポジトリへ保存します。作者の運用フォルダー全体や個人の設定を追加しないでください。
@@ -12,6 +12,6 @@
 
 公式説明： https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 
-デモはサブパスでも動く相対URLを使用します。例となるURLの形は `https://YOUR-ACCOUNT.github.io/othello-gomoku/` です。実在する作者の接続先は記入しません。
+デモはサブパスでも動く相対URLを使用します。公開デモのURLは `https://dybo46.github.io/othello-gomoku/` です。作者のゲームサーバーへの接続先は記入しません。
 
 Pagesはブラウザ用の画像・プログラムを配信します。このCPUデモにネット対戦機能や外部ゲームサーバーの設定を追加しないでください。利用者自身のサーバーへの設置は別の `self-host/` で行います。
