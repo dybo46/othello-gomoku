@@ -1,0 +1,1232 @@
+[
+  {
+    "file": "docs/.nojekyll",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "file": "docs/about.html",
+    "sha256": "74b390c574c33054980c80c2ccee9b77e127b68cf4a36903c429b25c2814b9e5",
+    "bytes": 965
+  },
+  {
+    "file": "docs/ai-worker.js",
+    "sha256": "e2e50046460df5e42f86c1d68654aca2859fb92d73015ded4e3e3ab2337f09c0",
+    "bytes": 345
+  },
+  {
+    "file": "docs/ai.js",
+    "sha256": "a9d48e7a565c7bbba8faeccd8f85c444547d9f45530730b02a94712c5f1ab273",
+    "bytes": 2835
+  },
+  {
+    "file": "docs/app.js",
+    "sha256": "05d752a96a2eb5ef98f6e34cddbcb37a24672510df0139755ee5d354072ba46f",
+    "bytes": 43040
+  },
+  {
+    "file": "docs/audio.js",
+    "sha256": "f65b72880e3f3e76cc859d7eb587bf0888d3a9d759729ec3a3256dd432a44ae8",
+    "bytes": 3594
+  },
+  {
+    "file": "docs/board-geometry.js",
+    "sha256": "f79d984ef8eae0e0fde33767b3b60a46ef8c77505253b004342c12ba188cb9c6",
+    "bytes": 218
+  },
+  {
+    "file": "docs/choice-buttons.js",
+    "sha256": "70280c9779fe0d3ac18e59f6aef3f161162cf201e85d088fc33b418ea215b600",
+    "bytes": 1136
+  },
+  {
+    "file": "docs/effect-catalog.js",
+    "sha256": "a96ee665bce3c3f90584c1473f4ea98ed78762c29948a5eb2c005c11d3b255b7",
+    "bytes": 3761
+  },
+  {
+    "file": "docs/effect-options.css",
+    "sha256": "98ca77911f0ccb49a81a2f17734ef92b9130d6ffe184bb374b2724ee48ccd1ee",
+    "bytes": 4143
+  },
+  {
+    "file": "docs/effects-extra.js",
+    "sha256": "37afc361f0cb7cfd63c0c9069d715feb593848e79fc89c3c0179c2f4f67e5938",
+    "bytes": 3723
+  },
+  {
+    "file": "docs/effects-lasers.js",
+    "sha256": "80b4c8bbba3c18671c3f7cc1577f19fa957e501d48fec38f779d222001a2d417",
+    "bytes": 2672
+  },
+  {
+    "file": "docs/effects.js",
+    "sha256": "2685b51819c25c09605af26845fa56e3ced6cf6efe7adf0f34ce77d4729b0ecf",
+    "bytes": 3641
+  },
+  {
+    "file": "docs/favicon.svg",
+    "sha256": "936237bc8977b6224871a92b115c2a3c1fa60666bc74fe9582e7966dba02acbf",
+    "bytes": 405
+  },
+  {
+    "file": "docs/games.js",
+    "sha256": "e8ca890d2c6252da5506443f905ba4997ed1df1c0d14ea727c225de6e13b25b8",
+    "bytes": 464
+  },
+  {
+    "file": "docs/gomoku-ai.js",
+    "sha256": "656965bce524032d06c1af59f0ff50f364ae72cc1b194f9756856e9b0c882182",
+    "bytes": 4953
+  },
+  {
+    "file": "docs/gomoku-commentary.js",
+    "sha256": "0a18b60abaaa4ee682492fc35fe05b267973e0fa5f0ed5e1e18863996c997420",
+    "bytes": 3474
+  },
+  {
+    "file": "docs/gomoku-rules.js",
+    "sha256": "b65b021321d5acd85d0211ae5c9671552c64894a8916f6bebc8b17a64fb20e5f",
+    "bytes": 1777
+  },
+  {
+    "file": "docs/gomoku-skins-extra.css",
+    "sha256": "8ad7ea9dabf9657cf07e2c1438623610134a19bc637257ecd1b61941ebb7fe35",
+    "bytes": 2487
+  },
+  {
+    "file": "docs/gomoku-skins-extra.js",
+    "sha256": "7e7cb171a15b8d87f6e2edb2781ad7cd8ade4e995b40063927d753d3cde05f12",
+    "bytes": 1379
+  },
+  {
+    "file": "docs/gomoku-skins.js",
+    "sha256": "e3863152212f6d8818cdb3533015a3c934072540aaf8ac6fbc656b9ab3b57cf3",
+    "bytes": 1550
+  },
+  {
+    "file": "docs/gomoku-sounds.js",
+    "sha256": "b36c17e7d0823c92efe6113cee44e39c2112d0a548e3d9e160eb9843bbb559b6",
+    "bytes": 7019
+  },
+  {
+    "file": "docs/gomoku.css",
+    "sha256": "6ceee02e728d885e025d388314f5c983a512b6429a2414b80fbb03c17999cdb1",
+    "bytes": 4354
+  },
+  {
+    "file": "docs/index.html",
+    "sha256": "50d2d1c6f97ad4504aa84a0fe0d55f1c944e9cf07077d0ae1cd6e06f538e2cd1",
+    "bytes": 8413
+  },
+  {
+    "file": "docs/last-move.js",
+    "sha256": "b06222fd054757c9773523028281c0f4149f32b3677df79da5da4688c36897d3",
+    "bytes": 582
+  },
+  {
+    "file": "docs/layout.css",
+    "sha256": "539aa97613516c2a5bad239f175d3abb7d5ab14e8d973f390336db5d876c23a1",
+    "bytes": 3236
+  },
+  {
+    "file": "docs/match-controls.css",
+    "sha256": "a73a20f55ba07a4a52fca7c51ae3a0e51c52a2980fee421e563a1863aa5b1b52",
+    "bytes": 2706
+  },
+  {
+    "file": "docs/match-labels.js",
+    "sha256": "6fbf5c90238c45e1d8a9072791ff7fa19fb8e8ae06aae70c9deb9cea40e49aeb",
+    "bytes": 424
+  },
+  {
+    "file": "docs/resign-catalog.js",
+    "sha256": "6467eca4e8a7cef3bab686e69c586ddb3b53cbb87e09b64a6e2d8cc719f48e48",
+    "bytes": 624
+  },
+  {
+    "file": "docs/resign-effects.js",
+    "sha256": "353d9046406d15febf411ccb08555db7f2ede188d9be47b25c55db88b15b10d1",
+    "bytes": 4202
+  },
+  {
+    "file": "docs/result-view.js",
+    "sha256": "99221c7efc0b1401284563f7e998b294114e6cb5ed3c195dafa12b69672beed6",
+    "bytes": 2146
+  },
+  {
+    "file": "docs/result.css",
+    "sha256": "fdd35df24017940c90f3a0086a348a9ded91a86027fe2b2e0f80bb36d3be4bdc",
+    "bytes": 2060
+  },
+  {
+    "file": "docs/rules.js",
+    "sha256": "80e842d04269bdf48f0d7737beb231e83b8c48c2dec6c323e7e8da006ea17acf",
+    "bytes": 2718
+  },
+  {
+    "file": "docs/skins.js",
+    "sha256": "2595ff45233fbf1ca626e69961f87a9a6db351fbe4c64a5192fbbaf6363af2c1",
+    "bytes": 4963
+  },
+  {
+    "file": "docs/style.css",
+    "sha256": "94d6fe09d79b3df49c96bfc77d43a7259a9cdab8b8677c0c8ad48c9f944f19cd",
+    "bytes": 11694
+  },
+  {
+    "file": "docs/window-layout.js",
+    "sha256": "6b1b6b337f378fb40081a892f2f6077f1793bc04d461a8712f6abe1d9a65681a",
+    "bytes": 1011
+  },
+  {
+    "file": "docs/assets/frame-D1.png",
+    "sha256": "3fe7e231ee4e00e32e45067cde21602982989912bcf23159851c918521d1c4b7",
+    "bytes": 2120322
+  },
+  {
+    "file": "docs/assets/frame-F1.png",
+    "sha256": "47034e67fe991f0b09a7c47fd10f1e77ce6e5ca4c5a52c5132c3573528d5c44d",
+    "bytes": 2186704
+  },
+  {
+    "file": "docs/assets/frame-F2.png",
+    "sha256": "d8abf1406a40fe8f1216468f21e651f2b33580bdbe34f8b0c5490ec851734a04",
+    "bytes": 2299508
+  },
+  {
+    "file": "docs/assets/frame-F4.png",
+    "sha256": "3bd88625c744102c6f6cde7a2d808712327a295c22baa07024f97027ace3d5c7",
+    "bytes": 1436470
+  },
+  {
+    "file": "docs/assets/frame-F5.png",
+    "sha256": "d825f13d05f1115dbd40534f8dbc5e369c99f93a059009d904c810a55f9fc81b",
+    "bytes": 1775970
+  },
+  {
+    "file": "docs/assets/frame-F6.png",
+    "sha256": "9bfddf597f389b2e2f4b7af9c407dd4a73cad2aeb1097d69088615cd935657b5",
+    "bytes": 2428619
+  },
+  {
+    "file": "docs/assets/frame-F7.png",
+    "sha256": "614d0df3afa803ad2a7057bd42294d4ddae6f92cbcdfd3da918cb2e6a88e0193",
+    "bytes": 1513152
+  },
+  {
+    "file": "docs/assets/frame-G1.png",
+    "sha256": "1c7e1f064cd6a72f445c677c1801ede588675bbbf265bcd7b7de93da527cfac9",
+    "bytes": 1786296
+  },
+  {
+    "file": "docs/assets/frame-G2.png",
+    "sha256": "a70c45f2e048e68b10a15b438b02ff3ed3e46294c3a6b8bc410578431f84a34a",
+    "bytes": 1525645
+  },
+  {
+    "file": "docs/assets/frame-G3.png",
+    "sha256": "99954a7b16b813b7b9075e9421570f8f47792e989962101ce58f8013dbc927cd",
+    "bytes": 1743141
+  },
+  {
+    "file": "docs/assets/frame-G4.png",
+    "sha256": "458d84e0e43c7f0815f47607f4395e76e7f6adb2927c038474a4ad8123da0202",
+    "bytes": 2093659
+  },
+  {
+    "file": "docs/assets/frame-G5.png",
+    "sha256": "7fcdf7734245ebc74f914ea15a0d5b307908f0d64932d9fa4f7a2dfe2b35716d",
+    "bytes": 1785314
+  },
+  {
+    "file": "docs/assets/frame-G8.png",
+    "sha256": "d346eb86627cf960f80ae5da410d1037512c1af1de0310df5b8352da055a2d45",
+    "bytes": 1441034
+  },
+  {
+    "file": "docs/assets/frame-N1.png",
+    "sha256": "f15f928a4537cc17eee1f5eb8d75c611bce66de77dbacf12cb45d8893006ce74",
+    "bytes": 2844712
+  },
+  {
+    "file": "docs/assets/frame-N2.png",
+    "sha256": "838add93450188c07d9342b54f103b8d028ce65301a9c70d08470a179783dbf5",
+    "bytes": 2606061
+  },
+  {
+    "file": "docs/assets/frame-N4.png",
+    "sha256": "10bdcd27d81d30ff2b1b55f113dab37dc799f763f0554a1ee8447ee6d53d7174",
+    "bytes": 2579159
+  },
+  {
+    "file": "docs/assets/frame-random.png",
+    "sha256": "a9b8c494fcd04a4f81707170d8b570e4fa80129984d1b48881d91011ae5a9c98",
+    "bytes": 3437755
+  },
+  {
+    "file": "docs/assets/frame-W1-soft.png",
+    "sha256": "55087bfbce49ca519d7db524c54d434a8608a4414b0975a747fd62e1c86d6de6",
+    "bytes": 2625877
+  },
+  {
+    "file": "docs/assets/frame-W1.png",
+    "sha256": "92c30cd494d75afa5cb567520edd1e8a9754c9e7c5e79b489891a9d8a171adbb",
+    "bytes": 2857612
+  },
+  {
+    "file": "docs/assets/frame-W2B.png",
+    "sha256": "bdc25580d089f648321063dd557d16dc31ce33a78fefc59a4d9f20ed6c5ee6b9",
+    "bytes": 2860023
+  },
+  {
+    "file": "docs/assets/frame-W4-soft.png",
+    "sha256": "b192fdfd3cd146db807f24974c1fb256b3f32f39256036ca9e0c68ae2a1ee49b",
+    "bytes": 2823487
+  },
+  {
+    "file": "docs/assets/frame-W4.png",
+    "sha256": "1e1686fbdf657fb9dbf7d181a6f1df2d70d10006e4f89c49f9edb9968ec34698",
+    "bytes": 3059054
+  },
+  {
+    "file": "docs/assets/frame-W5-soft.png",
+    "sha256": "f03769aef14dc443046e0fac2caa550b5e640b22b28073d2d0af8732dc099ee1",
+    "bytes": 2501877
+  },
+  {
+    "file": "docs/assets/frame-W5.png",
+    "sha256": "3dc3d04c6ba5ade8edc8714bf80c62f5cae05a9a699188bb1b0869dac76e4b66",
+    "bytes": 2754256
+  },
+  {
+    "file": "docs/assets/gomoku/C1.png",
+    "sha256": "42bf5ef9ceee50a6ac780ebb9a793c29e1f032ef59c32f2076cc246ce85f078c",
+    "bytes": 2073808
+  },
+  {
+    "file": "docs/assets/gomoku/K2.png",
+    "sha256": "57652a502d6c11b94fea20baee35f1cbe8db216c16326e969c6fc07d72562549",
+    "bytes": 1778285
+  },
+  {
+    "file": "docs/assets/gomoku/K5.png",
+    "sha256": "fcb795465acef1fafdaaf4ff58afb004b2dbbd988655e7e261dec08b11a23daf",
+    "bytes": 1707898
+  },
+  {
+    "file": "docs/assets/gomoku/K6.png",
+    "sha256": "79e00e93e1eeeeda1d10839806482ad593c9b9e05674de30cf7a4a41812b4a22",
+    "bytes": 2268623
+  },
+  {
+    "file": "docs/assets/gomoku/K7.png",
+    "sha256": "59496fd81f182b3a79e58d98a19a8eae10661da1719e63423d5702dbfdb0a8d0",
+    "bytes": 2236432
+  },
+  {
+    "file": "docs/assets/gomoku/K8.png",
+    "sha256": "4dc943467e9e762a2015d1aed846c96211e29282c63b3a25de8b8f36e79e1e51",
+    "bytes": 1961492
+  },
+  {
+    "file": "docs/assets/gomoku/K9.png",
+    "sha256": "ae2d1f82bea16b8875dd3ccadb7b75a792bb78f1c2fec45776b5080c3d5b0941",
+    "bytes": 2703682
+  },
+  {
+    "file": "docs/assets/gomoku/M1.png",
+    "sha256": "4d891503f91805e0e60bebef58c1eeb6cbb3d3ea5353177ff554bd24c98ba41a",
+    "bytes": 2083707
+  },
+  {
+    "file": "docs/assets/gomoku/P1.png",
+    "sha256": "d65e23b9a2832809fa728fb2d263107cbedb94d241a2b7b42f55d78b7d5b3060",
+    "bytes": 2132529
+  },
+  {
+    "file": "docs/assets/gomoku/P7.png",
+    "sha256": "1a0c8351b3bf13fd6ca1fd65f35bb432c251e5f1db3df4326b139eaed3b8ad71",
+    "bytes": 2109847
+  },
+  {
+    "file": "docs/assets/gomoku/P8.png",
+    "sha256": "58fde2ca8b3f547cf4b800a356a996993a1255c3808d32ea1c81f815befc00c5",
+    "bytes": 3660214
+  },
+  {
+    "file": "docs/assets/gomoku/R1.png",
+    "sha256": "dba6af8118d08eceee891be4f67b2fbabec6597f09c9344b094eb0431f6f2e24",
+    "bytes": 1874776
+  },
+  {
+    "file": "docs/assets/gomoku/R2.png",
+    "sha256": "0c08ce34e1a318e1fed41d71af8ab3a117aed3962519a0847a21f5eee1578a9f",
+    "bytes": 2343569
+  },
+  {
+    "file": "docs/assets/gomoku/R3.png",
+    "sha256": "c7bcf683da0ab2aca63b7d5d32e4d91b851bb802423e083f1990ef20eb5fdc6c",
+    "bytes": 2203457
+  },
+  {
+    "file": "docs/assets/gomoku/R4.png",
+    "sha256": "eb474d872c7e36bbe996282f2f1abc182fa45fd9122adc432c7f07de612f9742",
+    "bytes": 2836547
+  },
+  {
+    "file": "docs/assets/gomoku/R5.png",
+    "sha256": "a459a513117005d40875a9e290be3df209223f5fc6472a50264abb59b93974bf",
+    "bytes": 2043056
+  },
+  {
+    "file": "docs/assets/gomoku/R7.png",
+    "sha256": "d320a462ddeaef19aec6a02a44b9e97cbf2e917d0f982f2b3d08111833693b77",
+    "bytes": 2523501
+  },
+  {
+    "file": "docs/assets/gomoku/R8.png",
+    "sha256": "dd8ac2ddfd3cd32a5c6bc041a7f82036a0f3295ef30f0144f0aa3aa6097ed324",
+    "bytes": 2118699
+  },
+  {
+    "file": "docs/assets/gomoku/random.png",
+    "sha256": "cad1a75f44ab9a5903ca29cc7dff168e22d191537d825a855b704007154ae08f",
+    "bytes": 2384018
+  },
+  {
+    "file": "docs/assets/gomoku/stones-P1.png",
+    "sha256": "114e1a19c1fe847d3dcbb45d42876e867becd5c472d465b1c2eb3bcfa1250105",
+    "bytes": 1530494
+  },
+  {
+    "file": "docs/assets/gomoku/stones-P7.png",
+    "sha256": "b41a019fe83393f3a6a44bd5e29036e1ab61957dc8dfd65bbd1ecffc7c618bf4",
+    "bytes": 1475516
+  },
+  {
+    "file": "docs/assets/gomoku/stones-P8.png",
+    "sha256": "bc9b3f10d111af4aadf3157df2632badca8a20114adb024e494b4653da6fda8a",
+    "bytes": 1645293
+  },
+  {
+    "file": "docs/assets/gomoku/stones-R1.png",
+    "sha256": "bfdacf1347104040157697737dbb174aea5aa3eb02f83e34ad88f5f16e40c1ba",
+    "bytes": 1204830
+  },
+  {
+    "file": "docs/assets/gomoku/stones-R2.png",
+    "sha256": "dca7937e0fabbcaf536f67e5ba986d5ad287733a9c15dfbe0428d264ed1fc7fc",
+    "bytes": 1467773
+  },
+  {
+    "file": "docs/assets/gomoku/stones-R3.png",
+    "sha256": "9faf0e4169212efb1e8b4b9f9aca0a9436f51a986fd388b532d9e1e9eb07333b",
+    "bytes": 1217263
+  },
+  {
+    "file": "docs/assets/gomoku/stones-R4.png",
+    "sha256": "e76e9cff0d354f4e0ec6e203c5fcefb68479ef6b1371e75d355d83b8220f6907",
+    "bytes": 1519430
+  },
+  {
+    "file": "docs/assets/gomoku/stones-R5.png",
+    "sha256": "edc70fd62fa4ddca8a42c8bfe67c3ba2b51a0b9270bfd1cb96689980c374a7a5",
+    "bytes": 1265738
+  },
+  {
+    "file": "docs/assets/gomoku/stones-R7.png",
+    "sha256": "f9aa634791cb05507e9430682ea8cd3e7ed0e28efabfa0ee096f224723d32994",
+    "bytes": 1348263
+  },
+  {
+    "file": "docs/assets/gomoku-audio/CREDITS.md",
+    "sha256": "6e480a27af9fd68e87c48fecd984aafe3cd53172dbe11b78d33b1b3e940c5fad",
+    "bytes": 4203
+  },
+  {
+    "file": "docs/assets/gomoku-audio/digital-kirari.wav",
+    "sha256": "a799e150a4ede3c825c949c1b0b9e523763cd2469bbdc114013ed65167846237",
+    "bytes": 25608
+  },
+  {
+    "file": "docs/assets/gomoku-audio/digital-piko.wav",
+    "sha256": "4988eb7b71b4669d9889d5fd8168e5717cb87affb70f2ca53704e9e0d960c172",
+    "bytes": 12076
+  },
+  {
+    "file": "docs/assets/gomoku-audio/digital-pin.wav",
+    "sha256": "9671ce41728ad69b3e902af75f6ab3b269b07ff1a6da467e5ee002257f03875e",
+    "bytes": 9736
+  },
+  {
+    "file": "docs/assets/gomoku-audio/digital-poko.wav",
+    "sha256": "f1170a4df6eb9586a8ab54dff0dfbac16e1e6d19326b46c874d733177658dac1",
+    "bytes": 8856
+  },
+  {
+    "file": "docs/assets/gomoku-audio/digital-pon.wav",
+    "sha256": "b70326d80c9c834ff2852688a8a3a96875cce43b7ad94ea8efa3eee2a6aeb6ac",
+    "bytes": 8416
+  },
+  {
+    "file": "docs/assets/gomoku-audio/digital-purun.wav",
+    "sha256": "ac1a09d191239c47287f9fd2c2f83095290545667fe901a6b88f888e0df52092",
+    "bytes": 8822
+  },
+  {
+    "file": "docs/assets/gomoku-audio/glass-tap-01.wav",
+    "sha256": "c7d856306d3bd1941cd5b83cf02923fb8b4ffdfbdcfc614a0ea7847b9c55f33c",
+    "bytes": 10176
+  },
+  {
+    "file": "docs/assets/gomoku-audio/glass-tap-02.wav",
+    "sha256": "32d03b3770702b429e2cb6d24a9ff7da405ad077028c9cfed335308389c91fe6",
+    "bytes": 10616
+  },
+  {
+    "file": "docs/assets/gomoku-audio/glass-tap-03.wav",
+    "sha256": "451f2f3d6282fbe3e2dd3624e2d892bd1f47a769ec5debdbe51683d7dfb6fb99",
+    "bytes": 9736
+  },
+  {
+    "file": "docs/assets/gomoku-audio/go-real-01.wav",
+    "sha256": "70d220621061de0b962af839a03a307148c0cb73cd4a0452b907eac6b278db99",
+    "bytes": 37970
+  },
+  {
+    "file": "docs/assets/gomoku-audio/go-real-02.wav",
+    "sha256": "027ffbeaa47dd6fc79c608908c62645c27adfb4361fac89417f485542730828a",
+    "bytes": 43264
+  },
+  {
+    "file": "docs/assets/gomoku-audio/go-real-03.wav",
+    "sha256": "666cf85143097c6fc68a2b0ad77fab22b254cfcb08775bed38da5eb6a927e1f2",
+    "bytes": 46790
+  },
+  {
+    "file": "docs/assets/gomoku-audio/go-real-04.wav",
+    "sha256": "4ec38d227f271148e9ce7d06a2df14b807ee9c62f6fc3457b122d3b55b7c51bc",
+    "bytes": 46792
+  },
+  {
+    "file": "docs/assets/gomoku-audio/go-real-05.wav",
+    "sha256": "f22ef344d132ed944c64c7e6449743692eaca38a10b6593ec98ec5ab397d4a0c",
+    "bytes": 48554
+  },
+  {
+    "file": "docs/assets/gomoku-audio/Kenney-impact-License.txt",
+    "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db",
+    "bytes": 608
+  },
+  {
+    "file": "docs/assets/gomoku-audio/Kenney-interface-License.txt",
+    "sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9",
+    "bytes": 574
+  },
+  {
+    "file": "docs/assets/gomoku-audio/manifest.json",
+    "sha256": "da3c68c3f358dc4c94222a2348aa61d85cb2989ac083abc3ca8119287192129e",
+    "bytes": 20006
+  },
+  {
+    "file": "docs/assets/gomoku-audio/marble-bounce.wav",
+    "sha256": "8b52833c0eda06038053f64a0e34935ab07c49f1984bc5477a3cf6450929ff91",
+    "bytes": 26014
+  },
+  {
+    "file": "docs/assets/gomoku-audio/marble-bowl.wav",
+    "sha256": "5c394573c51d0d6f4473f4932b136773229246aeed5b07631214e50e81606cab",
+    "bytes": 57374
+  },
+  {
+    "file": "docs/assets/gomoku-audio/marble-clink.wav",
+    "sha256": "fd1c916fbac31fdc76316dc4abb7b69a52727d0ba1f9d00180c1266aba8205d5",
+    "bytes": 15896
+  },
+  {
+    "file": "docs/assets/gomoku-audio/marble-impact.wav",
+    "sha256": "1535f8de44228b519c09e420ba8006ee171b223a338c16d372fe20b1e3fcecd2",
+    "bytes": 57374
+  },
+  {
+    "file": "docs/assets/gomoku-audio/metal-tap.wav",
+    "sha256": "8212621ca05b708c8f0fa70ecaeb88f91f032a6f450fab88c3e203e64748e82f",
+    "bytes": 13696
+  },
+  {
+    "file": "docs/assets/gomoku-audio/wood-tap.wav",
+    "sha256": "83ee712aeb5c51f3318882337590f939724818bc75774422a8f6e1862779ea30",
+    "bytes": 8856
+  },
+  {
+    "file": "self-host/.env.example",
+    "sha256": "179b234b4379b227b83f0eda6c2f8383f856f6f4467fbe610d8c608af0bbac71",
+    "bytes": 93
+  },
+  {
+    "file": "self-host/compose.yaml",
+    "sha256": "29afa9086ef61d7c005b65b823068ded161a4eedd2dde12a548132f563db6bd8",
+    "bytes": 572
+  },
+  {
+    "file": "self-host/lobby.mjs",
+    "sha256": "2cbd2e7ec8da91442b0457ff70ba9e151556f9dab0b89582f30f0f0449ec69ca",
+    "bytes": 6369
+  },
+  {
+    "file": "self-host/package.json",
+    "sha256": "a69345521b790aaeb7dd5ea9c8f73e1c5bbaf207df27dc10fcf3bd927e209555",
+    "bytes": 239
+  },
+  {
+    "file": "self-host/server.mjs",
+    "sha256": "a89f3e56dcbbb358a67796c916be0503571802acbf977d0edcff293623da60d0",
+    "bytes": 6957
+  },
+  {
+    "file": "self-host/public/ai-worker.js",
+    "sha256": "e2e50046460df5e42f86c1d68654aca2859fb92d73015ded4e3e3ab2337f09c0",
+    "bytes": 345
+  },
+  {
+    "file": "self-host/public/ai.js",
+    "sha256": "a9d48e7a565c7bbba8faeccd8f85c444547d9f45530730b02a94712c5f1ab273",
+    "bytes": 2835
+  },
+  {
+    "file": "self-host/public/app.js",
+    "sha256": "1cc2ada6fb204581781575410e364df526ab3eee2f5673cdb2b4f2d0a9356afc",
+    "bytes": 42639
+  },
+  {
+    "file": "self-host/public/audio.js",
+    "sha256": "f65b72880e3f3e76cc859d7eb587bf0888d3a9d759729ec3a3256dd432a44ae8",
+    "bytes": 3594
+  },
+  {
+    "file": "self-host/public/board-geometry.js",
+    "sha256": "f79d984ef8eae0e0fde33767b3b60a46ef8c77505253b004342c12ba188cb9c6",
+    "bytes": 218
+  },
+  {
+    "file": "self-host/public/choice-buttons.js",
+    "sha256": "70280c9779fe0d3ac18e59f6aef3f161162cf201e85d088fc33b418ea215b600",
+    "bytes": 1136
+  },
+  {
+    "file": "self-host/public/effect-catalog.js",
+    "sha256": "a96ee665bce3c3f90584c1473f4ea98ed78762c29948a5eb2c005c11d3b255b7",
+    "bytes": 3761
+  },
+  {
+    "file": "self-host/public/effect-options.css",
+    "sha256": "98ca77911f0ccb49a81a2f17734ef92b9130d6ffe184bb374b2724ee48ccd1ee",
+    "bytes": 4143
+  },
+  {
+    "file": "self-host/public/effects-extra.js",
+    "sha256": "37afc361f0cb7cfd63c0c9069d715feb593848e79fc89c3c0179c2f4f67e5938",
+    "bytes": 3723
+  },
+  {
+    "file": "self-host/public/effects-lasers.js",
+    "sha256": "80b4c8bbba3c18671c3f7cc1577f19fa957e501d48fec38f779d222001a2d417",
+    "bytes": 2672
+  },
+  {
+    "file": "self-host/public/effects.js",
+    "sha256": "2685b51819c25c09605af26845fa56e3ced6cf6efe7adf0f34ce77d4729b0ecf",
+    "bytes": 3641
+  },
+  {
+    "file": "self-host/public/favicon.svg",
+    "sha256": "936237bc8977b6224871a92b115c2a3c1fa60666bc74fe9582e7966dba02acbf",
+    "bytes": 405
+  },
+  {
+    "file": "self-host/public/games.js",
+    "sha256": "e8ca890d2c6252da5506443f905ba4997ed1df1c0d14ea727c225de6e13b25b8",
+    "bytes": 464
+  },
+  {
+    "file": "self-host/public/gomoku-ai.js",
+    "sha256": "656965bce524032d06c1af59f0ff50f364ae72cc1b194f9756856e9b0c882182",
+    "bytes": 4953
+  },
+  {
+    "file": "self-host/public/gomoku-commentary.js",
+    "sha256": "0a18b60abaaa4ee682492fc35fe05b267973e0fa5f0ed5e1e18863996c997420",
+    "bytes": 3474
+  },
+  {
+    "file": "self-host/public/gomoku-rules.js",
+    "sha256": "b65b021321d5acd85d0211ae5c9671552c64894a8916f6bebc8b17a64fb20e5f",
+    "bytes": 1777
+  },
+  {
+    "file": "self-host/public/gomoku-skins-extra.css",
+    "sha256": "8ad7ea9dabf9657cf07e2c1438623610134a19bc637257ecd1b61941ebb7fe35",
+    "bytes": 2487
+  },
+  {
+    "file": "self-host/public/gomoku-skins-extra.js",
+    "sha256": "7e7cb171a15b8d87f6e2edb2781ad7cd8ade4e995b40063927d753d3cde05f12",
+    "bytes": 1379
+  },
+  {
+    "file": "self-host/public/gomoku-skins.js",
+    "sha256": "e3863152212f6d8818cdb3533015a3c934072540aaf8ac6fbc656b9ab3b57cf3",
+    "bytes": 1550
+  },
+  {
+    "file": "self-host/public/gomoku-sounds.js",
+    "sha256": "b36c17e7d0823c92efe6113cee44e39c2112d0a548e3d9e160eb9843bbb559b6",
+    "bytes": 7019
+  },
+  {
+    "file": "self-host/public/gomoku.css",
+    "sha256": "6ceee02e728d885e025d388314f5c983a512b6429a2414b80fbb03c17999cdb1",
+    "bytes": 4354
+  },
+  {
+    "file": "self-host/public/index.html",
+    "sha256": "47362a0ad816187ba5030d142c9f6f7e8802c361f3352923072ab194377a0c5e",
+    "bytes": 8264
+  },
+  {
+    "file": "self-host/public/last-move.js",
+    "sha256": "b06222fd054757c9773523028281c0f4149f32b3677df79da5da4688c36897d3",
+    "bytes": 582
+  },
+  {
+    "file": "self-host/public/layout.css",
+    "sha256": "539aa97613516c2a5bad239f175d3abb7d5ab14e8d973f390336db5d876c23a1",
+    "bytes": 3236
+  },
+  {
+    "file": "self-host/public/match-controls.css",
+    "sha256": "a73a20f55ba07a4a52fca7c51ae3a0e51c52a2980fee421e563a1863aa5b1b52",
+    "bytes": 2706
+  },
+  {
+    "file": "self-host/public/match-labels.js",
+    "sha256": "6fbf5c90238c45e1d8a9072791ff7fa19fb8e8ae06aae70c9deb9cea40e49aeb",
+    "bytes": 424
+  },
+  {
+    "file": "self-host/public/resign-catalog.js",
+    "sha256": "6467eca4e8a7cef3bab686e69c586ddb3b53cbb87e09b64a6e2d8cc719f48e48",
+    "bytes": 624
+  },
+  {
+    "file": "self-host/public/resign-effects.js",
+    "sha256": "353d9046406d15febf411ccb08555db7f2ede188d9be47b25c55db88b15b10d1",
+    "bytes": 4202
+  },
+  {
+    "file": "self-host/public/result-view.js",
+    "sha256": "99221c7efc0b1401284563f7e998b294114e6cb5ed3c195dafa12b69672beed6",
+    "bytes": 2146
+  },
+  {
+    "file": "self-host/public/result.css",
+    "sha256": "fdd35df24017940c90f3a0086a348a9ded91a86027fe2b2e0f80bb36d3be4bdc",
+    "bytes": 2060
+  },
+  {
+    "file": "self-host/public/rules.js",
+    "sha256": "80e842d04269bdf48f0d7737beb231e83b8c48c2dec6c323e7e8da006ea17acf",
+    "bytes": 2718
+  },
+  {
+    "file": "self-host/public/skins.js",
+    "sha256": "2595ff45233fbf1ca626e69961f87a9a6db351fbe4c64a5192fbbaf6363af2c1",
+    "bytes": 4963
+  },
+  {
+    "file": "self-host/public/style.css",
+    "sha256": "94d6fe09d79b3df49c96bfc77d43a7259a9cdab8b8677c0c8ad48c9f944f19cd",
+    "bytes": 11694
+  },
+  {
+    "file": "self-host/public/window-layout.js",
+    "sha256": "6b1b6b337f378fb40081a892f2f6077f1793bc04d461a8712f6abe1d9a65681a",
+    "bytes": 1011
+  },
+  {
+    "file": "self-host/public/assets/frame-D1.png",
+    "sha256": "3fe7e231ee4e00e32e45067cde21602982989912bcf23159851c918521d1c4b7",
+    "bytes": 2120322
+  },
+  {
+    "file": "self-host/public/assets/frame-F1.png",
+    "sha256": "47034e67fe991f0b09a7c47fd10f1e77ce6e5ca4c5a52c5132c3573528d5c44d",
+    "bytes": 2186704
+  },
+  {
+    "file": "self-host/public/assets/frame-F2.png",
+    "sha256": "d8abf1406a40fe8f1216468f21e651f2b33580bdbe34f8b0c5490ec851734a04",
+    "bytes": 2299508
+  },
+  {
+    "file": "self-host/public/assets/frame-F4.png",
+    "sha256": "3bd88625c744102c6f6cde7a2d808712327a295c22baa07024f97027ace3d5c7",
+    "bytes": 1436470
+  },
+  {
+    "file": "self-host/public/assets/frame-F5.png",
+    "sha256": "d825f13d05f1115dbd40534f8dbc5e369c99f93a059009d904c810a55f9fc81b",
+    "bytes": 1775970
+  },
+  {
+    "file": "self-host/public/assets/frame-F6.png",
+    "sha256": "9bfddf597f389b2e2f4b7af9c407dd4a73cad2aeb1097d69088615cd935657b5",
+    "bytes": 2428619
+  },
+  {
+    "file": "self-host/public/assets/frame-F7.png",
+    "sha256": "614d0df3afa803ad2a7057bd42294d4ddae6f92cbcdfd3da918cb2e6a88e0193",
+    "bytes": 1513152
+  },
+  {
+    "file": "self-host/public/assets/frame-G1.png",
+    "sha256": "1c7e1f064cd6a72f445c677c1801ede588675bbbf265bcd7b7de93da527cfac9",
+    "bytes": 1786296
+  },
+  {
+    "file": "self-host/public/assets/frame-G2.png",
+    "sha256": "a70c45f2e048e68b10a15b438b02ff3ed3e46294c3a6b8bc410578431f84a34a",
+    "bytes": 1525645
+  },
+  {
+    "file": "self-host/public/assets/frame-G3.png",
+    "sha256": "99954a7b16b813b7b9075e9421570f8f47792e989962101ce58f8013dbc927cd",
+    "bytes": 1743141
+  },
+  {
+    "file": "self-host/public/assets/frame-G4.png",
+    "sha256": "458d84e0e43c7f0815f47607f4395e76e7f6adb2927c038474a4ad8123da0202",
+    "bytes": 2093659
+  },
+  {
+    "file": "self-host/public/assets/frame-G5.png",
+    "sha256": "7fcdf7734245ebc74f914ea15a0d5b307908f0d64932d9fa4f7a2dfe2b35716d",
+    "bytes": 1785314
+  },
+  {
+    "file": "self-host/public/assets/frame-G8.png",
+    "sha256": "d346eb86627cf960f80ae5da410d1037512c1af1de0310df5b8352da055a2d45",
+    "bytes": 1441034
+  },
+  {
+    "file": "self-host/public/assets/frame-N1.png",
+    "sha256": "f15f928a4537cc17eee1f5eb8d75c611bce66de77dbacf12cb45d8893006ce74",
+    "bytes": 2844712
+  },
+  {
+    "file": "self-host/public/assets/frame-N2.png",
+    "sha256": "838add93450188c07d9342b54f103b8d028ce65301a9c70d08470a179783dbf5",
+    "bytes": 2606061
+  },
+  {
+    "file": "self-host/public/assets/frame-N4.png",
+    "sha256": "10bdcd27d81d30ff2b1b55f113dab37dc799f763f0554a1ee8447ee6d53d7174",
+    "bytes": 2579159
+  },
+  {
+    "file": "self-host/public/assets/frame-random.png",
+    "sha256": "a9b8c494fcd04a4f81707170d8b570e4fa80129984d1b48881d91011ae5a9c98",
+    "bytes": 3437755
+  },
+  {
+    "file": "self-host/public/assets/frame-W1-soft.png",
+    "sha256": "55087bfbce49ca519d7db524c54d434a8608a4414b0975a747fd62e1c86d6de6",
+    "bytes": 2625877
+  },
+  {
+    "file": "self-host/public/assets/frame-W1.png",
+    "sha256": "92c30cd494d75afa5cb567520edd1e8a9754c9e7c5e79b489891a9d8a171adbb",
+    "bytes": 2857612
+  },
+  {
+    "file": "self-host/public/assets/frame-W2B.png",
+    "sha256": "bdc25580d089f648321063dd557d16dc31ce33a78fefc59a4d9f20ed6c5ee6b9",
+    "bytes": 2860023
+  },
+  {
+    "file": "self-host/public/assets/frame-W4-soft.png",
+    "sha256": "b192fdfd3cd146db807f24974c1fb256b3f32f39256036ca9e0c68ae2a1ee49b",
+    "bytes": 2823487
+  },
+  {
+    "file": "self-host/public/assets/frame-W4.png",
+    "sha256": "1e1686fbdf657fb9dbf7d181a6f1df2d70d10006e4f89c49f9edb9968ec34698",
+    "bytes": 3059054
+  },
+  {
+    "file": "self-host/public/assets/frame-W5-soft.png",
+    "sha256": "f03769aef14dc443046e0fac2caa550b5e640b22b28073d2d0af8732dc099ee1",
+    "bytes": 2501877
+  },
+  {
+    "file": "self-host/public/assets/frame-W5.png",
+    "sha256": "3dc3d04c6ba5ade8edc8714bf80c62f5cae05a9a699188bb1b0869dac76e4b66",
+    "bytes": 2754256
+  },
+  {
+    "file": "self-host/public/assets/gomoku/C1.png",
+    "sha256": "42bf5ef9ceee50a6ac780ebb9a793c29e1f032ef59c32f2076cc246ce85f078c",
+    "bytes": 2073808
+  },
+  {
+    "file": "self-host/public/assets/gomoku/K2.png",
+    "sha256": "57652a502d6c11b94fea20baee35f1cbe8db216c16326e969c6fc07d72562549",
+    "bytes": 1778285
+  },
+  {
+    "file": "self-host/public/assets/gomoku/K5.png",
+    "sha256": "fcb795465acef1fafdaaf4ff58afb004b2dbbd988655e7e261dec08b11a23daf",
+    "bytes": 1707898
+  },
+  {
+    "file": "self-host/public/assets/gomoku/K6.png",
+    "sha256": "79e00e93e1eeeeda1d10839806482ad593c9b9e05674de30cf7a4a41812b4a22",
+    "bytes": 2268623
+  },
+  {
+    "file": "self-host/public/assets/gomoku/K7.png",
+    "sha256": "59496fd81f182b3a79e58d98a19a8eae10661da1719e63423d5702dbfdb0a8d0",
+    "bytes": 2236432
+  },
+  {
+    "file": "self-host/public/assets/gomoku/K8.png",
+    "sha256": "4dc943467e9e762a2015d1aed846c96211e29282c63b3a25de8b8f36e79e1e51",
+    "bytes": 1961492
+  },
+  {
+    "file": "self-host/public/assets/gomoku/K9.png",
+    "sha256": "ae2d1f82bea16b8875dd3ccadb7b75a792bb78f1c2fec45776b5080c3d5b0941",
+    "bytes": 2703682
+  },
+  {
+    "file": "self-host/public/assets/gomoku/M1.png",
+    "sha256": "4d891503f91805e0e60bebef58c1eeb6cbb3d3ea5353177ff554bd24c98ba41a",
+    "bytes": 2083707
+  },
+  {
+    "file": "self-host/public/assets/gomoku/P1.png",
+    "sha256": "d65e23b9a2832809fa728fb2d263107cbedb94d241a2b7b42f55d78b7d5b3060",
+    "bytes": 2132529
+  },
+  {
+    "file": "self-host/public/assets/gomoku/P7.png",
+    "sha256": "1a0c8351b3bf13fd6ca1fd65f35bb432c251e5f1db3df4326b139eaed3b8ad71",
+    "bytes": 2109847
+  },
+  {
+    "file": "self-host/public/assets/gomoku/P8.png",
+    "sha256": "58fde2ca8b3f547cf4b800a356a996993a1255c3808d32ea1c81f815befc00c5",
+    "bytes": 3660214
+  },
+  {
+    "file": "self-host/public/assets/gomoku/R1.png",
+    "sha256": "dba6af8118d08eceee891be4f67b2fbabec6597f09c9344b094eb0431f6f2e24",
+    "bytes": 1874776
+  },
+  {
+    "file": "self-host/public/assets/gomoku/R2.png",
+    "sha256": "0c08ce34e1a318e1fed41d71af8ab3a117aed3962519a0847a21f5eee1578a9f",
+    "bytes": 2343569
+  },
+  {
+    "file": "self-host/public/assets/gomoku/R3.png",
+    "sha256": "c7bcf683da0ab2aca63b7d5d32e4d91b851bb802423e083f1990ef20eb5fdc6c",
+    "bytes": 2203457
+  },
+  {
+    "file": "self-host/public/assets/gomoku/R4.png",
+    "sha256": "eb474d872c7e36bbe996282f2f1abc182fa45fd9122adc432c7f07de612f9742",
+    "bytes": 2836547
+  },
+  {
+    "file": "self-host/public/assets/gomoku/R5.png",
+    "sha256": "a459a513117005d40875a9e290be3df209223f5fc6472a50264abb59b93974bf",
+    "bytes": 2043056
+  },
+  {
+    "file": "self-host/public/assets/gomoku/R7.png",
+    "sha256": "d320a462ddeaef19aec6a02a44b9e97cbf2e917d0f982f2b3d08111833693b77",
+    "bytes": 2523501
+  },
+  {
+    "file": "self-host/public/assets/gomoku/R8.png",
+    "sha256": "dd8ac2ddfd3cd32a5c6bc041a7f82036a0f3295ef30f0144f0aa3aa6097ed324",
+    "bytes": 2118699
+  },
+  {
+    "file": "self-host/public/assets/gomoku/random.png",
+    "sha256": "cad1a75f44ab9a5903ca29cc7dff168e22d191537d825a855b704007154ae08f",
+    "bytes": 2384018
+  },
+  {
+    "file": "self-host/public/assets/gomoku/stones-P1.png",
+    "sha256": "114e1a19c1fe847d3dcbb45d42876e867becd5c472d465b1c2eb3bcfa1250105",
+    "bytes": 1530494
+  },
+  {
+    "file": "self-host/public/assets/gomoku/stones-P7.png",
+    "sha256": "b41a019fe83393f3a6a44bd5e29036e1ab61957dc8dfd65bbd1ecffc7c618bf4",
+    "bytes": 1475516
+  },
+  {
+    "file": "self-host/public/assets/gomoku/stones-P8.png",
+    "sha256": "bc9b3f10d111af4aadf3157df2632badca8a20114adb024e494b4653da6fda8a",
+    "bytes": 1645293
+  },
+  {
+    "file": "self-host/public/assets/gomoku/stones-R1.png",
+    "sha256": "bfdacf1347104040157697737dbb174aea5aa3eb02f83e34ad88f5f16e40c1ba",
+    "bytes": 1204830
+  },
+  {
+    "file": "self-host/public/assets/gomoku/stones-R2.png",
+    "sha256": "dca7937e0fabbcaf536f67e5ba986d5ad287733a9c15dfbe0428d264ed1fc7fc",
+    "bytes": 1467773
+  },
+  {
+    "file": "self-host/public/assets/gomoku/stones-R3.png",
+    "sha256": "9faf0e4169212efb1e8b4b9f9aca0a9436f51a986fd388b532d9e1e9eb07333b",
+    "bytes": 1217263
+  },
+  {
+    "file": "self-host/public/assets/gomoku/stones-R4.png",
+    "sha256": "e76e9cff0d354f4e0ec6e203c5fcefb68479ef6b1371e75d355d83b8220f6907",
+    "bytes": 1519430
+  },
+  {
+    "file": "self-host/public/assets/gomoku/stones-R5.png",
+    "sha256": "edc70fd62fa4ddca8a42c8bfe67c3ba2b51a0b9270bfd1cb96689980c374a7a5",
+    "bytes": 1265738
+  },
+  {
+    "file": "self-host/public/assets/gomoku/stones-R7.png",
+    "sha256": "f9aa634791cb05507e9430682ea8cd3e7ed0e28efabfa0ee096f224723d32994",
+    "bytes": 1348263
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/CREDITS.md",
+    "sha256": "6e480a27af9fd68e87c48fecd984aafe3cd53172dbe11b78d33b1b3e940c5fad",
+    "bytes": 4203
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/digital-kirari.wav",
+    "sha256": "a799e150a4ede3c825c949c1b0b9e523763cd2469bbdc114013ed65167846237",
+    "bytes": 25608
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/digital-piko.wav",
+    "sha256": "4988eb7b71b4669d9889d5fd8168e5717cb87affb70f2ca53704e9e0d960c172",
+    "bytes": 12076
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/digital-pin.wav",
+    "sha256": "9671ce41728ad69b3e902af75f6ab3b269b07ff1a6da467e5ee002257f03875e",
+    "bytes": 9736
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/digital-poko.wav",
+    "sha256": "f1170a4df6eb9586a8ab54dff0dfbac16e1e6d19326b46c874d733177658dac1",
+    "bytes": 8856
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/digital-pon.wav",
+    "sha256": "b70326d80c9c834ff2852688a8a3a96875cce43b7ad94ea8efa3eee2a6aeb6ac",
+    "bytes": 8416
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/digital-purun.wav",
+    "sha256": "ac1a09d191239c47287f9fd2c2f83095290545667fe901a6b88f888e0df52092",
+    "bytes": 8822
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/glass-tap-01.wav",
+    "sha256": "c7d856306d3bd1941cd5b83cf02923fb8b4ffdfbdcfc614a0ea7847b9c55f33c",
+    "bytes": 10176
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/glass-tap-02.wav",
+    "sha256": "32d03b3770702b429e2cb6d24a9ff7da405ad077028c9cfed335308389c91fe6",
+    "bytes": 10616
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/glass-tap-03.wav",
+    "sha256": "451f2f3d6282fbe3e2dd3624e2d892bd1f47a769ec5debdbe51683d7dfb6fb99",
+    "bytes": 9736
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/go-real-01.wav",
+    "sha256": "70d220621061de0b962af839a03a307148c0cb73cd4a0452b907eac6b278db99",
+    "bytes": 37970
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/go-real-02.wav",
+    "sha256": "027ffbeaa47dd6fc79c608908c62645c27adfb4361fac89417f485542730828a",
+    "bytes": 43264
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/go-real-03.wav",
+    "sha256": "666cf85143097c6fc68a2b0ad77fab22b254cfcb08775bed38da5eb6a927e1f2",
+    "bytes": 46790
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/go-real-04.wav",
+    "sha256": "4ec38d227f271148e9ce7d06a2df14b807ee9c62f6fc3457b122d3b55b7c51bc",
+    "bytes": 46792
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/go-real-05.wav",
+    "sha256": "f22ef344d132ed944c64c7e6449743692eaca38a10b6593ec98ec5ab397d4a0c",
+    "bytes": 48554
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/Kenney-impact-License.txt",
+    "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db",
+    "bytes": 608
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/Kenney-interface-License.txt",
+    "sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9",
+    "bytes": 574
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/manifest.json",
+    "sha256": "da3c68c3f358dc4c94222a2348aa61d85cb2989ac083abc3ca8119287192129e",
+    "bytes": 20006
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/marble-bounce.wav",
+    "sha256": "8b52833c0eda06038053f64a0e34935ab07c49f1984bc5477a3cf6450929ff91",
+    "bytes": 26014
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/marble-bowl.wav",
+    "sha256": "5c394573c51d0d6f4473f4932b136773229246aeed5b07631214e50e81606cab",
+    "bytes": 57374
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/marble-clink.wav",
+    "sha256": "fd1c916fbac31fdc76316dc4abb7b69a52727d0ba1f9d00180c1266aba8205d5",
+    "bytes": 15896
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/marble-impact.wav",
+    "sha256": "1535f8de44228b519c09e420ba8006ee171b223a338c16d372fe20b1e3fcecd2",
+    "bytes": 57374
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/metal-tap.wav",
+    "sha256": "8212621ca05b708c8f0fa70ecaeb88f91f032a6f450fab88c3e203e64748e82f",
+    "bytes": 13696
+  },
+  {
+    "file": "self-host/public/assets/gomoku-audio/wood-tap.wav",
+    "sha256": "83ee712aeb5c51f3318882337590f939724818bc75774422a8f6e1862779ea30",
+    "bytes": 8856
+  },
+  {
+    "file": "self-host/scripts/serve-layout-check.mjs",
+    "sha256": "c87f608d4b13f5f9416d918d214e99b2e214f65be9f1f90b5ff849d7c80649e5",
+    "bytes": 990
+  },
+  {
+    "file": "self-host/scripts/smoke-network.mjs",
+    "sha256": "847abdfc6d1f1ebaa0482c619124001d466c5cd3a14a8b2ab0a2dbfa04d936bd",
+    "bytes": 5251
+  },
+  {
+    "file": "self-host/tests/board-geometry.test.mjs",
+    "sha256": "3e34d181a818280db987932be19d5549ae76cbadd55f9b354112d32c178a4246",
+    "bytes": 521
+  },
+  {
+    "file": "self-host/tests/commentary.test.mjs",
+    "sha256": "b9afdb7e59de7e4b18e7fe6f56a40ddc1f985983feac869e381765975c85cf93",
+    "bytes": 2311
+  },
+  {
+    "file": "self-host/tests/cpu-waiting.test.mjs",
+    "sha256": "66dd0f810bbdc59816b7b34efffd136de56968eede17abdbd055a029341c922c",
+    "bytes": 2036
+  },
+  {
+    "file": "self-host/tests/effects.test.mjs",
+    "sha256": "118203267e6cf610387f43e056a08cff49d9ba437378e2aabbf25e11ea7a7a11",
+    "bytes": 1923
+  },
+  {
+    "file": "self-host/tests/gomoku-audio.test.mjs",
+    "sha256": "73b7b17d01be9f24ddc9192f73e8c7a6cc86c06b4b036d6054b535ee0787a656",
+    "bytes": 3818
+  },
+  {
+    "file": "self-host/tests/gomoku-balance.test.mjs",
+    "sha256": "88673c2d529e8b034c924541d1653a80874768d44707c505dd3398a726c70138",
+    "bytes": 2968
+  },
+  {
+    "file": "self-host/tests/gomoku-http.test.mjs",
+    "sha256": "e919147f0c9e4255f50e1b617f0d3256a195ca1bcb259e6e3708ef9fc6436910",
+    "bytes": 3225
+  },
+  {
+    "file": "self-host/tests/gomoku-materials.test.mjs",
+    "sha256": "36df3adc90bc16410a15f61388eeb337ee4d12a01d1adac4f254c37d54481ac4",
+    "bytes": 1639
+  },
+  {
+    "file": "self-host/tests/gomoku.test.mjs",
+    "sha256": "fb6735eeea94806180eea8f00dcda1816da40860c7b02c14a9947c2aa17b3201",
+    "bytes": 4716
+  },
+  {
+    "file": "self-host/tests/last-move.test.mjs",
+    "sha256": "0fcf0ed0f60299a5b75240810e74fa7ffb6063374754c98ab342d71202c713e8",
+    "bytes": 890
+  },
+  {
+    "file": "self-host/tests/lobby.test.mjs",
+    "sha256": "8ce8e2dc49260a849a6c681bd270756c5e33b332044cabe2d0e43bc2a97fed8d",
+    "bytes": 6415
+  },
+  {
+    "file": "self-host/tests/match-labels.test.mjs",
+    "sha256": "306c19cde91373f4461647ef190ff641c34c59f39d6ea14666729f4283131405",
+    "bytes": 810
+  },
+  {
+    "file": "self-host/tests/resign.test.mjs",
+    "sha256": "d351ad5621f0295e462a948f11bbccda8aca342ebb56c7da4a1a2b14921049e0",
+    "bytes": 1930
+  },
+  {
+    "file": "self-host/tests/rules.test.mjs",
+    "sha256": "64cb58f86e547dd206b2a915caf1de1989decc74d60a0296df3b1e90275e6ecc",
+    "bytes": 3803
+  },
+  {
+    "file": "self-host/tests/skins.test.mjs",
+    "sha256": "ad57a67f43e05032a1b2a4e8537fc8cfd4d9a7184b734614333e3d9007fb6470",
+    "bytes": 1942
+  },
+  {
+    "file": "self-host/tests/window-layout.test.mjs",
+    "sha256": "32dc7e07e093e12ee3f39369eaa9d0e54de0824ae4fbf466be76d9fedea2d76b",
+    "bytes": 2209
+  },
+  {
+    "file": "self-host/tests/fixtures/result-layout.html",
+    "sha256": "71d590d69852351d09fd786c0b8a1ad16fbdf93cffaab2ae17bc6559330ce4d7",
+    "bytes": 3927
+  }
+]

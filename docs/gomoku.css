@@ -1,0 +1,47 @@
+.board-frame[data-game=gomoku]{--line:#382513a6;--rim:#696151;border-radius:3px}
+.board-frame[data-game=gomoku] .board{background:none;box-shadow:none;border:0;display:block;overflow:visible}
+.board-frame[data-game=gomoku] .cell{position:absolute;width:7.142857%;height:7.142857%;transform:translate(-50%,-50%);background:transparent;box-shadow:none;z-index:2}
+.board-frame[data-game=gomoku] .cell:after{display:none}
+.board-frame[data-game=gomoku] .stone{left:6%;top:6%;width:88%;height:88%;border-color:#665d4b80;box-shadow:0 2px 3px #0007,inset 0 1px 2px #fff6,inset 0 -2px 2px #0007}
+.board-frame[data-game=gomoku] .stone.black{background:radial-gradient(ellipse at 30% 20%,#6c7275 0,#26292a 19%,#101214 48%,#020304 78%,#33383b 100%)}
+.board-frame[data-game=gomoku] .stone.white{background:radial-gradient(ellipse at 30% 20%,#fff 0,#fffdfa 30%,#eeebe3 66%,#bcbdb7 100%)}
+.board-frame[data-game=gomoku] .coords{color:var(--coordinate,#352314);text-shadow:0 1px #ffffff55;font-size:clamp(7px,1.6vw,11px)}
+.board-frame[data-game=gomoku] .cols span{position:absolute;transform:translateX(-50%)}
+.board-frame[data-game=gomoku] .rows span{position:absolute;transform:translateY(-50%)}
+.gomoku-grid{position:absolute;inset:0;pointer-events:none;overflow:visible}
+.gomoku-grid path{fill:none;stroke:var(--line);stroke-width:.65;vector-effect:non-scaling-stroke}
+.gomoku-grid circle{fill:var(--line)}
+.board-frame[data-game=gomoku] .winning-stone .stone{outline:2px solid #f9d467;outline-offset:1px}
+.board-frame[data-game=gomoku] .hint{font-size:11px;color:#38251099}
+.gomoku-result{gap:15px!important;justify-content:center!important}
+.gomoku-result .winner-text{font-size:clamp(15px,3vw,24px);font-weight:bold;color:#ffdf71}
+.gomoku-result .final-note{color:#b6cdc0;font-size:12px}
+/* The marble's dark inset is part of the image at about 7–8%. Keep all labels
+   in the white band around the 15–85% grid, including two-digit row numbers. */
+.board-frame[data-game=gomoku][data-skin=M1] .cols{top:9%;height:2.4%;font-size:clamp(7px,1.5vw,10px)}
+.board-frame[data-game=gomoku][data-skin=M1] .cols span{top:50%;transform:translate(-50%,-50%)}
+.board-frame[data-game=gomoku][data-skin=M1] .rows{left:8.4%;width:3.6%;font-size:clamp(7px,1.5vw,10px)}
+.board-frame[data-game=gomoku][data-skin=M1] .rows span{left:50%;transform:translate(-50%,-50%)}
+.board-frame[data-game=gomoku][data-surface=cyber-wire] .coords{text-shadow:0 1px 3px #000,0 0 3px #1bbfe750}
+.board-frame[data-game=gomoku][data-stone=cyber] .stone{border-radius:28%;border:1px solid #b7f3ffb0;box-shadow:0 2px 4px #000a,inset 0 0 0 2px #c0f5ff25,0 0 4px #68dcff65}
+.board-frame[data-game=gomoku][data-stone=cyber] .stone.black{background:linear-gradient(140deg,#66869c 0,#192d48 19%,#091423 48%,#020813 78%,#2c5670 100%)}
+.board-frame[data-game=gomoku][data-stone=cyber] .stone.white{background:linear-gradient(140deg,#fff 0,#eefaff 30%,#a8dce9 72%,#edfaff 100%)}
+.board-frame[data-game=gomoku][data-stone=pearl] .stone{border-color:#65717d99;box-shadow:0 2px 3px #222a,inset 0 1px 2px #fff9,inset 0 -2px 2px #1115}
+.board-frame[data-game=gomoku][data-stone=pearl] .stone.black{background:radial-gradient(ellipse at 30% 20%,#707581,#282a31 21%,#080a10 63%,#151a22)}
+.board-frame[data-game=gomoku][data-stone=pearl] .stone.white{background:radial-gradient(ellipse at 30% 20%,#fffefa,#fff 30%,#e4e8ef 65%,#9ba6b5 100%)}
+
+/* Let the actual final position remain visible, without the generic modal blur. */
+.board-frame[data-game=gomoku] .result.gomoku-result{
+ background:rgba(5,18,22,.12);backdrop-filter:none;-webkit-backdrop-filter:none;
+ border-color:#bad5d53b;
+}
+.board-frame[data-game=gomoku] .gomoku-result h2,
+.board-frame[data-game=gomoku] .gomoku-result .winner-text,
+.board-frame[data-game=gomoku] .gomoku-result .final-note{
+ text-shadow:0 1px 2px #000,0 0 5px #000,0 0 10px #000;
+}
+
+.inspect-final-board{position:absolute;right:2.5%;bottom:2.5%;z-index:16;font-size:11px;line-height:1.4;padding:6px 9px;background:#11272deb;border:1px solid #a1ccc1;color:#f5f6df;box-shadow:0 2px 6px #0007}
+.board-frame.reviewing-final-board .gomoku-result{display:none!important}
+
+#previewPlaceSound{margin-top:6px;font-size:11px;padding:4px 9px}#placeSoundStatus{display:block;min-height:1em;font-size:9px;color:#bbd9cd}#audioInfo a{color:#b4e4d4}

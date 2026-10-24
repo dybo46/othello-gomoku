@@ -14,7 +14,7 @@ const server=http.createServer(async(req,res)=>{
   try{
     const url=new URL(req.url,'http://localhost'),id=token(req),p=lobby.players.get(id);
     if(url.pathname==='/health'){send(res,200,{ok:true,version:VERSION});return;}
-    if(url.pathname==='/api/info'){send(res,200,{version:VERSION,count:lobby.players.size,max:5,defaultName:lobby.defaultName(),session:p?{name:p.name}:null,names:['こはく','しろくま','黒まめ','翡翠','ぽんず','ミント','ねこ丸','銀の月','こむぎ','夜ふかし','たぬき','抹茶ラテ']});return;}
+    if(url.pathname==='/api/info'){send(res,200,{version:VERSION,count:lobby.players.size,max:5,defaultName:lobby.defaultName(),session:p?{name:p.name}:null,names:["こはく", "しろくま", "黒まめ", "翡翠", "ぽんず", "ミント", "ねこ丸", "銀の月", "こむぎ", "夜ふかし", "たぬき", "抹茶ラテ", "ニート", "弱い人", "黒帯", "寝不足", "チキン", "モナー", "しぃ", "ギコ", "ギコ猫", "通りすがり", "名無し", "ベテラン", "戦士", "ラーメン", "カルビ定食", "ポテチ", "ひきこもり", "うっかり", "見習い", "旅人", "常連", "昼寝中", "二度寝", "お茶漬け", "からあげ", "焼きそば", "牛丼", "深夜組", "へたっぴ", "通行人", "スカルチノフ", "（：３）", "内藤ホライズン", "内藤"]});return;}
     if(url.pathname==='/api/events'&&req.method==='GET'){
       if(!p){send(res,401,{error:'入室してください。'});return;}clearTimeout(disconnects.get(id));disconnects.delete(id);streams.get(id)?.end();res.writeHead(200,{'Content-Type':'text/event-stream','Cache-Control':'no-cache, no-transform','Connection':'keep-alive','X-Accel-Buffering':'no'});streams.set(id,res);p.lastSeen=Date.now();res.write(`data: ${JSON.stringify(lobby.snapshot(id))}\n\n`);
       req.on('close',()=>{if(streams.get(id)!==res)return;streams.delete(id);const timer=setTimeout(()=>{disconnects.delete(id);if(!streams.has(id)){lobby.leave(id);publish();}},1800);disconnects.set(id,timer);});return;
@@ -29,7 +29,7 @@ const server=http.createServer(async(req,res)=>{
         case '/api/heartbeat':break;
         case '/api/settings':lobby.settings(id,data);break;
         case '/api/ready':lobby.ready(id,data.ready);break;
-        case '/api/mode':lobby.mode(id,data.mode);break;
+        case '/api/mode':lobby.mode(id,data.mode);send(res,200,{ok:true,snapshot:lobby.snapshot(id)});publish();return;
         case '/api/move':lobby.play(id,data.index,data.revision);break;
         case '/api/highlight':lobby.highlight(id,data.enabled);break;
         case '/api/rematch':lobby.rematch(id,data.matchId,data.accept);break;

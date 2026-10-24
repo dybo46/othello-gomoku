@@ -1,6 +1,7 @@
 // Screenshot-approved maximum, including the decorative frame.
 export const MAX_BOARD_SIZE=566;
-export function boardSize(width,height){return Math.floor(Math.max(0,Math.min(MAX_BOARD_SIZE,width,height)));}
+export const LARGE_BOARD_SIZE=650;
+export function boardSize(width,height,mode='standard'){return Math.floor(Math.max(0,Math.min(mode==='large'?LARGE_BOARD_SIZE:MAX_BOARD_SIZE,width,height)));}
 // Outer-window bounds, constrained to the current monitor's work area.
 export function popupBounds(screen,wide,restore=null){
   const aw=Math.max(1,Number(screen.availWidth)||1280),ah=Math.max(1,Number(screen.availHeight)||720);

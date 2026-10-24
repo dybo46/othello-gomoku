@@ -1,4 +1,5 @@
-export const VERSION='1.3';
+import {chooseResignEffect} from './resign-catalog.js';
+export const VERSION='2.6';
 export const DELAY=850;
 export function normalizeTime(value){return [15,30,60,90,120,180,300].includes(Number(value))?Number(value):60;}
 const dirs=[[-1,-1],[-1,0],[-1,1],[0,-1],[0,1],[1,-1],[1,0],[1,1]];
@@ -15,7 +16,7 @@ export function createGame(seconds=60,now=Date.now()){
   return {board:initialBoard(),turn:1,seconds:normalizeTime(seconds),status:'playing',winner:null,reason:'',revision:0,last:null,pass:null,startAt:now+2600,turnAt:now+2600,deadline:now+2600+normalizeTime(seconds)*1000,result:null};
 }
 export function conclude(game,winner,reason,now=Date.now()){
-  if(game.status!=='playing')return false;game.status='finished';game.winner=winner;game.reason=reason;game.result=counts(game.board);game.finishedAt=now;game.deadline=null;return true;
+  if(game.status!=='playing')return false;game.status='finished';game.winner=winner;game.reason=reason;if(reason==='降参')game.resignEffect=chooseResignEffect();game.result=counts(game.board);game.finishedAt=now;game.deadline=null;return true;
 }
 export function checkTime(game,now=Date.now()){if(game.status==='playing'&&now>=game.deadline)return conclude(game,3-game.turn,'時間切れ',now);return false;}
 export function move(game,index,color,now=Date.now()){

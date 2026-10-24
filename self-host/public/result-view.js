@@ -16,5 +16,5 @@ export function updateTally(box,score,step){const rows=Math.max(1,Math.ceil(scor
     const tray=box.querySelector(c===1?'.top':'.bottom'),n=Math.min(step,score[c-1]);
     while(tray.children.length<n){const i=tray.children.length,stone=element(box.ownerDocument,'i',`tally ${c===1?'black':'white'}`);stone.style.gridColumn=String(i%8+1);stone.style.gridRow=String(c===1?Math.floor(i/8)+1:rows-Math.floor(i/8));stone.setAttribute('aria-hidden','true');tray.append(stone);}
   }
-  box.querySelector('.result-numbers').textContent=step>=Math.max(...score)?`● ${score[0]} — ${score[1]} ○`:'集計中…';
+  box.querySelector('.result-numbers').textContent=step>=Math.max(...score)?`⚫️ ${score[0]} — ${score[1]} ⚪️`:'集計中…';
 }

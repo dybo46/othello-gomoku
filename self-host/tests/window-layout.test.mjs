@@ -18,3 +18,8 @@ test('盤枠は添付基準の566pxを上限に、狭い画面では縮小する
 
 import {DEFAULTS,normalizePreferences} from '../public/skins.js';
 test('通常ページは横長を初期値に移行し、以後の縦長選択は保存できる',()=>{assert.equal(DEFAULTS.layout,'wide');assert.equal(normalizePreferences({}).layout,'wide');assert.equal(normalizePreferences({layout:'compact'}).layout,'wide');assert.equal(normalizePreferences({layout:'compact',layoutDefaultsVersion:2}).layout,'compact');});
+
+test('拡大は650pxまで、ブラウザ幅を超えず、旧サイズと保存設定も維持',()=>{
+ assert.equal(boardSize(1800,1400,'large'),650);assert.equal(boardSize(500,700,'large'),500);assert.equal(boardSize(700,420,'large'),420);
+ assert.equal(boardSize(1800,1400,'standard'),566);assert.equal(normalizePreferences({boardSize:'large'}).boardSize,'large');assert.equal(normalizePreferences({boardSize:'smart'}).boardSize,'smart');assert.equal(normalizePreferences({boardSize:'invalid'}).boardSize,'standard');
+});
