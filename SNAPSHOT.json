@@ -25,7 +25,7 @@
     "parallelMatches": 2
   },
   "authorServerLinked": false,
-  "githubUploaded": false,
+  "githubUploaded": true,
   "license": "not yet selected",
   "sourceArchiveSha256": "48767ee57da716dc40381a4192b0e3d76c46364263d3480f1f567719ddf1b7d2",
   "checks": {
