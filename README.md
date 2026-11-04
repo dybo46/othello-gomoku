@@ -6,6 +6,8 @@
 
 [CPU専用デモで遊ぶ](https://dybo46.github.io/othello-gomoku/) ／ [自分のサーバーへの設置方法](SELF-HOSTING.md) ／ [AI向け作業指示書](AGENTS.md)
 
+![CPU試遊：アクア・ドロップの盤面](record/cpu-demo-v3.7.png)
+
 ## v3.7の記録
 
 | 場所 | 内容 |

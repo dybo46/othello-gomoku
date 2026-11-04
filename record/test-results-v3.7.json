@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "sourceVersion": "3.7",
+  "publicProject": {
+    "command": "npm test",
+    "pass": 5,
+    "fail": 0
+  },
+  "selfHost": {
+    "command": "npm run test:self-host",
+    "pass": 97,
+    "fail": 0
+  },
+  "note": "Operational entrance-link test excluded from independent project; no source-server dependency."
+}
