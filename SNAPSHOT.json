@@ -35,7 +35,7 @@
     "subpathDemoVerified": true,
     "gameApiRequestsFromDemo": 0,
     "livePagesVerified": false,
-    "livePagesStatus": "First deployment timed out at updating_pages; retry requested. See VERIFICATION.md."
+    "livePagesStatus": "Stale deployment canceled; final redeployment verification in progress."
   },
   "repositoryUrl": "https://github.com/dybo46/othello-gomoku",
   "demoUrl": "https://dybo46.github.io/othello-gomoku/",
