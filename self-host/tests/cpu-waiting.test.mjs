@@ -13,5 +13,22 @@ for(const game of ['othello','gomoku'])for(const mode of ['cpu','watch']){
 }
 test('前の試合を観戦しながらCPUとネット準備、先頭の待機者から次の2人を選ぶ',()=>{
  const l=new Lobby(),p=Array.from({length:5},(_,i)=>l.join('人'+i));l.ready(p[0].id,true);l.ready(p[1].id,true);l.mode(p[2].id,'cpu');l.mode(p[3].id,'watch');l.ready(p[2].id,true);l.ready(p[3].id,true);l.ready(p[4].id,true);
- const first=l.match;l.resign(first.ids[1]);l.release();assert.deepEqual(new Set(l.match.ids),new Set([p[2].id,p[3].id]));assert.equal(p[4].ready,true);assert.equal(l.players.get(first.ids[0]).wins,1);assert.equal(l.players.get(p[2].id).wins,0);
+ const first=l.match;l.resign(first.ids[1]);l.release();assert.deepEqual(new Set(l.match.ids),new Set([first.ids[0],p[2].id]));assert.equal(p[3].ready,true);assert.equal(p[4].ready,true);assert.equal(l.players.get(first.ids[0]).wins,1);assert.equal(l.players.get(p[2].id).wins,0);
+});
+
+for(const game of ['othello','gomoku'])test(`${game}: 観戦中に希望を変更してもネット待受を保ち、CPU待機から順番で対戦`,()=>{
+ const l=new Lobby(),p=['先頭','相手','自分','次'].map(n=>l.join(n));
+ l.ready(p[0].id,true);l.ready(p[1].id,true);const first=l.match;
+ l.ready(p[2].id,true);l.settings(p[2].id,{game,seconds:90});assert.equal(p[2].ready,true);assert.equal(first.game.kind,'othello');
+ l.mode(p[2].id,'cpu');assert.equal(p[2].mode,'cpu');l.ready(p[3].id,true);
+ l.resign(first.ids[1]);l.release();assert(l.match.ids.includes(p[2].id));assert.equal(p[2].mode,'match');
+ // Winner remains owner; the waiting preference must not mutate an already-started game.
+ assert.equal(l.match.owner,l.players.get(first.ids[0]).name);assert.equal(l.match.game.kind,'othello');
+});
+
+test('勝者待受OFFなら待機2人へ順番が回り、希望ゲームと持ち時間を採用',()=>{
+ const l=new Lobby(),p=['先頭','相手','自分','次'].map(n=>l.join(n));l.ready(p[0].id,true);l.ready(p[1].id,true);
+ const first=l.match;l.resign(first.ids[1]);l.release();l.ready(first.ids[0],false);
+ l.settings(p[2].id,{game:'gomoku',seconds:90});l.ready(p[2].id,true);l.mode(p[2].id,'cpu');l.ready(p[3].id,true);
+ assert.equal(l.match.owner,'自分');assert.equal(l.match.game.kind,'gomoku');assert.equal(l.match.game.seconds,90);assert.equal(p[2].mode,'match');
 });

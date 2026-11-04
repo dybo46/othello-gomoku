@@ -27,14 +27,17 @@ const server=http.createServer(async(req,res)=>{
       if(!p){send(res,401,{error:'退室しました。もう一度入室してください。'});return;}p.lastSeen=now;
       switch(url.pathname){
         case '/api/heartbeat':break;
+        case '/api/chat':lobby.chat(id,data.text);break;
         case '/api/settings':lobby.settings(id,data);break;
         case '/api/ready':lobby.ready(id,data.ready);break;
+        case '/api/anyone':lobby.anyone(id,data.enabled);break;
+        case '/api/spectate':lobby.spectate(id,data.matchId);send(res,200,{ok:true,snapshot:lobby.snapshot(id)});publish();return;
         case '/api/mode':lobby.mode(id,data.mode);send(res,200,{ok:true,snapshot:lobby.snapshot(id)});publish();return;
-        case '/api/move':lobby.play(id,data.index,data.revision);break;
+        case '/api/move':lobby.play(id,data.index,data.revision,Date.now(),data.matchId);break;
         case '/api/highlight':lobby.highlight(id,data.enabled);break;
         case '/api/rematch':lobby.rematch(id,data.matchId,data.accept);break;
         case '/api/result-back':lobby.backToLobby(id,data.matchId);break;
-        case '/api/resign':lobby.resign(id);break;
+        case '/api/resign':lobby.resign(id,'降参',Date.now(),data.matchId);break;
         case '/api/leave':clearTimeout(disconnects.get(id));disconnects.delete(id);lobby.leave(id);streams.get(id)?.end();streams.delete(id);res.setHeader('Set-Cookie','boardroom=; Max-Age=0; HttpOnly; SameSite=Strict; Path=/');break;
         default:send(res,404,{error:'操作が見つかりません。'});return;
       }send(res,200,{ok:true});publish();return;

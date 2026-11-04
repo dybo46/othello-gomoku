@@ -39,6 +39,6 @@ test('先頭の希望ゲームでオンライン対局・五目勝利と再戦�
  assert.equal(l.players.get(m.ids[0]).wins,1);assert.equal(l.players.get(m.ids[0]).best,1);l.rematch(a.id,m.id,true);l.rematch(b.id,m.id,true);assert.equal(l.match.game.kind,'gomoku');assert.equal(l.match.game.seconds,30);assert.equal(l.players.get(m.ids[0]).wins,1);
 });
 test('五目の見た目は独立保存、既存八背景と新規十背景、毎試合の抽選は直前と別',()=>{
- const p=normalizePreferences({skin:'F2',stone:'glass',game:'gomoku',gomoku:{skin:'K7'}});assert.equal(p.skin,'F2');assert.equal(p.stone,'glass');assert.equal(p.gomoku.skin,'K7');assert.equal(p.gomoku.placeSound,'go');
- assert.deepEqual(GOMOKU_SKINS.map(s=>s.id),['K2','K5','K6','K7','K8','K9','C1','M1','P1','P7','P8','R1','R2','R3','R4','R5','R7','R8']);for(let n=0;n<100;n++)assert.notEqual(chooseGomokuSkin('random','K2'),'K2');
+ const p=normalizePreferences({skin:'F2',stone:'glass',game:'gomoku',gomoku:{skin:'K7'}});assert.equal(p.skin,'F2');assert.equal(p.stone,'glass');assert.equal(p.gomoku.skin,'K7');assert.equal(p.gomoku.placeSound,'default');
+ assert.deepEqual(GOMOKU_SKINS.slice(0,18).map(s=>s.id),['K2','K5','K6','K7','K8','K9','C1','M1','P1','P7','P8','R1','R2','R3','R4','R5','R7','R8']);for(let n=0;n<100;n++)assert.notEqual(chooseGomokuSkin('random','K2'),'K2');
 });

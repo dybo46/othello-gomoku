@@ -4,7 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('../docs/',import.meta.url));
 const mount='/othello-gomoku/',port=Number(process.env.PORT||8793);
-const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.svg':'image/svg+xml'};
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.svg':'image/svg+xml','.webp':'image/webp','.wav':'audio/wav'};
 const server=http.createServer(async(req,res)=>{
   const url=new URL(req.url,'http://localhost');
   if(process.env.AUDIT_FILE)await appendFile(process.env.AUDIT_FILE,JSON.stringify({method:req.method,path:url.pathname})+'\n');

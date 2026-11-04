@@ -1,0 +1,36 @@
+/* Shared room chat; the left half of the existing 600px sidebar. */
+.room-top{display:flex;flex-direction:column;gap:8px;min-width:0}
+.chat-panel{min-width:0}.chat-panel h2{font-size:14px;margin:0 0 7px}
+.chat-messages{height:120px;overflow-y:auto;overscroll-behavior:contain;list-style:none;padding:5px 7px;margin:0 0 6px;border:1px solid #344d50;border-radius:6px;background:#0b191c;scrollbar-gutter:stable;overflow-wrap:anywhere}
+.chat-messages li{font-size:12px;line-height:1.6;padding:3px 0;border-bottom:1px solid #23383a}.chat-messages b{color:#e7cb89}.chat-messages span{white-space:pre-wrap}
+.chat-input-row{display:flex;gap:5px;min-width:0}.chat-input-row input{width:0;min-width:0;flex:1}.chat-input-row button{padding:6px 9px}
+#chatStatus{margin:5px 0 0;min-height:16px}.chat-panel #chatUnread{width:100%;padding:3px;color:#ffe276;background:#263d40;margin-bottom:5px}
+.entry-panel{min-width:0}.entry-panel>.rule-row{margin:0 0 10px;flex-wrap:wrap}.entry-panel #lobbyPanel{padding:0;margin:0;border:0;background:none}.entry-panel .roster-row{grid-template-columns:16px minmax(0,1fr) auto;gap:4px}.entry-panel .roster-row .state{font-size:9px}.entry-panel .person{min-width:0;overflow-wrap:anywhere}
+.wide-layout .room-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start;gap:10px;order:0}
+.wide-layout .room-top>.card{margin:0;padding:10px}.wide-layout .room-top .chat-messages{height:245px}
+.wide-layout #practiceControls{order:1}.wide-layout #settings{order:2}
+@media(max-width:1100px){.wide-layout .room-top{display:flex}.wide-layout .room-top .chat-messages{height:120px}}
+body:not(.wide-layout) .room-sidebar{display:flex;flex-direction:column}.room-top{order:0}#practiceControls{order:1}#settings{order:2}
+body:not(.wide-layout) .room-top>.card{margin:0}.room-sidebar{gap:8px}
+.rule-row .choice-buttons button{font-size:16px;min-width:74px;padding:8px 12px}
+.match-entry-row #ready{background:#b9e9d7;color:#102923;border-color:#c7f9e8;box-shadow:0 0 0 1px #b9e9d744;font-size:12px}
+.match-entry-row #ready:hover{background:#e0fff1}
+.match-entry-row #ready[aria-pressed=true]{background:#26463e;color:#dbf4e8;border-color:#749087;box-shadow:none}
+.match-entry-row #ready[aria-pressed=true]:hover{background:#31584d}
+
+body:not(.wide-layout) .chat-messages{height:88px}
+@media(max-width:700px){.wide-layout .room-top .chat-messages{height:88px}}
+
+.match-entry-row{grid-template-columns:minmax(0,4fr) minmax(96px,1.2fr) minmax(76px,1fr)}
+.anyone-option{display:flex;align-items:center;justify-content:center;gap:4px;border:1px solid #66857c;border-radius:7px;background:#19352e;min-height:34px;padding:5px;font-weight:700;font-size:12px;white-space:nowrap;cursor:pointer}
+.anyone-option:has(input:checked){border-color:#e7cf7b;color:#ffdf77;background:#423c27}.anyone-option input{margin:0;accent-color:#e6cb67}
+.match-entry-row[data-playing=true]{grid-template-columns:minmax(0,1fr) minmax(76px,1fr)}
+.anyone-help{font-size:10px;line-height:1.5;color:#b7d0c2;margin:3px 0 6px;text-align:left}
+.adoption-game{font-size:14px;font-weight:800}.adoption-game.othello{color:#ffe276}.adoption-game.gomoku{color:#85e6d5}.adoption-description{display:block;margin-top:5px;line-height:1.65}
+.roster-row.spectate-player{display:grid;width:100%;text-align:left;color:inherit;cursor:pointer;font:inherit;padding:7px 5px;border-radius:5px;background:#19332f;border-color:#416358}
+.roster-row.spectate-player:hover{background:#31584b;border-color:#b9ddbe}.roster-row.watching-match{border-left:3px solid #e4cd7f}.entry-panel .roster-row .state{max-width:80px;overflow-wrap:anywhere}
+
+/* Keep text/control width independent of the height-fitted square board. */
+body:not(.wide-layout) .game-main{max-width:100%;width:100%}
+body:not(.wide-layout) .board-frame{width:min(100%,var(--game-size,100%));margin-inline:auto}
+@media(max-width:700px){.wide-layout .game-main{max-width:100%;width:100%}.wide-layout .board-frame{width:min(100%,var(--game-size,100%));margin-inline:auto}}

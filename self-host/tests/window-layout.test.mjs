@@ -23,3 +23,14 @@ test('拡大は650pxまで、ブラウザ幅を超えず、旧サイズと保存
  assert.equal(boardSize(1800,1400,'large'),650);assert.equal(boardSize(500,700,'large'),500);assert.equal(boardSize(700,420,'large'),420);
  assert.equal(boardSize(1800,1400,'standard'),566);assert.equal(normalizePreferences({boardSize:'large'}).boardSize,'large');assert.equal(normalizePreferences({boardSize:'smart'}).boardSize,'smart');assert.equal(normalizePreferences({boardSize:'invalid'}).boardSize,'standard');
 });
+
+test('追加2段階は高さに縮めず800/950px、横幅と保存互換性を守る',()=>{
+ for(const [mode,size]of [['mega',800],['blast',950]]){
+  assert.equal(boardSize(1400,600,mode),size);
+  assert.equal(boardSize(420,600,mode),420);
+  assert.equal(normalizePreferences({boardSize:mode}).boardSize,mode);
+ }
+ assert.equal(boardSize(1400,600,'large'),600);
+ assert.equal(boardSize(1400,600,'standard'),566);
+ assert.equal(normalizePreferences({boardSize:'absurd'}).boardSize,'standard');
+});

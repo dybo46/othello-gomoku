@@ -1,9 +1,9 @@
 {
   "name": "othello-gomoku",
-  "recordVersion": "2.6-record",
+  "recordVersion": "3.7-record",
   "created": "2026-10-23",
-  "sourceVersion": "2.6",
-  "gameplayBaseline": "2.6",
+  "sourceVersion": "3.7",
+  "gameplayBaseline": "3.7",
   "pages": "docs",
   "selfHost": "self-host",
   "games": {
@@ -14,26 +14,29 @@
     "othelloBackgrounds": 20,
     "othelloStones": 3,
     "othelloEffects": 21,
-    "gomokuBackgrounds": 18,
-    "extraPlacementSounds": 20,
+    "gomokuBackgrounds": 92,
+    "extraPlacementSounds": 63,
     "extraSoundLicense": "CC0-1.0",
-    "cpuLevels": 10
+    "cpuLevels": 10,
+    "soundCategories": 13,
+    "continuousCpuWatch": true,
+    "sessionOnlyBackground": true,
+    "roomChat": "self-host only",
+    "parallelMatches": 2
   },
   "authorServerLinked": false,
-  "githubUploaded": true,
+  "githubUploaded": false,
   "license": "not yet selected",
-  "sourceArchiveSha256": "8a569929e6c4ef27d0289591b3093850392b7e0bd74e38132e3447a379cce58a",
+  "sourceArchiveSha256": "48767ee57da716dc40381a4192b0e3d76c46364263d3480f1f567719ddf1b7d2",
   "checks": {
-    "publicProject": 4,
-    "selfHost": 64,
-    "demoApiRequests": 0,
-    "gomokuWatchFinished": true,
-    "gomokuThumbnailsLoaded": 19,
-    "audioPreview": "go-real-01",
-    "selfHostNetwork": true,
-    "browserVerified": true
+    "publicTests": 5,
+    "selfHostTests": 97,
+    "privacyScanPassed": true,
+    "subpathDemoVerified": true,
+    "gameApiRequestsFromDemo": 0,
+    "livePagesVerified": false
   },
   "repositoryUrl": "https://github.com/dybo46/othello-gomoku",
   "demoUrl": "https://dybo46.github.io/othello-gomoku/",
-  "updated": "2026-10-24"
+  "updated": "2026-11-05"
 }

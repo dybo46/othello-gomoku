@@ -1,4 +1,4 @@
-import {recordedPlaceSound} from './gomoku-sounds.js';
+import {recordedPlaceSound,categorySoundGroup} from './gomoku-sounds.js';
 export class AudioBank{
   constructor(){this.ctx=null;this.volume=.4;this.buffers=new Map();this.pending=new Map();}
   unlock(){try{this.ctx??=new AudioContext();this.ctx.resume().catch(()=>{});}catch{}}
@@ -12,6 +12,11 @@ export class AudioBank{
     if(!this.ctx)return Promise.reject(new Error('音声を有効にしてください'));
     const task=(async()=>{const response=await fetch(sound.url);if(!response.ok)throw new Error('音源を読み込めません');const buffer=await this.ctx.decodeAudioData(await response.arrayBuffer());this.buffers.set(style,buffer);return buffer;})().finally(()=>this.pending.delete(style));
     this.pending.set(style,task);return task;
+  }
+  prepareSelection(style){
+    if(!this.ctx)return Promise.resolve([]);
+    const ids=categorySoundGroup(style)?.members||[style];
+    return Promise.allSettled(ids.filter(id=>recordedPlaceSound(id)).map(id=>this.prepare(id)));
   }
   async playSample(style){this.unlock();if(!this.ctx||!this.volume)return false;const buffer=await this.prepare(style);if(!buffer)return false;await this.ctx.resume();const source=this.ctx.createBufferSource(),gain=this.ctx.createGain();source.buffer=buffer;gain.gain.value=this.volume;source.connect(gain).connect(this.ctx.destination);source.start();return true;}
   async previewPlace(style){this.unlock();if(!this.ctx||!this.volume||style==='off')return false;if(recordedPlaceSound(style))return this.playSample(style);this.place(style);return true;}

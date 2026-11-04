@@ -9,6 +9,8 @@ test('HTTPで2人と観戦者が同じ五目盤を共有し、勝利・再戦・
   const post=async(cookie,route,data={})=>{const r=await fetch(base+'/api/'+route,{method:'POST',headers:{cookie,'Content-Type':'application/json'},body:JSON.stringify(data)});return {status:r.status,body:await r.json()};};
   const snapshot=async cookie=>{const ctl=new AbortController();controllers.push(ctl);const r=await fetch(base+'/api/events',{headers:{cookie},signal:ctl.signal});const {value}=await r.body.getReader().read();return JSON.parse(new TextDecoder().decode(value).split('\n')[0].slice(6));};
   const a=await join('黒白'),b=await join('対戦'),watch=await join('観戦');
+  assert.equal((await post('', 'chat',{text:'未入室'})).status,401);assert.equal((await post(a,'chat',{text:'対局前の会話'})).status,200);assert.equal((await snapshot(watch)).chat.at(-1).text,'対局前の会話');
+
   await post(a,'settings',{game:'gomoku',seconds:30});await post(b,'settings',{game:'othello',seconds:90});await post(a,'ready',{ready:true});await post(b,'ready',{ready:true});
   const lateMode=await post(a,'mode',{mode:'cpu'});assert.equal(lateMode.status,200);assert(lateMode.body.snapshot.match.side>0);assert.equal(lateMode.body.snapshot.me.mode,'match');
   const sa=await snapshot(a),sb=await snapshot(b),sw=await snapshot(watch);assert.equal(sa.match.game.kind,'gomoku');assert.equal(sa.match.game.seconds,30);assert.deepEqual(sa.match.game.board,sw.match.game.board);assert.equal(sw.match.side,0);

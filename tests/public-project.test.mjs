@@ -24,12 +24,19 @@ test('自分で設置する版とPagesデモで共通ルール・AI・20画像�
 });
 
 
-test('五目も共通CPU・18盤面・20CC0音・相対URLで収録する',async()=>{
+test('五目も共通CPU・92盤面・63CC0音・相対URLで収録する',async()=>{
  for(const name of ['games.js','gomoku-rules.js','gomoku-ai.js','gomoku-sounds.js','gomoku-skins.js','gomoku-skins-extra.js','gomoku-commentary.js','resign-effects.js'])
   assert.equal(await readFile(path.join(root,'docs',name),'utf8'),await readFile(path.join(root,'self-host/public',name),'utf8'),name);
- const {GOMOKU_SKINS}=await import('../docs/gomoku-skins.js');assert.equal(GOMOKU_SKINS.length,18);
- const {GOMOKU_PLACE_SOUNDS}=await import('../docs/gomoku-sounds.js');assert.equal(GOMOKU_PLACE_SOUNDS.length,20);
+ const {GOMOKU_SKINS}=await import('../docs/gomoku-skins.js');assert.equal(GOMOKU_SKINS.length,92);
+ const {GOMOKU_PLACE_SOUNDS}=await import('../docs/gomoku-sounds.js');assert.equal(GOMOKU_PLACE_SOUNDS.length,63);
  for(const skin of GOMOKU_SKINS)for(const asset of [skin.image,skin.stonePair].filter(Boolean))assert.deepEqual(await readFile(path.join(root,'docs',asset)),await readFile(path.join(root,'self-host/public',asset)),asset);
  for(const sound of GOMOKU_PLACE_SOUNDS){assert.equal(sound.license,'CC0-1.0');assert.ok(sound.url.startsWith('./assets/'));assert.deepEqual(await readFile(path.join(root,'docs',sound.url)),await readFile(path.join(root,'self-host/public',sound.url)));}
  const app=await readFile(path.join(root,'docs/app.js'),'utf8');assert.doesNotMatch(app,/slice\(0,6\)/);assert.match(app,/othello-demo-preferences/);
+});
+
+
+test('背景保存の例外と連続観戦は両版で共用し、Pagesのオンライン操作は非表示',async()=>{
+ for(const name of ['preference-storage.js','continuous-watch.js','gomoku-sounds-extra.js','gomoku-skins-liquid.js'])assert.equal(await readFile(path.join(root,'docs',name),'utf8'),await readFile(path.join(root,'self-host/public',name),'utf8'));
+ const css=await readFile(path.join(root,'docs/demo.css'),'utf8');assert.match(css,/#chatPanel/);assert.match(css,/#ready/);assert.match(css,/display:none!important/);
+ const help=await readFile(path.join(root,'docs/help.html'),'utf8');assert.match(help,/Pages試遊はCPU専用/);assert.doesNotMatch(help,/(?:src|href)="\/(?!\/)/);
 });

@@ -1,0 +1,3 @@
+/* Online controls are intentionally absent from the CPU-only experience. */
+.cpu-demo #chatPanel,.cpu-demo #ready,.cpu-demo .anyone-option,.cpu-demo #anyoneHelp,.cpu-demo #roster,.cpu-demo #rosterCount,.cpu-demo #adoption,.cpu-demo #lastResult{display:none!important}
+.cpu-demo .room-top{display:block}.cpu-demo .match-entry-row{display:block}.cpu-demo #cpuStartQuick{width:100%;min-height:35px}.cpu-demo .entry-panel{margin-bottom:8px}.cpu-demo #lobbyPanel{margin-top:8px}

@@ -29,3 +29,6 @@
 
 /* Shared skin picker: full name on hover; keep compact labels on one line. */
 .skin-choice>span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* Keep the shared last-move ring round without clipping custom stone art. */
+.board-frame[data-game=gomoku][data-skin^="L"] .cell.last-move>.stone:after{border-radius:50%}

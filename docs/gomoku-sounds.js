@@ -1,4 +1,5 @@
-export const GOMOKU_PLACE_SOUNDS=[
+import {EXTRA_GOMOKU_PLACE_SOUNDS} from './gomoku-sounds-extra.js';
+const BASE_GOMOKU_PLACE_SOUNDS=[
   {
     "id": "go-real-01",
     "name": "囲碁1・卓上碁盤A",
@@ -96,7 +97,7 @@ export const GOMOKU_PLACE_SOUNDS=[
     "url": "./assets/gomoku-audio/glass-tap-01.wav",
     "duration": 0.1149,
     "author": "Kenney",
-    "page": "https://kenney.nl/assets/impact-sounds",
+    "page": "https://kenney.nl./assets/impact-sounds",
     "license": "CC0-1.0"
   },
   {
@@ -106,7 +107,7 @@ export const GOMOKU_PLACE_SOUNDS=[
     "url": "./assets/gomoku-audio/glass-tap-02.wav",
     "duration": 0.1199,
     "author": "Kenney",
-    "page": "https://kenney.nl/assets/impact-sounds",
+    "page": "https://kenney.nl./assets/impact-sounds",
     "license": "CC0-1.0"
   },
   {
@@ -116,7 +117,7 @@ export const GOMOKU_PLACE_SOUNDS=[
     "url": "./assets/gomoku-audio/glass-tap-03.wav",
     "duration": 0.1099,
     "author": "Kenney",
-    "page": "https://kenney.nl/assets/impact-sounds",
+    "page": "https://kenney.nl./assets/impact-sounds",
     "license": "CC0-1.0"
   },
   {
@@ -126,7 +127,7 @@ export const GOMOKU_PLACE_SOUNDS=[
     "url": "./assets/gomoku-audio/wood-tap.wav",
     "duration": 0.0999,
     "author": "Kenney",
-    "page": "https://kenney.nl/assets/impact-sounds",
+    "page": "https://kenney.nl./assets/impact-sounds",
     "license": "CC0-1.0"
   },
   {
@@ -136,7 +137,7 @@ export const GOMOKU_PLACE_SOUNDS=[
     "url": "./assets/gomoku-audio/metal-tap.wav",
     "duration": 0.1548,
     "author": "Kenney",
-    "page": "https://kenney.nl/assets/impact-sounds",
+    "page": "https://kenney.nl./assets/impact-sounds",
     "license": "CC0-1.0"
   },
   {
@@ -146,7 +147,7 @@ export const GOMOKU_PLACE_SOUNDS=[
     "url": "./assets/gomoku-audio/digital-pon.wav",
     "duration": 0.0949,
     "author": "Kenney",
-    "page": "https://kenney.nl/assets/interface-sounds",
+    "page": "https://kenney.nl./assets/interface-sounds",
     "license": "CC0-1.0"
   },
   {
@@ -156,7 +157,7 @@ export const GOMOKU_PLACE_SOUNDS=[
     "url": "./assets/gomoku-audio/digital-purun.wav",
     "duration": 0.0995,
     "author": "Kenney",
-    "page": "https://kenney.nl/assets/interface-sounds",
+    "page": "https://kenney.nl./assets/interface-sounds",
     "license": "CC0-1.0"
   },
   {
@@ -166,7 +167,7 @@ export const GOMOKU_PLACE_SOUNDS=[
     "url": "./assets/gomoku-audio/digital-pin.wav",
     "duration": 0.1099,
     "author": "Kenney",
-    "page": "https://kenney.nl/assets/interface-sounds",
+    "page": "https://kenney.nl./assets/interface-sounds",
     "license": "CC0-1.0"
   },
   {
@@ -176,17 +177,7 @@ export const GOMOKU_PLACE_SOUNDS=[
     "url": "./assets/gomoku-audio/digital-poko.wav",
     "duration": 0.0999,
     "author": "Kenney",
-    "page": "https://kenney.nl/assets/interface-sounds",
-    "license": "CC0-1.0"
-  },
-  {
-    "id": "digital-kirari",
-    "name": "デジタル・きらり",
-    "group": "かわいいデジタル",
-    "url": "./assets/gomoku-audio/digital-kirari.wav",
-    "duration": 0.2898,
-    "author": "Kenney",
-    "page": "https://kenney.nl/assets/interface-sounds",
+    "page": "https://kenney.nl./assets/interface-sounds",
     "license": "CC0-1.0"
   },
   {
@@ -196,17 +187,31 @@ export const GOMOKU_PLACE_SOUNDS=[
     "url": "./assets/gomoku-audio/digital-piko.wav",
     "duration": 0.1364,
     "author": "Kenney",
-    "page": "https://kenney.nl/assets/interface-sounds",
+    "page": "https://kenney.nl./assets/interface-sounds",
     "license": "CC0-1.0"
   }
 ];
+export const GOMOKU_PLACE_SOUNDS=[...BASE_GOMOKU_PLACE_SOUNDS.map(s=>({...s,group:s.id.startsWith('glass-tap')?'ガラス':s.id==='wood-tap'?'木':s.id==='metal-tap'?'金属':s.group})),...EXTRA_GOMOKU_PLACE_SOUNDS];
+const groupKeys={'囲碁の実録':'go','ビー玉の実録':'marble','ガラス':'glass','木':'wood','金属':'metal','かわいいデジタル':'cute','鉱石・石':'mineral','クリスタル・きらめき':'crystal','水滴・リキッド':'liquid','透明デジタル':'clear-digital','サイバー・電子':'cyber','陶器・磁器':'ceramic','やわらかいポップ':'soft-pop'};
+export const GOMOKU_SOUND_GROUPS=Object.entries(groupKeys).map(([name,key])=>({id:'group-random-'+key,name,label:name+'ランダム',members:GOMOKU_PLACE_SOUNDS.filter(s=>s.group===name).map(s=>s.id)}));
+export const GOMOKU_RANDOM_IDS=GOMOKU_SOUND_GROUPS.map(g=>g.id);
+export const DEFAULT_PLACE_SOUND_MODE_POOL=['wood','go',...GOMOKU_RANDOM_IDS,'go','group-random-cute','group-random-soft-pop'];
+export function chooseDefaultPlaceMode(random=Math.random){return DEFAULT_PLACE_SOUND_MODE_POOL[Math.min(DEFAULT_PLACE_SOUND_MODE_POOL.length-1,Math.max(0,Math.floor(random()*DEFAULT_PLACE_SOUND_MODE_POOL.length)))];}
+export function resolvePlaceMode(preference,key,session,savedMode,random=Math.random){
+ if(preference!=='default')return preference;
+ if(session.defaultKey!==key){session.defaultKey=key;session.defaultMode=DEFAULT_PLACE_SOUND_MODE_POOL.includes(savedMode)?savedMode:chooseDefaultPlaceMode(random);}
+ return session.defaultMode;
+}
+export const categorySoundGroup=id=>GOMOKU_SOUND_GROUPS.find(g=>g.id===id);
 export const GOMOKU_SOUND_IDS=GOMOKU_PLACE_SOUNDS.map(s=>s.id);
 export function recordedPlaceSound(id){return GOMOKU_PLACE_SOUNDS.find(s=>s.id===id);}
 
 export const MATCH_PLACE_SOUND_IDS=['go','wood','soft',...GOMOKU_SOUND_IDS];
 export function choosePlaceSound(preference,previous,random=Math.random){
+ const group=categorySoundGroup(preference);
+ if(group){const pool=group.members.filter(id=>id!==previous);return pool[Math.min(pool.length-1,Math.max(0,Math.floor(random()*pool.length)))];}
  if(preference!=='match-random')return ['off',...MATCH_PLACE_SOUND_IDS].includes(preference)?preference:'go';
  const pool=MATCH_PLACE_SOUND_IDS.filter(id=>id!==previous);
  return pool[Math.min(pool.length-1,Math.max(0,Math.floor(random()*pool.length)))];
 }
-export function placeSoundName(id){return recordedPlaceSound(id)?.name||({go:'碁石・パチッ（今までの音）',wood:'コトッ',soft:'控えめ',off:'なし'})[id]||id;}
+export function placeSoundName(id){return recordedPlaceSound(id)?.name||categorySoundGroup(id)?.label||({default:'デフォルト',go:'碁石・パチッ（今までの音）',wood:'コトッ',soft:'控えめ',off:'なし'})[id]||id;}

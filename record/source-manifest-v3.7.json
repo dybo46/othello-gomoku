@@ -1,0 +1,3282 @@
+[
+  {
+    "path": "docs/about.html",
+    "sha256": "c8046b969b31b188d9e8f96b08a7d17fda05dd94b17d93b41ab9734d21b55662"
+  },
+  {
+    "path": "docs/ai-worker.js",
+    "sha256": "e2e50046460df5e42f86c1d68654aca2859fb92d73015ded4e3e3ab2337f09c0"
+  },
+  {
+    "path": "docs/ai.js",
+    "sha256": "a9d48e7a565c7bbba8faeccd8f85c444547d9f45530730b02a94712c5f1ab273"
+  },
+  {
+    "path": "docs/app.js",
+    "sha256": "10dad8696ceea0539de0ad358044a2fcb483a19cbe3c7004efea3ea5d5ff9b59"
+  },
+  {
+    "path": "docs/assets/frame-D1.png",
+    "sha256": "3fe7e231ee4e00e32e45067cde21602982989912bcf23159851c918521d1c4b7"
+  },
+  {
+    "path": "docs/assets/frame-F1.png",
+    "sha256": "47034e67fe991f0b09a7c47fd10f1e77ce6e5ca4c5a52c5132c3573528d5c44d"
+  },
+  {
+    "path": "docs/assets/frame-F2.png",
+    "sha256": "d8abf1406a40fe8f1216468f21e651f2b33580bdbe34f8b0c5490ec851734a04"
+  },
+  {
+    "path": "docs/assets/frame-F4.png",
+    "sha256": "3bd88625c744102c6f6cde7a2d808712327a295c22baa07024f97027ace3d5c7"
+  },
+  {
+    "path": "docs/assets/frame-F5.png",
+    "sha256": "d825f13d05f1115dbd40534f8dbc5e369c99f93a059009d904c810a55f9fc81b"
+  },
+  {
+    "path": "docs/assets/frame-F6.png",
+    "sha256": "9bfddf597f389b2e2f4b7af9c407dd4a73cad2aeb1097d69088615cd935657b5"
+  },
+  {
+    "path": "docs/assets/frame-F7.png",
+    "sha256": "614d0df3afa803ad2a7057bd42294d4ddae6f92cbcdfd3da918cb2e6a88e0193"
+  },
+  {
+    "path": "docs/assets/frame-G1.png",
+    "sha256": "1c7e1f064cd6a72f445c677c1801ede588675bbbf265bcd7b7de93da527cfac9"
+  },
+  {
+    "path": "docs/assets/frame-G2.png",
+    "sha256": "a70c45f2e048e68b10a15b438b02ff3ed3e46294c3a6b8bc410578431f84a34a"
+  },
+  {
+    "path": "docs/assets/frame-G3.png",
+    "sha256": "99954a7b16b813b7b9075e9421570f8f47792e989962101ce58f8013dbc927cd"
+  },
+  {
+    "path": "docs/assets/frame-G4.png",
+    "sha256": "458d84e0e43c7f0815f47607f4395e76e7f6adb2927c038474a4ad8123da0202"
+  },
+  {
+    "path": "docs/assets/frame-G5.png",
+    "sha256": "7fcdf7734245ebc74f914ea15a0d5b307908f0d64932d9fa4f7a2dfe2b35716d"
+  },
+  {
+    "path": "docs/assets/frame-G8.png",
+    "sha256": "d346eb86627cf960f80ae5da410d1037512c1af1de0310df5b8352da055a2d45"
+  },
+  {
+    "path": "docs/assets/frame-N1.png",
+    "sha256": "f15f928a4537cc17eee1f5eb8d75c611bce66de77dbacf12cb45d8893006ce74"
+  },
+  {
+    "path": "docs/assets/frame-N2.png",
+    "sha256": "838add93450188c07d9342b54f103b8d028ce65301a9c70d08470a179783dbf5"
+  },
+  {
+    "path": "docs/assets/frame-N4.png",
+    "sha256": "10bdcd27d81d30ff2b1b55f113dab37dc799f763f0554a1ee8447ee6d53d7174"
+  },
+  {
+    "path": "docs/assets/frame-random.png",
+    "sha256": "a9b8c494fcd04a4f81707170d8b570e4fa80129984d1b48881d91011ae5a9c98"
+  },
+  {
+    "path": "docs/assets/frame-W1-soft.png",
+    "sha256": "55087bfbce49ca519d7db524c54d434a8608a4414b0975a747fd62e1c86d6de6"
+  },
+  {
+    "path": "docs/assets/frame-W1.png",
+    "sha256": "92c30cd494d75afa5cb567520edd1e8a9754c9e7c5e79b489891a9d8a171adbb"
+  },
+  {
+    "path": "docs/assets/frame-W2B.png",
+    "sha256": "bdc25580d089f648321063dd557d16dc31ce33a78fefc59a4d9f20ed6c5ee6b9"
+  },
+  {
+    "path": "docs/assets/frame-W4-soft.png",
+    "sha256": "b192fdfd3cd146db807f24974c1fb256b3f32f39256036ca9e0c68ae2a1ee49b"
+  },
+  {
+    "path": "docs/assets/frame-W4.png",
+    "sha256": "1e1686fbdf657fb9dbf7d181a6f1df2d70d10006e4f89c49f9edb9968ec34698"
+  },
+  {
+    "path": "docs/assets/frame-W5-soft.png",
+    "sha256": "f03769aef14dc443046e0fac2caa550b5e640b22b28073d2d0af8732dc099ee1"
+  },
+  {
+    "path": "docs/assets/frame-W5.png",
+    "sha256": "3dc3d04c6ba5ade8edc8714bf80c62f5cae05a9a699188bb1b0869dac76e4b66"
+  },
+  {
+    "path": "docs/assets/gomoku/C1.png",
+    "sha256": "42bf5ef9ceee50a6ac780ebb9a793c29e1f032ef59c32f2076cc246ce85f078c"
+  },
+  {
+    "path": "docs/assets/gomoku/K2.png",
+    "sha256": "57652a502d6c11b94fea20baee35f1cbe8db216c16326e969c6fc07d72562549"
+  },
+  {
+    "path": "docs/assets/gomoku/K5.png",
+    "sha256": "fcb795465acef1fafdaaf4ff58afb004b2dbbd988655e7e261dec08b11a23daf"
+  },
+  {
+    "path": "docs/assets/gomoku/K6.png",
+    "sha256": "79e00e93e1eeeeda1d10839806482ad593c9b9e05674de30cf7a4a41812b4a22"
+  },
+  {
+    "path": "docs/assets/gomoku/K7.png",
+    "sha256": "59496fd81f182b3a79e58d98a19a8eae10661da1719e63423d5702dbfdb0a8d0"
+  },
+  {
+    "path": "docs/assets/gomoku/K8.png",
+    "sha256": "4dc943467e9e762a2015d1aed846c96211e29282c63b3a25de8b8f36e79e1e51"
+  },
+  {
+    "path": "docs/assets/gomoku/K9.png",
+    "sha256": "ae2d1f82bea16b8875dd3ccadb7b75a792bb78f1c2fec45776b5080c3d5b0941"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LA2.png",
+    "sha256": "462637bae65255444eae517c70fb2186e37e17505794a9d1478c2d11a536c406"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LA3.png",
+    "sha256": "633140dae638da73963db493147d9d4f98a6e201086e8077393b48d06e747b92"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LA4.png",
+    "sha256": "d51a1480a351907eafe62a526d9113c99d1a1f073813431a7a7fe6e1a1f1cffe"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LA6.png",
+    "sha256": "bc31274d7534b2ab85c7d6010d8ddcd60c756b955fce96c7e9fe837ffae1d812"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LA8.png",
+    "sha256": "9aa3e952235c6e1f59b4eca441f3ff0c37e1767b55e084355441b99334b718d3"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LA9.png",
+    "sha256": "a1262b4125953a996ffd38e34fc63066b3ebf0066eb27a44171481b6d60c29bd"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LB1.png",
+    "sha256": "73f4247d3fc2ba84d93a1cef94e44fd0be54b350d78e5741c98b5b33bb6e5af0"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LB2.png",
+    "sha256": "57f6deb783a94abd1776d3f4afcd663632423e9a2df86eb2497e30d7dfac712e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LB3.png",
+    "sha256": "92929f5ad1e8986ae05539bc4faa3fbd6a35b09ea99ef517465105453a3c8e13"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LB4.png",
+    "sha256": "299290a78876b6c67af7d57ae4dee3448f20b658045cc18224bcfad14eb689cc"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LB5.png",
+    "sha256": "06544c4b3e893dae6951ab6e74035f9f1fdae598c5badf36af00703fc037a0e5"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LB6.png",
+    "sha256": "c8ebedb20358e5c22cab48aef274fd28ab4ac215aa83692ca5113e1ce0deca2e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LB7.png",
+    "sha256": "a1045545adab9295a7ede01c73788d76617cd4243e21b20644a481657a252e7d"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LB8.png",
+    "sha256": "9b875b56337f042c3abbe04ccccdbe55bdf839797319d87045d8654a216bd8ff"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LC3.png",
+    "sha256": "d80fdc21f086813edc69bd9a10c4591698ddce27fe8f763a9aedc570780219a8"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LC4.png",
+    "sha256": "4dea9f91d407d780f9ac06d1304eb2758f02e407ca887b62a9282912f2700812"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LC6.png",
+    "sha256": "2a432d5509210cc0b04cf70fa245d0264d9f6d823a85b600dc1fbd47028f0ae7"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LC7.png",
+    "sha256": "e583011e54be1747c32b9890e89b828361228a4c9802262d0d2033171ddc366e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LC9.png",
+    "sha256": "e4e04cd654baf680523efdfefef29b815f43f5f1d14b0d0fc9f94b13f102b12e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LD1.png",
+    "sha256": "90373f21a45a983ccf8a81917f6ab63309d8c8169415f57f77f2c9edb37b88ee"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LD2.png",
+    "sha256": "0ede5ffaff22f6c62c068c02ea0d105b7202e36fed3fa39282700657512031ec"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LD3.png",
+    "sha256": "15de76e560ee54cd9c41c67717e3941c3103b44d73732df5031a7140d58c031d"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LD4.png",
+    "sha256": "4a336a311e2fdae08cb88eff95a4889b7d695d2e0711e6935a4697039e461e56"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LD5.png",
+    "sha256": "94d0eb1c117fb8478fde9ae4ff2b197a18f547b3e7e54d174ea1ffe36878bfe7"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LD7.png",
+    "sha256": "0ff64cef56e840ad76a5dfe69ca6832c9d09769269ad5e7e7541f266e63bb5e8"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LD8.png",
+    "sha256": "4bdbc05e58cd3fb41b2b05d9c5617257dd40ca359c1fef04e40bba2776ad7253"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LD9.png",
+    "sha256": "6128695ef8e15ea7aacc4f00eb864fd6722219f26ce860e78426632309f7d5b0"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LE1.png",
+    "sha256": "390f759065a58155d4bdfe9cf7759def0768fc8aa250711c2fc7a14d49228315"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LE2.png",
+    "sha256": "3fd92fc04cbc233522ab581c1be568d9203e9f8a25bbf824fa0bd5710154148d"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LE3.png",
+    "sha256": "142e92503a6204899fee707f9c74a34e2c52a4ef809f96df0c0702d0c4027068"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LE4.png",
+    "sha256": "442fd6e47cd41a76414cc5c42980446bef5bcfd8e7855b1fdce0413ae73376d7"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LE5.png",
+    "sha256": "109b2d3e43ff978b2d3837dda8735a2001e426f280475e5815487267a4c3e61b"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LE6.png",
+    "sha256": "6d4b219f434690df29959de9cb2ea4f35ff89d2145c4e7c98afe77845faa712c"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LE7.png",
+    "sha256": "7d817bd818b277a5744d44487d8805f2be66528d0ebdd0652155a59c5ba730ea"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LE8.png",
+    "sha256": "b7ca7bb534e513b537d0de119fa9c1cb149613308444ca5511b67c77cb0c6bdc"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LE9.png",
+    "sha256": "e5f5c52edf8895bacce3826f652b76eeadc170a8a447986c7211383c89b8655d"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LF1.png",
+    "sha256": "fe91d978c16bab35114b8507f042cc8c75aa11dfec771638f127db425f14f219"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LF2.png",
+    "sha256": "ac8c6c0e8afa41e26f83b159431bfdf3a14faf7948183d6df917a6608fc661d1"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LF4.png",
+    "sha256": "cb3c6d04af5e2d4931546a47258db75c88d7fc90466857edb65058df1cea3ec5"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LF5.png",
+    "sha256": "2ddafa6d42ff47adf9d752ab20ce2dc7df0b05a1ee1110615da041b5914ed411"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LF6.png",
+    "sha256": "7f62e2585e046bf9340167fe70063d8e843c5148435c4a4eeaa39336bcb437fb"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LF7.png",
+    "sha256": "74be27548233e4e09433d2630cddce3d3ea097502328c33845ffcb399043fbcc"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LG1.png",
+    "sha256": "9a24c5e7489d09d8c2a57a3ecd1dabf949f3951e61875d713c6802fb1b03242d"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LG2.png",
+    "sha256": "b0583df41f3f1962eead4eec6dbbac50c339dbe0334ad22e5eea908a94620f94"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LG4.png",
+    "sha256": "67c8020f4cfad60c3a296da9dac32a90f8fd6fa72652ac452b594e31ef2ccd36"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LG5.png",
+    "sha256": "e5afb082415077a0e7bf865c9c1c6a473eab9c493838a85dc60abb5434dc9c22"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LG6.png",
+    "sha256": "39019d5094cf3d7bb1fdbf13a3d9e61b11abefc54cfb6417ec991fe3fe5abf77"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LG7.png",
+    "sha256": "e34c47cbac4ad5754444ad4bfe44840f2d74d4b5621b410abeb9b7ecf9c5e048"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LG8.png",
+    "sha256": "b72bb77d396672a3d3e8ad65d2ab2e4dc4a09c9b59023b4c3a217888e461f5bb"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LH1-v2.8.png",
+    "sha256": "2b1c3e256a51b36e389895f684918dbd18217c3093757550f1c6fb8a4b6c74fb"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LH1.png",
+    "sha256": "d6608fdd3c4065471d41b079fd70b3865f3248e576572c54e48a5804f00d13cb"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LH2.png",
+    "sha256": "3ec040a62b9d7fb2fc6fb426a58470effd97dab5ab7dde3ab87b8faa9d1f322e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LH3.png",
+    "sha256": "8f51e98d477a9ff8fe83fdf6933e2cdcdad7d08914b5fcea9ce64528bffe3b7b"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LH4.png",
+    "sha256": "bac068a77fb9e294ec59271b5e695aa1c7f03064423c497925279e5263dc89e2"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LH5.png",
+    "sha256": "6902ba2d9838d46730145d25b4a7df4585c4fcdb2c76887c73faf7a11246a3d9"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LH6.png",
+    "sha256": "bf6af4b29caccacaa41f1a4e36a94505fcc3e900ca7b348aee5cad55cd20a9d2"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LH7.png",
+    "sha256": "752b1ee08fa7bf8e2fe1271f0344413c3bebbd5ac3566ecf6117204a18f1bfee"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LH9.png",
+    "sha256": "e2d7500946235bb31206ff7c25436820b4cf52a5a0509327fa00f30f4425c796"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LI1.png",
+    "sha256": "14e8049667b2baba264b1547a350c3c6be0af60bbcd33ca322d2d9ce94bde4e5"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LI2.png",
+    "sha256": "591b4a477f128dbb153ee2233f83caeaa85abb57627310d537957b738ca4e0d4"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LI3.png",
+    "sha256": "0240759bd731c0d622ca377bac95db5e806bc3643a92e0c07f14a2a4473e5dbc"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LI4.png",
+    "sha256": "583a618bfec20d41ad70080e5674ffb595fe2d550c1d9f00523e129276d96d02"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LI5.png",
+    "sha256": "698c054a44ea2b94955527e35f90888ab7f03970f94603f065dd3e7de26cab99"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LI6.png",
+    "sha256": "3ec6cccc64a9c4f0495c1c7eb4e2fbd4d497086a9555b233d15b261488f6c714"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LI7.png",
+    "sha256": "a22c75ac02e14d3cc4ead15d76f241b2742266f527acb3a909df8d6f85929a84"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LI8.png",
+    "sha256": "be0837f9d81c53bdcbb7ef1cd0d0b749cfe846df69c58e6cef26cf7f2d22f703"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LI9.png",
+    "sha256": "3f7dab0760529c40b5d87c9158539fb1e99abe1bf28031dcc8c6285e2c1eb48e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LJ1.png",
+    "sha256": "3eaa85b35481b75a68064ba848ec3505d147a5c39ae3c533da50501f76d38d7a"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LJ2.png",
+    "sha256": "91d38043107ddba672b425d50bb828df801c62a2f01beb6f9655f7d7de619a17"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LJ3.png",
+    "sha256": "359bda42626633266afcf63a3fe86ecd6bff3347cb996c2d486e1715a5f3b0f0"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LJ4.png",
+    "sha256": "0f38a439ef8f7dfa8550d6755200ce0d8c22ff512f4492e9ce8713cfec3cbb58"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LJ5.png",
+    "sha256": "7f34949dc0462fe199951af3985a3e2f35d36fa48e7bbb10e2141fa722c3a437"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LJ6.png",
+    "sha256": "85e2e2b4fd40182c21dc9dd802b7b2dccff7679e47121882bf30e8ac098df009"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LJ7-v2.8.png",
+    "sha256": "4037e2bd2d55652c68cfd1e133592e242b102f38d1e77a6a97ee04e26cf2ccba"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LJ7.png",
+    "sha256": "eeadf630d25f0b0f978ca1fe9c764a321426e1a3c644ceee8a453ae2d2f52eff"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/LJ9.png",
+    "sha256": "60b44cb418f0151d9537fc195404dc4f6a23b3c1c4da7a66e1680cdf140f3aac"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LA2.png",
+    "sha256": "3281594881d3f1d794cb21650197744eb8840b82773f02bb243d049fbab0f461"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LA3.png",
+    "sha256": "b4501d5fced979ba4855df86543c8ff262f472a4325dd83a2a3cc370cb260e6f"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LA4.png",
+    "sha256": "7743f578c69b3afe30d9c045abb25589042b52dca561a5d16f52ab24468b09ac"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LA6.png",
+    "sha256": "a94548f9226031b7b353882b7fa6d0e87222e4f73d2d8f1240e9cefd6f381ebd"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LA8.png",
+    "sha256": "8fdf07f17c7474dcff8e88c5db7f9b91fa1464ff1912d6e055f5d963ef112b18"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LA9.png",
+    "sha256": "34d0f2115708e75a551c4352797127d17359f6ffd09059ac989d79f41a828ac9"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LB1.png",
+    "sha256": "1193626ff7e38cb5ccf4b5f1939a08e1413c7ec9ebbb131cc85dd4a4296d66e3"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LB2.png",
+    "sha256": "e0cc5ac5097974837c646b19b59a385d95a8609fb01e1f62189158e23d3279c5"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LB3.png",
+    "sha256": "2841b1e1f9e89239b0692a5b8dbd59e48fa12c6fc7779fba8488f4205adba3a6"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LB4.png",
+    "sha256": "16aab73f2ded66c4c8fff24d7cc2831bc6494c8c543455c883feb14ebe9bacb0"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LB5.png",
+    "sha256": "bff71d1fcca378ae16e742f97c0d3939ce9825dc012bc94c50c565d1fd668c93"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LB6.png",
+    "sha256": "36852711da778c58bc64efffbacde3cbb842e76bb33b8963bd1e7628ecad400b"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LB7.png",
+    "sha256": "b543b67c47bc226b19c4d6308fdec886f6fe5fba12b5cf0b07f0535e84ae76cb"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LB8.png",
+    "sha256": "ca85049c0bb57a1a291a11c5f23d02c773685ab3035d236cf0e30c582db1f177"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LC3.png",
+    "sha256": "c1c71201830e4e34e989fd2a5a4ea14b0cb1b97b4ed27b9f437a3aee7b0be2a6"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LC4.png",
+    "sha256": "9e8e04ca248cfdc9339fb5a4acaaf12b73ab63d9a6ccb6e79191427862a8a47b"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LC6.png",
+    "sha256": "6a2ab3da412d31a81d7d792a124f5a674bf23d3b39abd064f7111945d3c2fbfc"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LC7.png",
+    "sha256": "9046c877769eb0dd38e7b82c1aa20734fd53cd9057ebb29858aa624c19278f8b"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LC9.png",
+    "sha256": "538d4ac5679951e0c68326e71f9b1934795c27b24f5f876948f0a1d105de8d1e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LD1.png",
+    "sha256": "b280ebd933343176730cd5c9612c327e348dbdef659471915b1ad3f3f901270e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LD2.png",
+    "sha256": "c9bf18430059067f7d9fb356d1975a1c081a12b9dcc7507343ab5a38d9cba85d"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LD3.png",
+    "sha256": "ea06dd18b49e558373ffe3a3d10cde6f29b314a957ce509c23efd4d48c1d3f91"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LD4.png",
+    "sha256": "3b2fae97cecc16a10e51dbe3d6bf577ac5e881645ba7ff135b420d039d039f27"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LD5.png",
+    "sha256": "bb959412ec9c4e216d32c3fba0eba7bb4c5ad3ef9dcd542bac69dddf86aa876d"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LD7.png",
+    "sha256": "33a4eb6bd35f17efe0e2e87871a9d660311df181b94a04fa2b33b20da65ecc6e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LD8.png",
+    "sha256": "8247d15ae4980b94487c1fb66a7f19be400619651d2f963722061457d0b3c52e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LD9.png",
+    "sha256": "6fd8629556a86515e13566e8f7469dcc15e5eb46efd42c0fba94ad59d8b8487e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LE1.png",
+    "sha256": "838273cb5a57a585cd659ed8594943831062f2f269fb2117da240bd88b797dc2"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LE2.png",
+    "sha256": "167776d952558c5b046d34e2b4cc3082c94d82765f4f5cad55fe73a8c2622945"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LE3.png",
+    "sha256": "5572c180ba92b0929917a1959d73aac80953e0c5a3dd7093fa95f785943c2aaa"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LE4.png",
+    "sha256": "5f13f17e70af53c00dd60ff6b347cad8066c4fa3235d42ad5b9af0cd51629922"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LE5.png",
+    "sha256": "705055798571a31361330b8c92bf83b568b1721eac5829870cfc2181b7f00db4"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LE6.png",
+    "sha256": "29a63802997a2c491fc85552dcc674f592c46de9a8f95f63a33982d7041d9fa6"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LE7.png",
+    "sha256": "863986a3156a4169a54eb7cfde546c5fffcc04cb3e5b18fdabad8161ead115ab"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LE8.png",
+    "sha256": "57bc42cc855669a5d1e94b3f04c587766bbfd2b9c9f3156f7d55e09549413848"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LE9.png",
+    "sha256": "9056c2f50cf560775658e647db372d342a4affe5142ff7c9a485487978b3be39"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LF1.png",
+    "sha256": "e752811edfd3a056e770f2a55ba620f4af2cd1afd2b172d1b9124194f57bb12a"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LF2.png",
+    "sha256": "5e8d259138cdabc3ca57da052d0d6356c38619415fa354d81a88bdcce714937c"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LF4.png",
+    "sha256": "6cd4e722785ca82d7eca0ad09788d40deca32b5464abcb908c5bc1e94119f222"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LF5.png",
+    "sha256": "aebb04adc070f91d2ddb6fc3d126d2aafa2b5623f695f83524c69fb4df365e05"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LF6.png",
+    "sha256": "ebee7e773235b9400cc406018f30757936f31fdae21eb24f300467223c5aa8a4"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LF7.png",
+    "sha256": "e50f8161d5bf52096f871b7d5377f0cc68a54b1f4d34ca8b0d85a2070e39bdec"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LG1.png",
+    "sha256": "8914926217b40199dcdb7ab7a0163f9d8ee3d47e1207ff9b0764cb4a36847c38"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LG2.png",
+    "sha256": "86d6c596f30f0f7541d5ae766b5ee3cc0de3b0efb611160077a486659d5c529e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LG4.png",
+    "sha256": "9df45aded5e8b2cccbe36e607a9f328b0fde8e0cb900152357d6a1de829e27af"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LG5.png",
+    "sha256": "3db0a8a00ca62d419ce51df6d0610c91bc57ffb9305b39236d912c77a7e7f593"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LG6.png",
+    "sha256": "59142e24ab94fac4c2403e9de8fe74ee48db8ed7c5f312446ace89050ea589d2"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LG7.png",
+    "sha256": "bc7144d51698a911391f34aecde559c7f60415e24ae709b7d5defdebb544ddfc"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LG8.png",
+    "sha256": "db90bd044750a683a305873bed693d0881789ca197562136831ca6357258dd14"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LH1.png",
+    "sha256": "8442b85389b826686ae39aae5c2868fa9da1f7a40982daf32fa9330b95b79d08"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LH2.png",
+    "sha256": "8405eb47abb0969d106f9ff3cb2d8b88acc80ab201ebe119af28f8ad07734e2f"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LH3.png",
+    "sha256": "e0fd4436853987f14f0b95a58ca735bba3d24231152ea9fb7d428b962e176d0b"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LH4.png",
+    "sha256": "df3c9ea1aa7c1702fe9a2674d4491d026bae28ae00696672b11fdb5eeffc2cb3"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LH5.png",
+    "sha256": "e925cbceca6f6eac40580ff795fb368e45d2d4f196d11b51747500bb4d2f3fc5"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LH6.png",
+    "sha256": "f4de2c272ef23ca2fbbf6b156cbdce00950d3b6d555318b20fcb26ac2fd9c21f"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LH7.png",
+    "sha256": "1f8612779bc33182c8c0d77f774d9ffec8bd735d6dec885e55f2771d0e320022"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LH9.png",
+    "sha256": "bf4d2c841543f0908f4ca29c26739a20f9a7b8afa9f09541e42c14b1ece5cf80"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LI1.png",
+    "sha256": "fee8c4ac0a70e73abc8ec9a083f89b2949b39ed7536173c4514a6d54c01e0e20"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LI2.png",
+    "sha256": "06c13aa2a6f231905f7cdc1ed3c209e41f6e7e7b47ebe9a954388f2d1eb04b89"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LI3.png",
+    "sha256": "85eb5003f554af574c76331f47cdb035eacd33a9d392a66c1a1dfd03c993b133"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LI4.png",
+    "sha256": "ce260d030f846eabb2df7778cd07c8ab51dbea0a977eca94f69a70417ac0920d"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LI5.png",
+    "sha256": "196591f4e5745a2319896318ea1b3b30522e4bf1d82b6b9e53f609373605cf75"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LI6.png",
+    "sha256": "1f756aa473df91759135de11632ff24c56852983e414f50a7c6ccc45b8f8fca9"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LI7.png",
+    "sha256": "af257745baef2082733b23e328e4435d52102353b0f3179a3db273c4dfb23581"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LI8.png",
+    "sha256": "07fe4fe99b33e08187e4bbad430b83e62d66d0b5b9b121a0c1fb50f867ad87de"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LI9.png",
+    "sha256": "4237da46f0785593341cf9ecf99462532e2c3cec17275cdd118f895bcb054337"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LJ1.png",
+    "sha256": "baf8146e1e87e8743c2c5a3fa99bd9d43d710dcb36a438e877b04f809049b417"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LJ2.png",
+    "sha256": "470c3865be9c665332df34a32eccee709ebd79490a653163cb6b9b7d670d73b6"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LJ3.png",
+    "sha256": "b6e40057e9bd86d55feb20215a95a54bd76aff1266a4969bc660c5b2c9316699"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LJ4.png",
+    "sha256": "344c8b0486b42560601ecad38f3636318833d23e6b4853a0505b7445d668f783"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LJ5.png",
+    "sha256": "f3b24e60a3f9a96f3bab2ac5325cdf422154ecab91b755dfacc85d8039b1ef54"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LJ6.png",
+    "sha256": "e0726f474bf67dcd27aae2fe4dffdf688d8b87239f6e9b3531aa93d6bf37b9d9"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LJ7.png",
+    "sha256": "f563698b04c53e23cb9610c25a3dfab31b2c53e8915034d91919da39a0aa3e89"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/stones-LJ9.png",
+    "sha256": "47ee5c7ab0ec3047348099a803f5b2e69a69b931c7d3340927a3c1654a90847a"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LA2.webp",
+    "sha256": "0b621cee5369efca3a59ba8deb22159cfa77fcf2139f46d642df4f96d6eeac1a"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LA3.webp",
+    "sha256": "c1699368b56e6ae99744823cd9e99c0c6dd855fb979f157e8e083f37e2da7f7a"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LA4.webp",
+    "sha256": "b04f60f0f572f826f6c3e8be7cf7ddbe43c55c162346bb1b2570b311a33a65cd"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LA6.webp",
+    "sha256": "ebf1c463e84661936804d75b38f1067e1dbdf3108926967720c057994d734fde"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LA8.webp",
+    "sha256": "ec13b1d1da4924b06b2e0a4c800637f20bee1ae3a2848af500b721f2d557e842"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LA9.webp",
+    "sha256": "4435500d97fba4baab2af66ddb11c95b33d23c971771aa3f873196f588d4e509"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LB1.webp",
+    "sha256": "b3b91d4a5d21e667178ff88921f37795b8aae4c522b3dd8b17097e58d3c2b12c"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LB2.webp",
+    "sha256": "59b85dc1ad8c7b6f0b64c4375398c050185a645827df2d7d1c93dd04036865cc"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LB3.webp",
+    "sha256": "c00a0b33c16c761e82b47c0f29f4956b7c6a3bb14cd8125c2f6d3b1939e5e382"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LB4.webp",
+    "sha256": "18c55696338dd42cb93b135987724aa190228dcab91b93cd45ff508b97f818d1"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LB5.webp",
+    "sha256": "161d999045596cd868cb3a4ca9e64f79f27b45d91ea30aec072b87f26f1dd446"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LB6.webp",
+    "sha256": "c22d8d8f431767947319509780a07b0ca47e888632830b86255211e491533802"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LB7.webp",
+    "sha256": "ca4e7be30f05d8ed6f0a1de75069e222a2efa016b53410e7945fada056f1ca68"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LB8.webp",
+    "sha256": "60625a1459ba8a932db346a5e1d8b3e514c015d0af783a68c0f25c982f3c3a56"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LC3.webp",
+    "sha256": "72abebe3e8175822dff8b4ca5c670013e2814a8c9629c773b0b6036aa51c725d"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LC4.webp",
+    "sha256": "4d20bb17315f1123f4d902254ddb22cc5a074af4478346eb387d1d65c46ca21e"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LC6.webp",
+    "sha256": "fc35b73abcb37dc27f87f47a9c52a2b56f5eb58153b0a52d13be71f9fde75184"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LC7.webp",
+    "sha256": "70937d6f9a7bb17236d2c98962c11b2760cfc5ce4e6e291d818d9d44c65f5068"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LC9.webp",
+    "sha256": "090df68bd7b1a5bf6ffbe4505d5102de0d23d8e2aa1ead601378ec89c8ffa810"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LD1.webp",
+    "sha256": "afacc2f3238c0f397d7974b2695acaa6e25a26ade17ec19460b527bb25d36778"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LD2.webp",
+    "sha256": "8ff530497090a551ebdc6a8f6555b6f598acf84da673e2c877031e1d2ad081c7"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LD3.webp",
+    "sha256": "609cdae789756f474c97a7bf0812c883524056a13a56981438e7d756c2722fd9"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LD4.webp",
+    "sha256": "25e4b3a974b15722c601105a41c3a48934b4c700403cb595559b4585e9f6ad2b"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LD5.webp",
+    "sha256": "4e480ec5b0733b7ad280a60b2056b6ff0716f775c51f053e9f81ba9294169af5"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LD7.webp",
+    "sha256": "d0a004fa9f24208ee07245e6e77e035cb2b248a52f4b1b2f05e4910d5247a6aa"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LD8.webp",
+    "sha256": "aa8243c9d5785887f82c1babbe505e7c35493fe85a687e8975ce57c54608a390"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LD9.webp",
+    "sha256": "81f98e654926cbb6eae243ab8aaa95213c452f711abeb472e507ee98f4ecf771"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LE1.webp",
+    "sha256": "2f1b798f0f96629c6fb2900800d46b7b25e33ce82487e3a334d6cfee1a26f18d"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LE2.webp",
+    "sha256": "18bce2319512c4d9f1cd8e8263d0fc9914416b4d96bdafb15a26824eb1515c3b"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LE3.webp",
+    "sha256": "73fb4b21d0372a12b9b93c586c1d776cfed72c7d8f78be3925003d4deb2228f4"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LE4.webp",
+    "sha256": "c4a609d9b5bf5b9ebcae2e972731cda4fe912d9b0e7fa48929563767d567ae6b"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LE5.webp",
+    "sha256": "7b6708040bbb2d5e1959c5fe3aa7038553972c5b5d628083be6677425c1636e2"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LE6.webp",
+    "sha256": "eddcf0aca06f7bd6d4fe441e612ede4f8ed4d619d95cdec2b36bfe6f9e753652"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LE7.webp",
+    "sha256": "cfe9d201c8a871868d4e5b71efa3bc243e357f1ce38a78112bb62e6da423458c"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LE8.webp",
+    "sha256": "577ddda98bb8c7e6daabc292c690caeb392f5e08006d4f6df482db4b5138bcbb"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LE9.webp",
+    "sha256": "a34d7dcf24354f687a1d9e5d7c6d7ba56116297b64eb13101b87f6ad0c97d771"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LF1.webp",
+    "sha256": "d70d14f1b92ffc3f22208b2d8b50c301866eada6e612e3172e125d16850ef9c2"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LF2.webp",
+    "sha256": "a6d4de3cd8fb084e4fd74499eb73abf1a97d5b16924d0a5bc93775cff3c5814a"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LF4.webp",
+    "sha256": "4573657fe7b63bccec7ac474d2b9c022c77be75f484e300b6e793d1ee578fc0f"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LF5.webp",
+    "sha256": "e2b86a08a94237943610c4f44603f836050592ac289681c3236e948ca0cea8db"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LF6.webp",
+    "sha256": "7e8f87041d070dedce2917326d3f9535a4d2ca6713ed0df7cc610d472a8fc965"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LF7.webp",
+    "sha256": "7dbd8f783650e243096b7228171f9e42106bbea56e24d2b5a61400c6d7ca5d7c"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LG1.webp",
+    "sha256": "35da5157bee141d270bacb9554cfb89bf7367f26b3c5240b193dcd440a2bc6f1"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LG2.webp",
+    "sha256": "c603b71ef5f7f6204b3cb1fbcd6f44283ffa4779cf76dacb87ddd6cd02e24b2c"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LG4.webp",
+    "sha256": "ba2dce6f575c2b5c983cd09d15dfa22dceaec1d3f71ac6c53e357691559f6c15"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LG5.webp",
+    "sha256": "c74c960163537bff970dd13f4ffec906c4ed448042ba42195729850f0c3bf5a7"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LG6.webp",
+    "sha256": "d09f3b66ee8a9ed34a50213aaee87842dbdfa410254888c252eda4f37c72e421"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LG7.webp",
+    "sha256": "9676ec6a6ae5881736941d7605c25cf6303587937ff6f91205402a9005129fea"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LG8.webp",
+    "sha256": "9e53e10f09327172deb2dd83544d4c51d3d56629788fd18a54fb690020ae0710"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LH1-v2.8.webp",
+    "sha256": "af7a9a8fc4ef719f43d0c156961eedea8a28df052e8df04afecc98acc35176e9"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LH1.webp",
+    "sha256": "c7749fa576ef4722ef6664967244adb490da387af530c61470b8a07a572ec0e1"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LH2.webp",
+    "sha256": "f91a53d37d1be3de7c2a1414ce104660cc679fe9ea490994f4cd34df9eb2b6dc"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LH3.webp",
+    "sha256": "8bda7320a8b2441edc663ce5af172c563a979cdd54fac5ce6bb2c5234ca7d1ea"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LH4.webp",
+    "sha256": "9393d6e2f5e3dcc9f4653c2100eb526180556e1a1f55d56162ffd4419833b40d"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LH5.webp",
+    "sha256": "8a1ed471929edfdf479aaa73b4054cd5c32a7c44941820309c4f7c47f846c212"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LH6.webp",
+    "sha256": "f6a0e999b906a5918f7923a53b30226d4bfd1755eb1a69af66a6f03d34aec470"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LH7.webp",
+    "sha256": "eb40eb03f94a47bdd09df6953da2e23b4e9cdee8351038dea0cb2bfcce450b22"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LH9.webp",
+    "sha256": "229efcea8a7bd1a1effc707f58c22d014c09a5fbeeee2fe81cbcbecf22ef0cdc"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LI1.webp",
+    "sha256": "8a030aefd6e03d733289260cda37c3a0768f40fdf19670f9a32bcb1bc93f82db"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LI2.webp",
+    "sha256": "ca28a97535fdbce2fecffaf2c662c4668577ff8ede6f242e0aad21a41c11e800"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LI3.webp",
+    "sha256": "5080322a9f5ba0f3671211b3353bb6f3a47bd41c4850b1c8c79e3ad38a440cc4"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LI4.webp",
+    "sha256": "2dad8820c30862031e8fa2d1d681eb0ffc671bab14c28681a5e422eef2244bda"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LI5.webp",
+    "sha256": "9ebdfee0e0e79a34c3641d369b6982d455e89c09d22909d8b2eafd5b24443ba2"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LI6.webp",
+    "sha256": "b7a64a5c7ab1e54bac739d86de86e59e301d0669517e165bc96988f605f101d0"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LI7.webp",
+    "sha256": "45e99f05db058f9d95dd785cdeae901c3d73e0f71d47ac7f5b00a7c06756f2b2"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LI8.webp",
+    "sha256": "6e7318173236781ea99a154862cb4ba8a67a0a416bddcc0ffa92f14c0720e6c5"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LI9.webp",
+    "sha256": "9969f922c3d340624d7b428b4c5ba4674be50db6631840f78e51939da5bcd316"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LJ1.webp",
+    "sha256": "44785bc44e860fe4e6e3b97a156754c61b5131e39ae495a232da72514fd1e702"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LJ2.webp",
+    "sha256": "73ddf3afccc004b84baadecbd3573792aca8ccc1e50d41be176079fb2e8b8c78"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LJ3.webp",
+    "sha256": "0166bdddc6acc3b92c7f3b486dccffd6e1f31cabd1bf5b2d322e2f8f81865bbe"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LJ4.webp",
+    "sha256": "59f3828fc5e2227dba8321e3c4794c749afaa3a29838083ca1cf8cb2fedfaa77"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LJ5.webp",
+    "sha256": "8791afbe4b2ec23db5c323cbfc6d3edaed9963032a40d9aaad69b0825ea8d795"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LJ6.webp",
+    "sha256": "616daee9310a94a94aa778a94e5c5a450d24656ad99b116a40c451f374824464"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LJ7-v2.8.webp",
+    "sha256": "bdb3e9856954631c1be1a7bfd451ad613175fbdde46634239b94f24ffd52b63b"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LJ7.webp",
+    "sha256": "b42910293378f78424d8c528fc363ca692c89432d2c9a14ba37e8283515b5d20"
+  },
+  {
+    "path": "docs/assets/gomoku/liquid/thumb-LJ9.webp",
+    "sha256": "546fb6eaca8772ae57a8ecf3f3ce1893bb57e2793eb1c73df95371ca928e1bb8"
+  },
+  {
+    "path": "docs/assets/gomoku/M1.png",
+    "sha256": "4d891503f91805e0e60bebef58c1eeb6cbb3d3ea5353177ff554bd24c98ba41a"
+  },
+  {
+    "path": "docs/assets/gomoku/P1.png",
+    "sha256": "d65e23b9a2832809fa728fb2d263107cbedb94d241a2b7b42f55d78b7d5b3060"
+  },
+  {
+    "path": "docs/assets/gomoku/P7.png",
+    "sha256": "1a0c8351b3bf13fd6ca1fd65f35bb432c251e5f1db3df4326b139eaed3b8ad71"
+  },
+  {
+    "path": "docs/assets/gomoku/P8.png",
+    "sha256": "58fde2ca8b3f547cf4b800a356a996993a1255c3808d32ea1c81f815befc00c5"
+  },
+  {
+    "path": "docs/assets/gomoku/R1.png",
+    "sha256": "dba6af8118d08eceee891be4f67b2fbabec6597f09c9344b094eb0431f6f2e24"
+  },
+  {
+    "path": "docs/assets/gomoku/R2.png",
+    "sha256": "0c08ce34e1a318e1fed41d71af8ab3a117aed3962519a0847a21f5eee1578a9f"
+  },
+  {
+    "path": "docs/assets/gomoku/R3.png",
+    "sha256": "c7bcf683da0ab2aca63b7d5d32e4d91b851bb802423e083f1990ef20eb5fdc6c"
+  },
+  {
+    "path": "docs/assets/gomoku/R4.png",
+    "sha256": "eb474d872c7e36bbe996282f2f1abc182fa45fd9122adc432c7f07de612f9742"
+  },
+  {
+    "path": "docs/assets/gomoku/R5.png",
+    "sha256": "a459a513117005d40875a9e290be3df209223f5fc6472a50264abb59b93974bf"
+  },
+  {
+    "path": "docs/assets/gomoku/R7.png",
+    "sha256": "d320a462ddeaef19aec6a02a44b9e97cbf2e917d0f982f2b3d08111833693b77"
+  },
+  {
+    "path": "docs/assets/gomoku/R8.png",
+    "sha256": "dd8ac2ddfd3cd32a5c6bc041a7f82036a0f3295ef30f0144f0aa3aa6097ed324"
+  },
+  {
+    "path": "docs/assets/gomoku/random.png",
+    "sha256": "cad1a75f44ab9a5903ca29cc7dff168e22d191537d825a855b704007154ae08f"
+  },
+  {
+    "path": "docs/assets/gomoku/stones-P1.png",
+    "sha256": "114e1a19c1fe847d3dcbb45d42876e867becd5c472d465b1c2eb3bcfa1250105"
+  },
+  {
+    "path": "docs/assets/gomoku/stones-P7.png",
+    "sha256": "b41a019fe83393f3a6a44bd5e29036e1ab61957dc8dfd65bbd1ecffc7c618bf4"
+  },
+  {
+    "path": "docs/assets/gomoku/stones-P8.png",
+    "sha256": "bc9b3f10d111af4aadf3157df2632badca8a20114adb024e494b4653da6fda8a"
+  },
+  {
+    "path": "docs/assets/gomoku/stones-R1.png",
+    "sha256": "bfdacf1347104040157697737dbb174aea5aa3eb02f83e34ad88f5f16e40c1ba"
+  },
+  {
+    "path": "docs/assets/gomoku/stones-R2.png",
+    "sha256": "dca7937e0fabbcaf536f67e5ba986d5ad287733a9c15dfbe0428d264ed1fc7fc"
+  },
+  {
+    "path": "docs/assets/gomoku/stones-R3.png",
+    "sha256": "9faf0e4169212efb1e8b4b9f9aca0a9436f51a986fd388b532d9e1e9eb07333b"
+  },
+  {
+    "path": "docs/assets/gomoku/stones-R4.png",
+    "sha256": "e76e9cff0d354f4e0ec6e203c5fcefb68479ef6b1371e75d355d83b8220f6907"
+  },
+  {
+    "path": "docs/assets/gomoku/stones-R5.png",
+    "sha256": "edc70fd62fa4ddca8a42c8bfe67c3ba2b51a0b9270bfd1cb96689980c374a7a5"
+  },
+  {
+    "path": "docs/assets/gomoku/stones-R7.png",
+    "sha256": "f9aa634791cb05507e9430682ea8cd3e7ed0e28efabfa0ee096f224723d32994"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/ceramic-01.wav",
+    "sha256": "869ab025d176e6188878f39cde1d47259db5e77c06e183dbee9cb72ac5ec03f1"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/ceramic-02.wav",
+    "sha256": "486fc643aaad12d15cc8d3408548b5dd60fed07224ebfca9b1caad9cd19ede45"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/ceramic-03.wav",
+    "sha256": "ead7fce21930ce6cd24495c9d693d99247924677a40f6e0178983a57ae6e6d37"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/ceramic-04.wav",
+    "sha256": "2bb0c443f91add3dc3c52cabee30f576d1c803a0bdcbd6b0c4d4970df63ef3c2"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/ceramic-05.wav",
+    "sha256": "c5d5b67934ef529af4a148333403c6f9bede547c3183c289905093d813e25a33"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/clear-digital-01.wav",
+    "sha256": "29e6bf5b68f3f130872c3ec32d7efd026b5d09a4c925d27b6f541f1bb4360934"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/clear-digital-02.wav",
+    "sha256": "d35e163341bd272c37813ddd25ae1e6f72a7676407b951a1a97261b058d98e9f"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/clear-digital-03.wav",
+    "sha256": "6eaecff627849f753a96f0081430382c28890995b78d59ee64ab809b5e2a2e62"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/clear-digital-04.wav",
+    "sha256": "03fd3a71be44716107dfc7908229e09742b5ed70313167f3413b5158b65eb446"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/CREDITS.md",
+    "sha256": "9755505db11cf2d748bc5250883811a079dbdcfe30ccb9e931a4bdbef04140f7"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/crystal-01.wav",
+    "sha256": "86df401bc6a7b1a2e90ad58d2812554538799a5cfe068c13ce70381da6e7b0f2"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/crystal-02.wav",
+    "sha256": "08e7f8141f859943e6b3ef593915cdd4cb071fe04f3b65ab973c971987655241"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/crystal-03.wav",
+    "sha256": "793c2c0f678302d786c755cbebc589ba524fbd469ef8e14864ec716c627dcd25"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/crystal-04.wav",
+    "sha256": "bc0c931026ada558322df503360c919595da97b87fc642e487dd5607a3a8abc5"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/crystal-05.wav",
+    "sha256": "f0315ba8488301c50df9c8ce49143c1dcf541a1f80e09281996c10869c57a766"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/crystal-06.wav",
+    "sha256": "a641f4cfbb51f08893a1688d6faf67c11bd0ab5bdb576eeef394cc09cd95818c"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/cyber-01.wav",
+    "sha256": "6078a4d5bd334937bd369512d33d4b4547229e43ad278183e4421205c3f793a4"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/cyber-02.wav",
+    "sha256": "66a1bb0e32252bb2be74a36a9ca4a5fd8a2fb1996c7cb5addadd0100ffb3208b"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/cyber-05.wav",
+    "sha256": "ccb17a4a85b088224850e7ddaf946a445ebdf10538e9d04c981fbbe744ac90b1"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/digital-piko.wav",
+    "sha256": "4988eb7b71b4669d9889d5fd8168e5717cb87affb70f2ca53704e9e0d960c172"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/digital-pin.wav",
+    "sha256": "9671ce41728ad69b3e902af75f6ab3b269b07ff1a6da467e5ee002257f03875e"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/digital-poko.wav",
+    "sha256": "f1170a4df6eb9586a8ab54dff0dfbac16e1e6d19326b46c874d733177658dac1"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/digital-pon.wav",
+    "sha256": "b70326d80c9c834ff2852688a8a3a96875cce43b7ad94ea8efa3eee2a6aeb6ac"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/digital-purun.wav",
+    "sha256": "ac1a09d191239c47287f9fd2c2f83095290545667fe901a6b88f888e0df52092"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/glass-extra-01.wav",
+    "sha256": "ff3ecd0c32db986f7a5c7cacdd0f1a072f04260eb8a17df3df23cbb85dfd9472"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/glass-extra-02.wav",
+    "sha256": "d73a43b9b7758182bf0ad7419401e4948988c082074f08031177c0c5bff0e9e2"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/glass-extra-03.wav",
+    "sha256": "3fa6f9e8433e002952dfe9f043c70c24953beee3270b2d7ff0eabdd74ad925a1"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/glass-tap-01.wav",
+    "sha256": "c7d856306d3bd1941cd5b83cf02923fb8b4ffdfbdcfc614a0ea7847b9c55f33c"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/glass-tap-02.wav",
+    "sha256": "32d03b3770702b429e2cb6d24a9ff7da405ad077028c9cfed335308389c91fe6"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/glass-tap-03.wav",
+    "sha256": "451f2f3d6282fbe3e2dd3624e2d892bd1f47a769ec5debdbe51683d7dfb6fb99"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/go-real-01.wav",
+    "sha256": "70d220621061de0b962af839a03a307148c0cb73cd4a0452b907eac6b278db99"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/go-real-02.wav",
+    "sha256": "027ffbeaa47dd6fc79c608908c62645c27adfb4361fac89417f485542730828a"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/go-real-03.wav",
+    "sha256": "666cf85143097c6fc68a2b0ad77fab22b254cfcb08775bed38da5eb6a927e1f2"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/go-real-04.wav",
+    "sha256": "4ec38d227f271148e9ce7d06a2df14b807ee9c62f6fc3457b122d3b55b7c51bc"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/go-real-05.wav",
+    "sha256": "f22ef344d132ed944c64c7e6449743692eaca38a10b6593ec98ec5ab397d4a0c"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/Kenney-impact-License.txt",
+    "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/Kenney-interface-License.txt",
+    "sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/liquid-01.wav",
+    "sha256": "e6bcc1abab860cbda3ab1e24e3856b99530568583ebee8961d534c4943323178"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/liquid-02.wav",
+    "sha256": "487d8b1e8dbd7d14cdee1c01e85e341e48a6093881504c8a26f37b063a84cfe8"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/liquid-03.wav",
+    "sha256": "808a3cc7c2cb64e252a3353e5aa2dc4db2f9b6ffe328d8b0591ca105e6df921c"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/liquid-04.wav",
+    "sha256": "97377d4d4c971da4961fe86f2c3017a8a2012c5bf85b0cd033d0a018560d9204"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/liquid-05.wav",
+    "sha256": "357e0a56253deb1265876d4bd45b30b92686927c2c312edcc849f55051bf2d2d"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/manifest.json",
+    "sha256": "964cb521aac3b4487015e1c6614950104d2ab55537e11260748b77b136e6f0fd"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/marble-bounce.wav",
+    "sha256": "8b52833c0eda06038053f64a0e34935ab07c49f1984bc5477a3cf6450929ff91"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/marble-bowl.wav",
+    "sha256": "5c394573c51d0d6f4473f4932b136773229246aeed5b07631214e50e81606cab"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/marble-clink.wav",
+    "sha256": "fd1c916fbac31fdc76316dc4abb7b69a52727d0ba1f9d00180c1266aba8205d5"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/marble-impact.wav",
+    "sha256": "1535f8de44228b519c09e420ba8006ee171b223a338c16d372fe20b1e3fcecd2"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/metal-extra-02.wav",
+    "sha256": "502254b75fee76fd5dd653fa7dde6e2db2ff6c57392581d20ad8631ab12302c9"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/metal-extra-03.wav",
+    "sha256": "09660f5269ca8190bdabb0a6c531182ec05e2acb36c222dcc68a7249f71bb233"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/metal-extra-05.wav",
+    "sha256": "2a6358f602f19900b950d2a09490d2123970b43c0853a62248d0ee950567b01e"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/metal-tap.wav",
+    "sha256": "8212621ca05b708c8f0fa70ecaeb88f91f032a6f450fab88c3e203e64748e82f"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/mineral-01.wav",
+    "sha256": "9d9b1a549f05cce50fd8e4b65ac8d0147d2ba6175af24b17c700df3105abc3ed"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/mineral-02.wav",
+    "sha256": "6f4681eaf99be4ac8b00b9ed1ae7d9c0c4a7a8c8a26379bb750b4ce90bc52d44"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/mineral-03.wav",
+    "sha256": "74b7ba0c0b22fbb85bb3a25e58eb555e027053b7b3a43741d557eec209df3828"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/mineral-04.wav",
+    "sha256": "da6cb1747cecea8fc018383cb038ccdf8d466de46756fc447f12cfcb2adc6d80"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/mineral-05.wav",
+    "sha256": "e40bd06f0faa901dce1acb9915ecac8a56a2003025046e79e6bbbf94e5b33809"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/mineral-06.wav",
+    "sha256": "2d527a278d59f308237462f03a4a22ef9fd49255c1ab162d176d6c7f8cc35d33"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/soft-pop-01.wav",
+    "sha256": "8bd79aeb88af4eed94c9ca2e69f38abb49da7e8df2ca98a1ff7b62333ae53690"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/soft-pop-02.wav",
+    "sha256": "3cfd047f2b611c951bd8e0ba884c3aea6a7b64c21fa9c5719c5da786fa36a977"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/soft-pop-03.wav",
+    "sha256": "bcdf9166f05ac89bea5836d587dab1be53fdd2cb58c48772fa4fbff688e8b78f"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/soft-pop-04.wav",
+    "sha256": "fbf62a3229d373bc21ffb8298492281521cac467f30db6022649f01d9a7c8914"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/soft-pop-05.wav",
+    "sha256": "2d50018a68d6dae86be53f2f55045efdaa87a198622d94a6c548d9629fb596b5"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/wood-extra-01.wav",
+    "sha256": "3c10b48248e153b671b8b1bff3eb6f3a8779247c204c5dbd260846cd53f6af8b"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/wood-extra-02.wav",
+    "sha256": "ed748cdf30f2bb108c857252098b0fcf748b48969dd3dfd916f4fb7a961efd62"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/wood-extra-03.wav",
+    "sha256": "4e76f4d53e453504fc4463c5d5f5f2764f8078d128e31bf2a70793b5b90a380f"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/wood-extra-04.wav",
+    "sha256": "602c984a6859475fdb0cfca2faa60637ee7764ab03851a42815cb9bebaeb909f"
+  },
+  {
+    "path": "docs/assets/gomoku-audio/wood-tap.wav",
+    "sha256": "83ee712aeb5c51f3318882337590f939724818bc75774422a8f6e1862779ea30"
+  },
+  {
+    "path": "docs/assets/help/gomoku-play.png",
+    "sha256": "1faef768d605791bb5459804fb2147d14803d3034d16464dae5c2bc4fbfc3d49"
+  },
+  {
+    "path": "docs/assets/help/othello-play.png",
+    "sha256": "2a58adeecb752ffce6b2ee6f5e0de8ba6756193cecee65fe6bdbe3003874eb18"
+  },
+  {
+    "path": "docs/assets/help/README.md",
+    "sha256": "bf2ea69df9afb3f19cf5ca6c70787bc0bee73a91fec0af70ed576d433f0802e0"
+  },
+  {
+    "path": "docs/assets/help/room-overview.png",
+    "sha256": "e33c148b3fd772a472c096908c324b94f768de9807867a858c4d828aeca7c7b5"
+  },
+  {
+    "path": "docs/assets/help/smart-chat.png",
+    "sha256": "05eded11cde5ef12316b640c41d3d510b15ca3b8625f56bc3a3333800d564f3e"
+  },
+  {
+    "path": "docs/assets/help/watch-result.png",
+    "sha256": "d094783dd1734cc28843a07892ccb83e76fabdb1724c67d0fc4440f422bb8d38"
+  },
+  {
+    "path": "docs/audio.js",
+    "sha256": "7df2fe1ee613dab7c5b722305a2f5d973e8654b1b82c2ed05680b2f9b2443e75"
+  },
+  {
+    "path": "docs/board-geometry.js",
+    "sha256": "f79d984ef8eae0e0fde33767b3b60a46ef8c77505253b004342c12ba188cb9c6"
+  },
+  {
+    "path": "docs/choice-buttons.js",
+    "sha256": "70280c9779fe0d3ac18e59f6aef3f161162cf201e85d088fc33b418ea215b600"
+  },
+  {
+    "path": "docs/continuous-watch.js",
+    "sha256": "ec0d5bde5cc04aafb254f3424f7953580003d4f8b92c17034145dd142a36b74e"
+  },
+  {
+    "path": "docs/demo.css",
+    "sha256": "7d4da770ed0a3338d1ee9e93448f290a9589bd71b89acb9c8ca27e8a7266ad99"
+  },
+  {
+    "path": "docs/effect-catalog.js",
+    "sha256": "a96ee665bce3c3f90584c1473f4ea98ed78762c29948a5eb2c005c11d3b255b7"
+  },
+  {
+    "path": "docs/effect-options.css",
+    "sha256": "98ca77911f0ccb49a81a2f17734ef92b9130d6ffe184bb374b2724ee48ccd1ee"
+  },
+  {
+    "path": "docs/effects-extra.js",
+    "sha256": "37afc361f0cb7cfd63c0c9069d715feb593848e79fc89c3c0179c2f4f67e5938"
+  },
+  {
+    "path": "docs/effects-lasers.js",
+    "sha256": "80b4c8bbba3c18671c3f7cc1577f19fa957e501d48fec38f779d222001a2d417"
+  },
+  {
+    "path": "docs/effects.js",
+    "sha256": "2685b51819c25c09605af26845fa56e3ced6cf6efe7adf0f34ce77d4729b0ecf"
+  },
+  {
+    "path": "docs/favicon.svg",
+    "sha256": "936237bc8977b6224871a92b115c2a3c1fa60666bc74fe9582e7966dba02acbf"
+  },
+  {
+    "path": "docs/games.js",
+    "sha256": "e8ca890d2c6252da5506443f905ba4997ed1df1c0d14ea727c225de6e13b25b8"
+  },
+  {
+    "path": "docs/gomoku-ai.js",
+    "sha256": "656965bce524032d06c1af59f0ff50f364ae72cc1b194f9756856e9b0c882182"
+  },
+  {
+    "path": "docs/gomoku-commentary.js",
+    "sha256": "4705e082f86841cedc0bb0ec4687c117a932e3ba0d60a5fb4bccfb7d55edd2ee"
+  },
+  {
+    "path": "docs/gomoku-rules.js",
+    "sha256": "b65b021321d5acd85d0211ae5c9671552c64894a8916f6bebc8b17a64fb20e5f"
+  },
+  {
+    "path": "docs/gomoku-skins-extra.css",
+    "sha256": "00dc7a1c90318b9e65664da6ed1c9098551871d021f439927cdc0b85b10dd431"
+  },
+  {
+    "path": "docs/gomoku-skins-extra.js",
+    "sha256": "7e7cb171a15b8d87f6e2edb2781ad7cd8ade4e995b40063927d753d3cde05f12"
+  },
+  {
+    "path": "docs/gomoku-skins-liquid.js",
+    "sha256": "585604c4c45e6c11a9a72b04935d855e920fdb872fe52b7798568d0de8dbbf87"
+  },
+  {
+    "path": "docs/gomoku-skins.js",
+    "sha256": "ee7454a3cff9251086fca37b3fb2099674e7c5fc855df10b8bc5c348178cdc3a"
+  },
+  {
+    "path": "docs/gomoku-sounds-extra.js",
+    "sha256": "380b25648a0764efe7e42ba71431930ad376f4bdcd4aa6cdc6fe8c1b8ff4ad95"
+  },
+  {
+    "path": "docs/gomoku-sounds.js",
+    "sha256": "5a9617c4906efd7a7d2df198b6344dccec707d4b224be7c958cbde6cbff4fd69"
+  },
+  {
+    "path": "docs/gomoku.css",
+    "sha256": "6ceee02e728d885e025d388314f5c983a512b6429a2414b80fbb03c17999cdb1"
+  },
+  {
+    "path": "docs/help.css",
+    "sha256": "1c943f6d042e9d580162f6de59f238cc7270d065fa30e77e40d819755c4e4fb3"
+  },
+  {
+    "path": "docs/help.html",
+    "sha256": "5fc956c34e2da596352cd63f089fcf8c224cc34334085cd2985031c4e3e8166c"
+  },
+  {
+    "path": "docs/index.html",
+    "sha256": "65030db84daf6aa81dd225a089bda60fd78e94bde394594d9cddd765a5d23888"
+  },
+  {
+    "path": "docs/last-move.js",
+    "sha256": "b06222fd054757c9773523028281c0f4149f32b3677df79da5da4688c36897d3"
+  },
+  {
+    "path": "docs/layout.css",
+    "sha256": "f20099cbbb63e665ebbd146f0b34bb50e50c8307864267279d3646001ba812e2"
+  },
+  {
+    "path": "docs/match-controls.css",
+    "sha256": "a73a20f55ba07a4a52fca7c51ae3a0e51c52a2980fee421e563a1863aa5b1b52"
+  },
+  {
+    "path": "docs/match-labels.js",
+    "sha256": "6fbf5c90238c45e1d8a9072791ff7fa19fb8e8ae06aae70c9deb9cea40e49aeb"
+  },
+  {
+    "path": "docs/preference-storage.js",
+    "sha256": "8bbfa2248624abede1ed995aecf8367033e95b8595150d851cc5695a2ecb0c8c"
+  },
+  {
+    "path": "docs/resign-catalog.js",
+    "sha256": "6467eca4e8a7cef3bab686e69c586ddb3b53cbb87e09b64a6e2d8cc719f48e48"
+  },
+  {
+    "path": "docs/resign-effects.js",
+    "sha256": "353d9046406d15febf411ccb08555db7f2ede188d9be47b25c55db88b15b10d1"
+  },
+  {
+    "path": "docs/result-view.js",
+    "sha256": "99221c7efc0b1401284563f7e998b294114e6cb5ed3c195dafa12b69672beed6"
+  },
+  {
+    "path": "docs/result.css",
+    "sha256": "aa6e407e415daa8527cc8639da964c5b86e2e11ece3b2bef60a3b6ac011830e1"
+  },
+  {
+    "path": "docs/room-chat.css",
+    "sha256": "82769ad42f6b9aa6db30fa0a6c04d56572fcdcfa0a749c5cf64cb6a7222871c6"
+  },
+  {
+    "path": "docs/room-chat.js",
+    "sha256": "659b53e851d6ab86b55fecb3e91dd6c4614590064f81744166cc3b37327a7e65"
+  },
+  {
+    "path": "docs/rules.js",
+    "sha256": "1d6ef56b77eaffb5affbfaf3b49dd65ab7c03e20df87fae87ca644867dba19bf"
+  },
+  {
+    "path": "docs/skins.js",
+    "sha256": "05cc4334e375d30ef0a06da1e7f47192fd45e4ab608fdc52ccef7887f5433142"
+  },
+  {
+    "path": "docs/style.css",
+    "sha256": "94d6fe09d79b3df49c96bfc77d43a7259a9cdab8b8677c0c8ad48c9f944f19cd"
+  },
+  {
+    "path": "docs/window-layout.js",
+    "sha256": "512fb3f1fb6558d4082cb02d7b4f791efd72f7bfaab4dd3a079e001b895992f2"
+  },
+  {
+    "path": "self-host/.env.example",
+    "sha256": "179b234b4379b227b83f0eda6c2f8383f856f6f4467fbe610d8c608af0bbac71"
+  },
+  {
+    "path": "self-host/compose.yaml",
+    "sha256": "29afa9086ef61d7c005b65b823068ded161a4eedd2dde12a548132f563db6bd8"
+  },
+  {
+    "path": "self-host/lobby.mjs",
+    "sha256": "73fe979d05e78ed6d473ba88b1463fe267fd21bdfb16ccd6f604d5e2ab4312da"
+  },
+  {
+    "path": "self-host/package.json",
+    "sha256": "e0c8839b06e97864959e4b00567bb83550237ccb0c4b8a73c214426219ed30cc"
+  },
+  {
+    "path": "self-host/public/about.html",
+    "sha256": "c8046b969b31b188d9e8f96b08a7d17fda05dd94b17d93b41ab9734d21b55662"
+  },
+  {
+    "path": "self-host/public/ai-worker.js",
+    "sha256": "e2e50046460df5e42f86c1d68654aca2859fb92d73015ded4e3e3ab2337f09c0"
+  },
+  {
+    "path": "self-host/public/ai.js",
+    "sha256": "a9d48e7a565c7bbba8faeccd8f85c444547d9f45530730b02a94712c5f1ab273"
+  },
+  {
+    "path": "self-host/public/app.js",
+    "sha256": "2fad9939e042b1d4bddadfe7751eaf35d66144212554acca7ce82ab5e8b2f2c6"
+  },
+  {
+    "path": "self-host/public/assets/frame-D1.png",
+    "sha256": "3fe7e231ee4e00e32e45067cde21602982989912bcf23159851c918521d1c4b7"
+  },
+  {
+    "path": "self-host/public/assets/frame-F1.png",
+    "sha256": "47034e67fe991f0b09a7c47fd10f1e77ce6e5ca4c5a52c5132c3573528d5c44d"
+  },
+  {
+    "path": "self-host/public/assets/frame-F2.png",
+    "sha256": "d8abf1406a40fe8f1216468f21e651f2b33580bdbe34f8b0c5490ec851734a04"
+  },
+  {
+    "path": "self-host/public/assets/frame-F4.png",
+    "sha256": "3bd88625c744102c6f6cde7a2d808712327a295c22baa07024f97027ace3d5c7"
+  },
+  {
+    "path": "self-host/public/assets/frame-F5.png",
+    "sha256": "d825f13d05f1115dbd40534f8dbc5e369c99f93a059009d904c810a55f9fc81b"
+  },
+  {
+    "path": "self-host/public/assets/frame-F6.png",
+    "sha256": "9bfddf597f389b2e2f4b7af9c407dd4a73cad2aeb1097d69088615cd935657b5"
+  },
+  {
+    "path": "self-host/public/assets/frame-F7.png",
+    "sha256": "614d0df3afa803ad2a7057bd42294d4ddae6f92cbcdfd3da918cb2e6a88e0193"
+  },
+  {
+    "path": "self-host/public/assets/frame-G1.png",
+    "sha256": "1c7e1f064cd6a72f445c677c1801ede588675bbbf265bcd7b7de93da527cfac9"
+  },
+  {
+    "path": "self-host/public/assets/frame-G2.png",
+    "sha256": "a70c45f2e048e68b10a15b438b02ff3ed3e46294c3a6b8bc410578431f84a34a"
+  },
+  {
+    "path": "self-host/public/assets/frame-G3.png",
+    "sha256": "99954a7b16b813b7b9075e9421570f8f47792e989962101ce58f8013dbc927cd"
+  },
+  {
+    "path": "self-host/public/assets/frame-G4.png",
+    "sha256": "458d84e0e43c7f0815f47607f4395e76e7f6adb2927c038474a4ad8123da0202"
+  },
+  {
+    "path": "self-host/public/assets/frame-G5.png",
+    "sha256": "7fcdf7734245ebc74f914ea15a0d5b307908f0d64932d9fa4f7a2dfe2b35716d"
+  },
+  {
+    "path": "self-host/public/assets/frame-G8.png",
+    "sha256": "d346eb86627cf960f80ae5da410d1037512c1af1de0310df5b8352da055a2d45"
+  },
+  {
+    "path": "self-host/public/assets/frame-N1.png",
+    "sha256": "f15f928a4537cc17eee1f5eb8d75c611bce66de77dbacf12cb45d8893006ce74"
+  },
+  {
+    "path": "self-host/public/assets/frame-N2.png",
+    "sha256": "838add93450188c07d9342b54f103b8d028ce65301a9c70d08470a179783dbf5"
+  },
+  {
+    "path": "self-host/public/assets/frame-N4.png",
+    "sha256": "10bdcd27d81d30ff2b1b55f113dab37dc799f763f0554a1ee8447ee6d53d7174"
+  },
+  {
+    "path": "self-host/public/assets/frame-random.png",
+    "sha256": "a9b8c494fcd04a4f81707170d8b570e4fa80129984d1b48881d91011ae5a9c98"
+  },
+  {
+    "path": "self-host/public/assets/frame-W1-soft.png",
+    "sha256": "55087bfbce49ca519d7db524c54d434a8608a4414b0975a747fd62e1c86d6de6"
+  },
+  {
+    "path": "self-host/public/assets/frame-W1.png",
+    "sha256": "92c30cd494d75afa5cb567520edd1e8a9754c9e7c5e79b489891a9d8a171adbb"
+  },
+  {
+    "path": "self-host/public/assets/frame-W2B.png",
+    "sha256": "bdc25580d089f648321063dd557d16dc31ce33a78fefc59a4d9f20ed6c5ee6b9"
+  },
+  {
+    "path": "self-host/public/assets/frame-W4-soft.png",
+    "sha256": "b192fdfd3cd146db807f24974c1fb256b3f32f39256036ca9e0c68ae2a1ee49b"
+  },
+  {
+    "path": "self-host/public/assets/frame-W4.png",
+    "sha256": "1e1686fbdf657fb9dbf7d181a6f1df2d70d10006e4f89c49f9edb9968ec34698"
+  },
+  {
+    "path": "self-host/public/assets/frame-W5-soft.png",
+    "sha256": "f03769aef14dc443046e0fac2caa550b5e640b22b28073d2d0af8732dc099ee1"
+  },
+  {
+    "path": "self-host/public/assets/frame-W5.png",
+    "sha256": "3dc3d04c6ba5ade8edc8714bf80c62f5cae05a9a699188bb1b0869dac76e4b66"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/C1.png",
+    "sha256": "42bf5ef9ceee50a6ac780ebb9a793c29e1f032ef59c32f2076cc246ce85f078c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/K2.png",
+    "sha256": "57652a502d6c11b94fea20baee35f1cbe8db216c16326e969c6fc07d72562549"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/K5.png",
+    "sha256": "fcb795465acef1fafdaaf4ff58afb004b2dbbd988655e7e261dec08b11a23daf"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/K6.png",
+    "sha256": "79e00e93e1eeeeda1d10839806482ad593c9b9e05674de30cf7a4a41812b4a22"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/K7.png",
+    "sha256": "59496fd81f182b3a79e58d98a19a8eae10661da1719e63423d5702dbfdb0a8d0"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/K8.png",
+    "sha256": "4dc943467e9e762a2015d1aed846c96211e29282c63b3a25de8b8f36e79e1e51"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/K9.png",
+    "sha256": "ae2d1f82bea16b8875dd3ccadb7b75a792bb78f1c2fec45776b5080c3d5b0941"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LA2.png",
+    "sha256": "462637bae65255444eae517c70fb2186e37e17505794a9d1478c2d11a536c406"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LA3.png",
+    "sha256": "633140dae638da73963db493147d9d4f98a6e201086e8077393b48d06e747b92"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LA4.png",
+    "sha256": "d51a1480a351907eafe62a526d9113c99d1a1f073813431a7a7fe6e1a1f1cffe"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LA6.png",
+    "sha256": "bc31274d7534b2ab85c7d6010d8ddcd60c756b955fce96c7e9fe837ffae1d812"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LA8.png",
+    "sha256": "9aa3e952235c6e1f59b4eca441f3ff0c37e1767b55e084355441b99334b718d3"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LA9.png",
+    "sha256": "a1262b4125953a996ffd38e34fc63066b3ebf0066eb27a44171481b6d60c29bd"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LB1.png",
+    "sha256": "73f4247d3fc2ba84d93a1cef94e44fd0be54b350d78e5741c98b5b33bb6e5af0"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LB2.png",
+    "sha256": "57f6deb783a94abd1776d3f4afcd663632423e9a2df86eb2497e30d7dfac712e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LB3.png",
+    "sha256": "92929f5ad1e8986ae05539bc4faa3fbd6a35b09ea99ef517465105453a3c8e13"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LB4.png",
+    "sha256": "299290a78876b6c67af7d57ae4dee3448f20b658045cc18224bcfad14eb689cc"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LB5.png",
+    "sha256": "06544c4b3e893dae6951ab6e74035f9f1fdae598c5badf36af00703fc037a0e5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LB6.png",
+    "sha256": "c8ebedb20358e5c22cab48aef274fd28ab4ac215aa83692ca5113e1ce0deca2e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LB7.png",
+    "sha256": "a1045545adab9295a7ede01c73788d76617cd4243e21b20644a481657a252e7d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LB8.png",
+    "sha256": "9b875b56337f042c3abbe04ccccdbe55bdf839797319d87045d8654a216bd8ff"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LC3.png",
+    "sha256": "d80fdc21f086813edc69bd9a10c4591698ddce27fe8f763a9aedc570780219a8"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LC4.png",
+    "sha256": "4dea9f91d407d780f9ac06d1304eb2758f02e407ca887b62a9282912f2700812"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LC6.png",
+    "sha256": "2a432d5509210cc0b04cf70fa245d0264d9f6d823a85b600dc1fbd47028f0ae7"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LC7.png",
+    "sha256": "e583011e54be1747c32b9890e89b828361228a4c9802262d0d2033171ddc366e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LC9.png",
+    "sha256": "e4e04cd654baf680523efdfefef29b815f43f5f1d14b0d0fc9f94b13f102b12e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LD1.png",
+    "sha256": "90373f21a45a983ccf8a81917f6ab63309d8c8169415f57f77f2c9edb37b88ee"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LD2.png",
+    "sha256": "0ede5ffaff22f6c62c068c02ea0d105b7202e36fed3fa39282700657512031ec"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LD3.png",
+    "sha256": "15de76e560ee54cd9c41c67717e3941c3103b44d73732df5031a7140d58c031d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LD4.png",
+    "sha256": "4a336a311e2fdae08cb88eff95a4889b7d695d2e0711e6935a4697039e461e56"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LD5.png",
+    "sha256": "94d0eb1c117fb8478fde9ae4ff2b197a18f547b3e7e54d174ea1ffe36878bfe7"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LD7.png",
+    "sha256": "0ff64cef56e840ad76a5dfe69ca6832c9d09769269ad5e7e7541f266e63bb5e8"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LD8.png",
+    "sha256": "4bdbc05e58cd3fb41b2b05d9c5617257dd40ca359c1fef04e40bba2776ad7253"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LD9.png",
+    "sha256": "6128695ef8e15ea7aacc4f00eb864fd6722219f26ce860e78426632309f7d5b0"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LE1.png",
+    "sha256": "390f759065a58155d4bdfe9cf7759def0768fc8aa250711c2fc7a14d49228315"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LE2.png",
+    "sha256": "3fd92fc04cbc233522ab581c1be568d9203e9f8a25bbf824fa0bd5710154148d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LE3.png",
+    "sha256": "142e92503a6204899fee707f9c74a34e2c52a4ef809f96df0c0702d0c4027068"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LE4.png",
+    "sha256": "442fd6e47cd41a76414cc5c42980446bef5bcfd8e7855b1fdce0413ae73376d7"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LE5.png",
+    "sha256": "109b2d3e43ff978b2d3837dda8735a2001e426f280475e5815487267a4c3e61b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LE6.png",
+    "sha256": "6d4b219f434690df29959de9cb2ea4f35ff89d2145c4e7c98afe77845faa712c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LE7.png",
+    "sha256": "7d817bd818b277a5744d44487d8805f2be66528d0ebdd0652155a59c5ba730ea"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LE8.png",
+    "sha256": "b7ca7bb534e513b537d0de119fa9c1cb149613308444ca5511b67c77cb0c6bdc"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LE9.png",
+    "sha256": "e5f5c52edf8895bacce3826f652b76eeadc170a8a447986c7211383c89b8655d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LF1.png",
+    "sha256": "fe91d978c16bab35114b8507f042cc8c75aa11dfec771638f127db425f14f219"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LF2.png",
+    "sha256": "ac8c6c0e8afa41e26f83b159431bfdf3a14faf7948183d6df917a6608fc661d1"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LF4.png",
+    "sha256": "cb3c6d04af5e2d4931546a47258db75c88d7fc90466857edb65058df1cea3ec5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LF5.png",
+    "sha256": "2ddafa6d42ff47adf9d752ab20ce2dc7df0b05a1ee1110615da041b5914ed411"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LF6.png",
+    "sha256": "7f62e2585e046bf9340167fe70063d8e843c5148435c4a4eeaa39336bcb437fb"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LF7.png",
+    "sha256": "74be27548233e4e09433d2630cddce3d3ea097502328c33845ffcb399043fbcc"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LG1.png",
+    "sha256": "9a24c5e7489d09d8c2a57a3ecd1dabf949f3951e61875d713c6802fb1b03242d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LG2.png",
+    "sha256": "b0583df41f3f1962eead4eec6dbbac50c339dbe0334ad22e5eea908a94620f94"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LG4.png",
+    "sha256": "67c8020f4cfad60c3a296da9dac32a90f8fd6fa72652ac452b594e31ef2ccd36"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LG5.png",
+    "sha256": "e5afb082415077a0e7bf865c9c1c6a473eab9c493838a85dc60abb5434dc9c22"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LG6.png",
+    "sha256": "39019d5094cf3d7bb1fdbf13a3d9e61b11abefc54cfb6417ec991fe3fe5abf77"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LG7.png",
+    "sha256": "e34c47cbac4ad5754444ad4bfe44840f2d74d4b5621b410abeb9b7ecf9c5e048"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LG8.png",
+    "sha256": "b72bb77d396672a3d3e8ad65d2ab2e4dc4a09c9b59023b4c3a217888e461f5bb"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LH1-v2.8.png",
+    "sha256": "2b1c3e256a51b36e389895f684918dbd18217c3093757550f1c6fb8a4b6c74fb"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LH1.png",
+    "sha256": "d6608fdd3c4065471d41b079fd70b3865f3248e576572c54e48a5804f00d13cb"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LH2.png",
+    "sha256": "3ec040a62b9d7fb2fc6fb426a58470effd97dab5ab7dde3ab87b8faa9d1f322e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LH3.png",
+    "sha256": "8f51e98d477a9ff8fe83fdf6933e2cdcdad7d08914b5fcea9ce64528bffe3b7b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LH4.png",
+    "sha256": "bac068a77fb9e294ec59271b5e695aa1c7f03064423c497925279e5263dc89e2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LH5.png",
+    "sha256": "6902ba2d9838d46730145d25b4a7df4585c4fcdb2c76887c73faf7a11246a3d9"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LH6.png",
+    "sha256": "bf6af4b29caccacaa41f1a4e36a94505fcc3e900ca7b348aee5cad55cd20a9d2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LH7.png",
+    "sha256": "752b1ee08fa7bf8e2fe1271f0344413c3bebbd5ac3566ecf6117204a18f1bfee"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LH9.png",
+    "sha256": "e2d7500946235bb31206ff7c25436820b4cf52a5a0509327fa00f30f4425c796"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LI1.png",
+    "sha256": "14e8049667b2baba264b1547a350c3c6be0af60bbcd33ca322d2d9ce94bde4e5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LI2.png",
+    "sha256": "591b4a477f128dbb153ee2233f83caeaa85abb57627310d537957b738ca4e0d4"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LI3.png",
+    "sha256": "0240759bd731c0d622ca377bac95db5e806bc3643a92e0c07f14a2a4473e5dbc"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LI4.png",
+    "sha256": "583a618bfec20d41ad70080e5674ffb595fe2d550c1d9f00523e129276d96d02"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LI5.png",
+    "sha256": "698c054a44ea2b94955527e35f90888ab7f03970f94603f065dd3e7de26cab99"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LI6.png",
+    "sha256": "3ec6cccc64a9c4f0495c1c7eb4e2fbd4d497086a9555b233d15b261488f6c714"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LI7.png",
+    "sha256": "a22c75ac02e14d3cc4ead15d76f241b2742266f527acb3a909df8d6f85929a84"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LI8.png",
+    "sha256": "be0837f9d81c53bdcbb7ef1cd0d0b749cfe846df69c58e6cef26cf7f2d22f703"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LI9.png",
+    "sha256": "3f7dab0760529c40b5d87c9158539fb1e99abe1bf28031dcc8c6285e2c1eb48e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LJ1.png",
+    "sha256": "3eaa85b35481b75a68064ba848ec3505d147a5c39ae3c533da50501f76d38d7a"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LJ2.png",
+    "sha256": "91d38043107ddba672b425d50bb828df801c62a2f01beb6f9655f7d7de619a17"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LJ3.png",
+    "sha256": "359bda42626633266afcf63a3fe86ecd6bff3347cb996c2d486e1715a5f3b0f0"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LJ4.png",
+    "sha256": "0f38a439ef8f7dfa8550d6755200ce0d8c22ff512f4492e9ce8713cfec3cbb58"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LJ5.png",
+    "sha256": "7f34949dc0462fe199951af3985a3e2f35d36fa48e7bbb10e2141fa722c3a437"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LJ6.png",
+    "sha256": "85e2e2b4fd40182c21dc9dd802b7b2dccff7679e47121882bf30e8ac098df009"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LJ7-v2.8.png",
+    "sha256": "4037e2bd2d55652c68cfd1e133592e242b102f38d1e77a6a97ee04e26cf2ccba"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LJ7.png",
+    "sha256": "eeadf630d25f0b0f978ca1fe9c764a321426e1a3c644ceee8a453ae2d2f52eff"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/LJ9.png",
+    "sha256": "60b44cb418f0151d9537fc195404dc4f6a23b3c1c4da7a66e1680cdf140f3aac"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LA2.png",
+    "sha256": "3281594881d3f1d794cb21650197744eb8840b82773f02bb243d049fbab0f461"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LA3.png",
+    "sha256": "b4501d5fced979ba4855df86543c8ff262f472a4325dd83a2a3cc370cb260e6f"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LA4.png",
+    "sha256": "7743f578c69b3afe30d9c045abb25589042b52dca561a5d16f52ab24468b09ac"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LA6.png",
+    "sha256": "a94548f9226031b7b353882b7fa6d0e87222e4f73d2d8f1240e9cefd6f381ebd"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LA8.png",
+    "sha256": "8fdf07f17c7474dcff8e88c5db7f9b91fa1464ff1912d6e055f5d963ef112b18"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LA9.png",
+    "sha256": "34d0f2115708e75a551c4352797127d17359f6ffd09059ac989d79f41a828ac9"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LB1.png",
+    "sha256": "1193626ff7e38cb5ccf4b5f1939a08e1413c7ec9ebbb131cc85dd4a4296d66e3"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LB2.png",
+    "sha256": "e0cc5ac5097974837c646b19b59a385d95a8609fb01e1f62189158e23d3279c5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LB3.png",
+    "sha256": "2841b1e1f9e89239b0692a5b8dbd59e48fa12c6fc7779fba8488f4205adba3a6"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LB4.png",
+    "sha256": "16aab73f2ded66c4c8fff24d7cc2831bc6494c8c543455c883feb14ebe9bacb0"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LB5.png",
+    "sha256": "bff71d1fcca378ae16e742f97c0d3939ce9825dc012bc94c50c565d1fd668c93"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LB6.png",
+    "sha256": "36852711da778c58bc64efffbacde3cbb842e76bb33b8963bd1e7628ecad400b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LB7.png",
+    "sha256": "b543b67c47bc226b19c4d6308fdec886f6fe5fba12b5cf0b07f0535e84ae76cb"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LB8.png",
+    "sha256": "ca85049c0bb57a1a291a11c5f23d02c773685ab3035d236cf0e30c582db1f177"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LC3.png",
+    "sha256": "c1c71201830e4e34e989fd2a5a4ea14b0cb1b97b4ed27b9f437a3aee7b0be2a6"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LC4.png",
+    "sha256": "9e8e04ca248cfdc9339fb5a4acaaf12b73ab63d9a6ccb6e79191427862a8a47b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LC6.png",
+    "sha256": "6a2ab3da412d31a81d7d792a124f5a674bf23d3b39abd064f7111945d3c2fbfc"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LC7.png",
+    "sha256": "9046c877769eb0dd38e7b82c1aa20734fd53cd9057ebb29858aa624c19278f8b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LC9.png",
+    "sha256": "538d4ac5679951e0c68326e71f9b1934795c27b24f5f876948f0a1d105de8d1e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LD1.png",
+    "sha256": "b280ebd933343176730cd5c9612c327e348dbdef659471915b1ad3f3f901270e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LD2.png",
+    "sha256": "c9bf18430059067f7d9fb356d1975a1c081a12b9dcc7507343ab5a38d9cba85d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LD3.png",
+    "sha256": "ea06dd18b49e558373ffe3a3d10cde6f29b314a957ce509c23efd4d48c1d3f91"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LD4.png",
+    "sha256": "3b2fae97cecc16a10e51dbe3d6bf577ac5e881645ba7ff135b420d039d039f27"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LD5.png",
+    "sha256": "bb959412ec9c4e216d32c3fba0eba7bb4c5ad3ef9dcd542bac69dddf86aa876d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LD7.png",
+    "sha256": "33a4eb6bd35f17efe0e2e87871a9d660311df181b94a04fa2b33b20da65ecc6e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LD8.png",
+    "sha256": "8247d15ae4980b94487c1fb66a7f19be400619651d2f963722061457d0b3c52e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LD9.png",
+    "sha256": "6fd8629556a86515e13566e8f7469dcc15e5eb46efd42c0fba94ad59d8b8487e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LE1.png",
+    "sha256": "838273cb5a57a585cd659ed8594943831062f2f269fb2117da240bd88b797dc2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LE2.png",
+    "sha256": "167776d952558c5b046d34e2b4cc3082c94d82765f4f5cad55fe73a8c2622945"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LE3.png",
+    "sha256": "5572c180ba92b0929917a1959d73aac80953e0c5a3dd7093fa95f785943c2aaa"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LE4.png",
+    "sha256": "5f13f17e70af53c00dd60ff6b347cad8066c4fa3235d42ad5b9af0cd51629922"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LE5.png",
+    "sha256": "705055798571a31361330b8c92bf83b568b1721eac5829870cfc2181b7f00db4"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LE6.png",
+    "sha256": "29a63802997a2c491fc85552dcc674f592c46de9a8f95f63a33982d7041d9fa6"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LE7.png",
+    "sha256": "863986a3156a4169a54eb7cfde546c5fffcc04cb3e5b18fdabad8161ead115ab"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LE8.png",
+    "sha256": "57bc42cc855669a5d1e94b3f04c587766bbfd2b9c9f3156f7d55e09549413848"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LE9.png",
+    "sha256": "9056c2f50cf560775658e647db372d342a4affe5142ff7c9a485487978b3be39"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LF1.png",
+    "sha256": "e752811edfd3a056e770f2a55ba620f4af2cd1afd2b172d1b9124194f57bb12a"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LF2.png",
+    "sha256": "5e8d259138cdabc3ca57da052d0d6356c38619415fa354d81a88bdcce714937c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LF4.png",
+    "sha256": "6cd4e722785ca82d7eca0ad09788d40deca32b5464abcb908c5bc1e94119f222"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LF5.png",
+    "sha256": "aebb04adc070f91d2ddb6fc3d126d2aafa2b5623f695f83524c69fb4df365e05"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LF6.png",
+    "sha256": "ebee7e773235b9400cc406018f30757936f31fdae21eb24f300467223c5aa8a4"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LF7.png",
+    "sha256": "e50f8161d5bf52096f871b7d5377f0cc68a54b1f4d34ca8b0d85a2070e39bdec"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LG1.png",
+    "sha256": "8914926217b40199dcdb7ab7a0163f9d8ee3d47e1207ff9b0764cb4a36847c38"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LG2.png",
+    "sha256": "86d6c596f30f0f7541d5ae766b5ee3cc0de3b0efb611160077a486659d5c529e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LG4.png",
+    "sha256": "9df45aded5e8b2cccbe36e607a9f328b0fde8e0cb900152357d6a1de829e27af"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LG5.png",
+    "sha256": "3db0a8a00ca62d419ce51df6d0610c91bc57ffb9305b39236d912c77a7e7f593"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LG6.png",
+    "sha256": "59142e24ab94fac4c2403e9de8fe74ee48db8ed7c5f312446ace89050ea589d2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LG7.png",
+    "sha256": "bc7144d51698a911391f34aecde559c7f60415e24ae709b7d5defdebb544ddfc"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LG8.png",
+    "sha256": "db90bd044750a683a305873bed693d0881789ca197562136831ca6357258dd14"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LH1.png",
+    "sha256": "8442b85389b826686ae39aae5c2868fa9da1f7a40982daf32fa9330b95b79d08"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LH2.png",
+    "sha256": "8405eb47abb0969d106f9ff3cb2d8b88acc80ab201ebe119af28f8ad07734e2f"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LH3.png",
+    "sha256": "e0fd4436853987f14f0b95a58ca735bba3d24231152ea9fb7d428b962e176d0b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LH4.png",
+    "sha256": "df3c9ea1aa7c1702fe9a2674d4491d026bae28ae00696672b11fdb5eeffc2cb3"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LH5.png",
+    "sha256": "e925cbceca6f6eac40580ff795fb368e45d2d4f196d11b51747500bb4d2f3fc5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LH6.png",
+    "sha256": "f4de2c272ef23ca2fbbf6b156cbdce00950d3b6d555318b20fcb26ac2fd9c21f"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LH7.png",
+    "sha256": "1f8612779bc33182c8c0d77f774d9ffec8bd735d6dec885e55f2771d0e320022"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LH9.png",
+    "sha256": "bf4d2c841543f0908f4ca29c26739a20f9a7b8afa9f09541e42c14b1ece5cf80"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LI1.png",
+    "sha256": "fee8c4ac0a70e73abc8ec9a083f89b2949b39ed7536173c4514a6d54c01e0e20"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LI2.png",
+    "sha256": "06c13aa2a6f231905f7cdc1ed3c209e41f6e7e7b47ebe9a954388f2d1eb04b89"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LI3.png",
+    "sha256": "85eb5003f554af574c76331f47cdb035eacd33a9d392a66c1a1dfd03c993b133"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LI4.png",
+    "sha256": "ce260d030f846eabb2df7778cd07c8ab51dbea0a977eca94f69a70417ac0920d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LI5.png",
+    "sha256": "196591f4e5745a2319896318ea1b3b30522e4bf1d82b6b9e53f609373605cf75"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LI6.png",
+    "sha256": "1f756aa473df91759135de11632ff24c56852983e414f50a7c6ccc45b8f8fca9"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LI7.png",
+    "sha256": "af257745baef2082733b23e328e4435d52102353b0f3179a3db273c4dfb23581"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LI8.png",
+    "sha256": "07fe4fe99b33e08187e4bbad430b83e62d66d0b5b9b121a0c1fb50f867ad87de"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LI9.png",
+    "sha256": "4237da46f0785593341cf9ecf99462532e2c3cec17275cdd118f895bcb054337"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LJ1.png",
+    "sha256": "baf8146e1e87e8743c2c5a3fa99bd9d43d710dcb36a438e877b04f809049b417"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LJ2.png",
+    "sha256": "470c3865be9c665332df34a32eccee709ebd79490a653163cb6b9b7d670d73b6"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LJ3.png",
+    "sha256": "b6e40057e9bd86d55feb20215a95a54bd76aff1266a4969bc660c5b2c9316699"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LJ4.png",
+    "sha256": "344c8b0486b42560601ecad38f3636318833d23e6b4853a0505b7445d668f783"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LJ5.png",
+    "sha256": "f3b24e60a3f9a96f3bab2ac5325cdf422154ecab91b755dfacc85d8039b1ef54"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LJ6.png",
+    "sha256": "e0726f474bf67dcd27aae2fe4dffdf688d8b87239f6e9b3531aa93d6bf37b9d9"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LJ7.png",
+    "sha256": "f563698b04c53e23cb9610c25a3dfab31b2c53e8915034d91919da39a0aa3e89"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/stones-LJ9.png",
+    "sha256": "47ee5c7ab0ec3047348099a803f5b2e69a69b931c7d3340927a3c1654a90847a"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LA2.webp",
+    "sha256": "0b621cee5369efca3a59ba8deb22159cfa77fcf2139f46d642df4f96d6eeac1a"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LA3.webp",
+    "sha256": "c1699368b56e6ae99744823cd9e99c0c6dd855fb979f157e8e083f37e2da7f7a"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LA4.webp",
+    "sha256": "b04f60f0f572f826f6c3e8be7cf7ddbe43c55c162346bb1b2570b311a33a65cd"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LA6.webp",
+    "sha256": "ebf1c463e84661936804d75b38f1067e1dbdf3108926967720c057994d734fde"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LA8.webp",
+    "sha256": "ec13b1d1da4924b06b2e0a4c800637f20bee1ae3a2848af500b721f2d557e842"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LA9.webp",
+    "sha256": "4435500d97fba4baab2af66ddb11c95b33d23c971771aa3f873196f588d4e509"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LB1.webp",
+    "sha256": "b3b91d4a5d21e667178ff88921f37795b8aae4c522b3dd8b17097e58d3c2b12c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LB2.webp",
+    "sha256": "59b85dc1ad8c7b6f0b64c4375398c050185a645827df2d7d1c93dd04036865cc"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LB3.webp",
+    "sha256": "c00a0b33c16c761e82b47c0f29f4956b7c6a3bb14cd8125c2f6d3b1939e5e382"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LB4.webp",
+    "sha256": "18c55696338dd42cb93b135987724aa190228dcab91b93cd45ff508b97f818d1"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LB5.webp",
+    "sha256": "161d999045596cd868cb3a4ca9e64f79f27b45d91ea30aec072b87f26f1dd446"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LB6.webp",
+    "sha256": "c22d8d8f431767947319509780a07b0ca47e888632830b86255211e491533802"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LB7.webp",
+    "sha256": "ca4e7be30f05d8ed6f0a1de75069e222a2efa016b53410e7945fada056f1ca68"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LB8.webp",
+    "sha256": "60625a1459ba8a932db346a5e1d8b3e514c015d0af783a68c0f25c982f3c3a56"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LC3.webp",
+    "sha256": "72abebe3e8175822dff8b4ca5c670013e2814a8c9629c773b0b6036aa51c725d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LC4.webp",
+    "sha256": "4d20bb17315f1123f4d902254ddb22cc5a074af4478346eb387d1d65c46ca21e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LC6.webp",
+    "sha256": "fc35b73abcb37dc27f87f47a9c52a2b56f5eb58153b0a52d13be71f9fde75184"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LC7.webp",
+    "sha256": "70937d6f9a7bb17236d2c98962c11b2760cfc5ce4e6e291d818d9d44c65f5068"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LC9.webp",
+    "sha256": "090df68bd7b1a5bf6ffbe4505d5102de0d23d8e2aa1ead601378ec89c8ffa810"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LD1.webp",
+    "sha256": "afacc2f3238c0f397d7974b2695acaa6e25a26ade17ec19460b527bb25d36778"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LD2.webp",
+    "sha256": "8ff530497090a551ebdc6a8f6555b6f598acf84da673e2c877031e1d2ad081c7"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LD3.webp",
+    "sha256": "609cdae789756f474c97a7bf0812c883524056a13a56981438e7d756c2722fd9"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LD4.webp",
+    "sha256": "25e4b3a974b15722c601105a41c3a48934b4c700403cb595559b4585e9f6ad2b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LD5.webp",
+    "sha256": "4e480ec5b0733b7ad280a60b2056b6ff0716f775c51f053e9f81ba9294169af5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LD7.webp",
+    "sha256": "d0a004fa9f24208ee07245e6e77e035cb2b248a52f4b1b2f05e4910d5247a6aa"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LD8.webp",
+    "sha256": "aa8243c9d5785887f82c1babbe505e7c35493fe85a687e8975ce57c54608a390"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LD9.webp",
+    "sha256": "81f98e654926cbb6eae243ab8aaa95213c452f711abeb472e507ee98f4ecf771"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LE1.webp",
+    "sha256": "2f1b798f0f96629c6fb2900800d46b7b25e33ce82487e3a334d6cfee1a26f18d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LE2.webp",
+    "sha256": "18bce2319512c4d9f1cd8e8263d0fc9914416b4d96bdafb15a26824eb1515c3b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LE3.webp",
+    "sha256": "73fb4b21d0372a12b9b93c586c1d776cfed72c7d8f78be3925003d4deb2228f4"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LE4.webp",
+    "sha256": "c4a609d9b5bf5b9ebcae2e972731cda4fe912d9b0e7fa48929563767d567ae6b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LE5.webp",
+    "sha256": "7b6708040bbb2d5e1959c5fe3aa7038553972c5b5d628083be6677425c1636e2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LE6.webp",
+    "sha256": "eddcf0aca06f7bd6d4fe441e612ede4f8ed4d619d95cdec2b36bfe6f9e753652"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LE7.webp",
+    "sha256": "cfe9d201c8a871868d4e5b71efa3bc243e357f1ce38a78112bb62e6da423458c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LE8.webp",
+    "sha256": "577ddda98bb8c7e6daabc292c690caeb392f5e08006d4f6df482db4b5138bcbb"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LE9.webp",
+    "sha256": "a34d7dcf24354f687a1d9e5d7c6d7ba56116297b64eb13101b87f6ad0c97d771"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LF1.webp",
+    "sha256": "d70d14f1b92ffc3f22208b2d8b50c301866eada6e612e3172e125d16850ef9c2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LF2.webp",
+    "sha256": "a6d4de3cd8fb084e4fd74499eb73abf1a97d5b16924d0a5bc93775cff3c5814a"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LF4.webp",
+    "sha256": "4573657fe7b63bccec7ac474d2b9c022c77be75f484e300b6e793d1ee578fc0f"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LF5.webp",
+    "sha256": "e2b86a08a94237943610c4f44603f836050592ac289681c3236e948ca0cea8db"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LF6.webp",
+    "sha256": "7e8f87041d070dedce2917326d3f9535a4d2ca6713ed0df7cc610d472a8fc965"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LF7.webp",
+    "sha256": "7dbd8f783650e243096b7228171f9e42106bbea56e24d2b5a61400c6d7ca5d7c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LG1.webp",
+    "sha256": "35da5157bee141d270bacb9554cfb89bf7367f26b3c5240b193dcd440a2bc6f1"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LG2.webp",
+    "sha256": "c603b71ef5f7f6204b3cb1fbcd6f44283ffa4779cf76dacb87ddd6cd02e24b2c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LG4.webp",
+    "sha256": "ba2dce6f575c2b5c983cd09d15dfa22dceaec1d3f71ac6c53e357691559f6c15"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LG5.webp",
+    "sha256": "c74c960163537bff970dd13f4ffec906c4ed448042ba42195729850f0c3bf5a7"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LG6.webp",
+    "sha256": "d09f3b66ee8a9ed34a50213aaee87842dbdfa410254888c252eda4f37c72e421"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LG7.webp",
+    "sha256": "9676ec6a6ae5881736941d7605c25cf6303587937ff6f91205402a9005129fea"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LG8.webp",
+    "sha256": "9e53e10f09327172deb2dd83544d4c51d3d56629788fd18a54fb690020ae0710"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LH1-v2.8.webp",
+    "sha256": "af7a9a8fc4ef719f43d0c156961eedea8a28df052e8df04afecc98acc35176e9"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LH1.webp",
+    "sha256": "c7749fa576ef4722ef6664967244adb490da387af530c61470b8a07a572ec0e1"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LH2.webp",
+    "sha256": "f91a53d37d1be3de7c2a1414ce104660cc679fe9ea490994f4cd34df9eb2b6dc"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LH3.webp",
+    "sha256": "8bda7320a8b2441edc663ce5af172c563a979cdd54fac5ce6bb2c5234ca7d1ea"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LH4.webp",
+    "sha256": "9393d6e2f5e3dcc9f4653c2100eb526180556e1a1f55d56162ffd4419833b40d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LH5.webp",
+    "sha256": "8a1ed471929edfdf479aaa73b4054cd5c32a7c44941820309c4f7c47f846c212"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LH6.webp",
+    "sha256": "f6a0e999b906a5918f7923a53b30226d4bfd1755eb1a69af66a6f03d34aec470"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LH7.webp",
+    "sha256": "eb40eb03f94a47bdd09df6953da2e23b4e9cdee8351038dea0cb2bfcce450b22"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LH9.webp",
+    "sha256": "229efcea8a7bd1a1effc707f58c22d014c09a5fbeeee2fe81cbcbecf22ef0cdc"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LI1.webp",
+    "sha256": "8a030aefd6e03d733289260cda37c3a0768f40fdf19670f9a32bcb1bc93f82db"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LI2.webp",
+    "sha256": "ca28a97535fdbce2fecffaf2c662c4668577ff8ede6f242e0aad21a41c11e800"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LI3.webp",
+    "sha256": "5080322a9f5ba0f3671211b3353bb6f3a47bd41c4850b1c8c79e3ad38a440cc4"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LI4.webp",
+    "sha256": "2dad8820c30862031e8fa2d1d681eb0ffc671bab14c28681a5e422eef2244bda"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LI5.webp",
+    "sha256": "9ebdfee0e0e79a34c3641d369b6982d455e89c09d22909d8b2eafd5b24443ba2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LI6.webp",
+    "sha256": "b7a64a5c7ab1e54bac739d86de86e59e301d0669517e165bc96988f605f101d0"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LI7.webp",
+    "sha256": "45e99f05db058f9d95dd785cdeae901c3d73e0f71d47ac7f5b00a7c06756f2b2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LI8.webp",
+    "sha256": "6e7318173236781ea99a154862cb4ba8a67a0a416bddcc0ffa92f14c0720e6c5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LI9.webp",
+    "sha256": "9969f922c3d340624d7b428b4c5ba4674be50db6631840f78e51939da5bcd316"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LJ1.webp",
+    "sha256": "44785bc44e860fe4e6e3b97a156754c61b5131e39ae495a232da72514fd1e702"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LJ2.webp",
+    "sha256": "73ddf3afccc004b84baadecbd3573792aca8ccc1e50d41be176079fb2e8b8c78"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LJ3.webp",
+    "sha256": "0166bdddc6acc3b92c7f3b486dccffd6e1f31cabd1bf5b2d322e2f8f81865bbe"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LJ4.webp",
+    "sha256": "59f3828fc5e2227dba8321e3c4794c749afaa3a29838083ca1cf8cb2fedfaa77"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LJ5.webp",
+    "sha256": "8791afbe4b2ec23db5c323cbfc6d3edaed9963032a40d9aaad69b0825ea8d795"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LJ6.webp",
+    "sha256": "616daee9310a94a94aa778a94e5c5a450d24656ad99b116a40c451f374824464"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LJ7-v2.8.webp",
+    "sha256": "bdb3e9856954631c1be1a7bfd451ad613175fbdde46634239b94f24ffd52b63b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LJ7.webp",
+    "sha256": "b42910293378f78424d8c528fc363ca692c89432d2c9a14ba37e8283515b5d20"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/liquid/thumb-LJ9.webp",
+    "sha256": "546fb6eaca8772ae57a8ecf3f3ce1893bb57e2793eb1c73df95371ca928e1bb8"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/M1.png",
+    "sha256": "4d891503f91805e0e60bebef58c1eeb6cbb3d3ea5353177ff554bd24c98ba41a"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/P1.png",
+    "sha256": "d65e23b9a2832809fa728fb2d263107cbedb94d241a2b7b42f55d78b7d5b3060"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/P7.png",
+    "sha256": "1a0c8351b3bf13fd6ca1fd65f35bb432c251e5f1db3df4326b139eaed3b8ad71"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/P8.png",
+    "sha256": "58fde2ca8b3f547cf4b800a356a996993a1255c3808d32ea1c81f815befc00c5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/R1.png",
+    "sha256": "dba6af8118d08eceee891be4f67b2fbabec6597f09c9344b094eb0431f6f2e24"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/R2.png",
+    "sha256": "0c08ce34e1a318e1fed41d71af8ab3a117aed3962519a0847a21f5eee1578a9f"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/R3.png",
+    "sha256": "c7bcf683da0ab2aca63b7d5d32e4d91b851bb802423e083f1990ef20eb5fdc6c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/R4.png",
+    "sha256": "eb474d872c7e36bbe996282f2f1abc182fa45fd9122adc432c7f07de612f9742"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/R5.png",
+    "sha256": "a459a513117005d40875a9e290be3df209223f5fc6472a50264abb59b93974bf"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/R7.png",
+    "sha256": "d320a462ddeaef19aec6a02a44b9e97cbf2e917d0f982f2b3d08111833693b77"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/R8.png",
+    "sha256": "dd8ac2ddfd3cd32a5c6bc041a7f82036a0f3295ef30f0144f0aa3aa6097ed324"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/random.png",
+    "sha256": "cad1a75f44ab9a5903ca29cc7dff168e22d191537d825a855b704007154ae08f"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/stones-P1.png",
+    "sha256": "114e1a19c1fe847d3dcbb45d42876e867becd5c472d465b1c2eb3bcfa1250105"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/stones-P7.png",
+    "sha256": "b41a019fe83393f3a6a44bd5e29036e1ab61957dc8dfd65bbd1ecffc7c618bf4"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/stones-P8.png",
+    "sha256": "bc9b3f10d111af4aadf3157df2632badca8a20114adb024e494b4653da6fda8a"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/stones-R1.png",
+    "sha256": "bfdacf1347104040157697737dbb174aea5aa3eb02f83e34ad88f5f16e40c1ba"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/stones-R2.png",
+    "sha256": "dca7937e0fabbcaf536f67e5ba986d5ad287733a9c15dfbe0428d264ed1fc7fc"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/stones-R3.png",
+    "sha256": "9faf0e4169212efb1e8b4b9f9aca0a9436f51a986fd388b532d9e1e9eb07333b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/stones-R4.png",
+    "sha256": "e76e9cff0d354f4e0ec6e203c5fcefb68479ef6b1371e75d355d83b8220f6907"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/stones-R5.png",
+    "sha256": "edc70fd62fa4ddca8a42c8bfe67c3ba2b51a0b9270bfd1cb96689980c374a7a5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku/stones-R7.png",
+    "sha256": "f9aa634791cb05507e9430682ea8cd3e7ed0e28efabfa0ee096f224723d32994"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/ceramic-01.wav",
+    "sha256": "869ab025d176e6188878f39cde1d47259db5e77c06e183dbee9cb72ac5ec03f1"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/ceramic-02.wav",
+    "sha256": "486fc643aaad12d15cc8d3408548b5dd60fed07224ebfca9b1caad9cd19ede45"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/ceramic-03.wav",
+    "sha256": "ead7fce21930ce6cd24495c9d693d99247924677a40f6e0178983a57ae6e6d37"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/ceramic-04.wav",
+    "sha256": "2bb0c443f91add3dc3c52cabee30f576d1c803a0bdcbd6b0c4d4970df63ef3c2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/ceramic-05.wav",
+    "sha256": "c5d5b67934ef529af4a148333403c6f9bede547c3183c289905093d813e25a33"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/clear-digital-01.wav",
+    "sha256": "29e6bf5b68f3f130872c3ec32d7efd026b5d09a4c925d27b6f541f1bb4360934"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/clear-digital-02.wav",
+    "sha256": "d35e163341bd272c37813ddd25ae1e6f72a7676407b951a1a97261b058d98e9f"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/clear-digital-03.wav",
+    "sha256": "6eaecff627849f753a96f0081430382c28890995b78d59ee64ab809b5e2a2e62"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/clear-digital-04.wav",
+    "sha256": "03fd3a71be44716107dfc7908229e09742b5ed70313167f3413b5158b65eb446"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/CREDITS.md",
+    "sha256": "9755505db11cf2d748bc5250883811a079dbdcfe30ccb9e931a4bdbef04140f7"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/crystal-01.wav",
+    "sha256": "86df401bc6a7b1a2e90ad58d2812554538799a5cfe068c13ce70381da6e7b0f2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/crystal-02.wav",
+    "sha256": "08e7f8141f859943e6b3ef593915cdd4cb071fe04f3b65ab973c971987655241"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/crystal-03.wav",
+    "sha256": "793c2c0f678302d786c755cbebc589ba524fbd469ef8e14864ec716c627dcd25"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/crystal-04.wav",
+    "sha256": "bc0c931026ada558322df503360c919595da97b87fc642e487dd5607a3a8abc5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/crystal-05.wav",
+    "sha256": "f0315ba8488301c50df9c8ce49143c1dcf541a1f80e09281996c10869c57a766"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/crystal-06.wav",
+    "sha256": "a641f4cfbb51f08893a1688d6faf67c11bd0ab5bdb576eeef394cc09cd95818c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/cyber-01.wav",
+    "sha256": "6078a4d5bd334937bd369512d33d4b4547229e43ad278183e4421205c3f793a4"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/cyber-02.wav",
+    "sha256": "66a1bb0e32252bb2be74a36a9ca4a5fd8a2fb1996c7cb5addadd0100ffb3208b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/cyber-05.wav",
+    "sha256": "ccb17a4a85b088224850e7ddaf946a445ebdf10538e9d04c981fbbe744ac90b1"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/digital-piko.wav",
+    "sha256": "4988eb7b71b4669d9889d5fd8168e5717cb87affb70f2ca53704e9e0d960c172"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/digital-pin.wav",
+    "sha256": "9671ce41728ad69b3e902af75f6ab3b269b07ff1a6da467e5ee002257f03875e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/digital-poko.wav",
+    "sha256": "f1170a4df6eb9586a8ab54dff0dfbac16e1e6d19326b46c874d733177658dac1"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/digital-pon.wav",
+    "sha256": "b70326d80c9c834ff2852688a8a3a96875cce43b7ad94ea8efa3eee2a6aeb6ac"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/digital-purun.wav",
+    "sha256": "ac1a09d191239c47287f9fd2c2f83095290545667fe901a6b88f888e0df52092"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/glass-extra-01.wav",
+    "sha256": "ff3ecd0c32db986f7a5c7cacdd0f1a072f04260eb8a17df3df23cbb85dfd9472"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/glass-extra-02.wav",
+    "sha256": "d73a43b9b7758182bf0ad7419401e4948988c082074f08031177c0c5bff0e9e2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/glass-extra-03.wav",
+    "sha256": "3fa6f9e8433e002952dfe9f043c70c24953beee3270b2d7ff0eabdd74ad925a1"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/glass-tap-01.wav",
+    "sha256": "c7d856306d3bd1941cd5b83cf02923fb8b4ffdfbdcfc614a0ea7847b9c55f33c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/glass-tap-02.wav",
+    "sha256": "32d03b3770702b429e2cb6d24a9ff7da405ad077028c9cfed335308389c91fe6"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/glass-tap-03.wav",
+    "sha256": "451f2f3d6282fbe3e2dd3624e2d892bd1f47a769ec5debdbe51683d7dfb6fb99"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/go-real-01.wav",
+    "sha256": "70d220621061de0b962af839a03a307148c0cb73cd4a0452b907eac6b278db99"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/go-real-02.wav",
+    "sha256": "027ffbeaa47dd6fc79c608908c62645c27adfb4361fac89417f485542730828a"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/go-real-03.wav",
+    "sha256": "666cf85143097c6fc68a2b0ad77fab22b254cfcb08775bed38da5eb6a927e1f2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/go-real-04.wav",
+    "sha256": "4ec38d227f271148e9ce7d06a2df14b807ee9c62f6fc3457b122d3b55b7c51bc"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/go-real-05.wav",
+    "sha256": "f22ef344d132ed944c64c7e6449743692eaca38a10b6593ec98ec5ab397d4a0c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/Kenney-impact-License.txt",
+    "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/Kenney-interface-License.txt",
+    "sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/liquid-01.wav",
+    "sha256": "e6bcc1abab860cbda3ab1e24e3856b99530568583ebee8961d534c4943323178"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/liquid-02.wav",
+    "sha256": "487d8b1e8dbd7d14cdee1c01e85e341e48a6093881504c8a26f37b063a84cfe8"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/liquid-03.wav",
+    "sha256": "808a3cc7c2cb64e252a3353e5aa2dc4db2f9b6ffe328d8b0591ca105e6df921c"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/liquid-04.wav",
+    "sha256": "97377d4d4c971da4961fe86f2c3017a8a2012c5bf85b0cd033d0a018560d9204"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/liquid-05.wav",
+    "sha256": "357e0a56253deb1265876d4bd45b30b92686927c2c312edcc849f55051bf2d2d"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/manifest.json",
+    "sha256": "964cb521aac3b4487015e1c6614950104d2ab55537e11260748b77b136e6f0fd"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/marble-bounce.wav",
+    "sha256": "8b52833c0eda06038053f64a0e34935ab07c49f1984bc5477a3cf6450929ff91"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/marble-bowl.wav",
+    "sha256": "5c394573c51d0d6f4473f4932b136773229246aeed5b07631214e50e81606cab"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/marble-clink.wav",
+    "sha256": "fd1c916fbac31fdc76316dc4abb7b69a52727d0ba1f9d00180c1266aba8205d5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/marble-impact.wav",
+    "sha256": "1535f8de44228b519c09e420ba8006ee171b223a338c16d372fe20b1e3fcecd2"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/metal-extra-02.wav",
+    "sha256": "502254b75fee76fd5dd653fa7dde6e2db2ff6c57392581d20ad8631ab12302c9"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/metal-extra-03.wav",
+    "sha256": "09660f5269ca8190bdabb0a6c531182ec05e2acb36c222dcc68a7249f71bb233"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/metal-extra-05.wav",
+    "sha256": "2a6358f602f19900b950d2a09490d2123970b43c0853a62248d0ee950567b01e"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/metal-tap.wav",
+    "sha256": "8212621ca05b708c8f0fa70ecaeb88f91f032a6f450fab88c3e203e64748e82f"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/mineral-01.wav",
+    "sha256": "9d9b1a549f05cce50fd8e4b65ac8d0147d2ba6175af24b17c700df3105abc3ed"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/mineral-02.wav",
+    "sha256": "6f4681eaf99be4ac8b00b9ed1ae7d9c0c4a7a8c8a26379bb750b4ce90bc52d44"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/mineral-03.wav",
+    "sha256": "74b7ba0c0b22fbb85bb3a25e58eb555e027053b7b3a43741d557eec209df3828"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/mineral-04.wav",
+    "sha256": "da6cb1747cecea8fc018383cb038ccdf8d466de46756fc447f12cfcb2adc6d80"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/mineral-05.wav",
+    "sha256": "e40bd06f0faa901dce1acb9915ecac8a56a2003025046e79e6bbbf94e5b33809"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/mineral-06.wav",
+    "sha256": "2d527a278d59f308237462f03a4a22ef9fd49255c1ab162d176d6c7f8cc35d33"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/soft-pop-01.wav",
+    "sha256": "8bd79aeb88af4eed94c9ca2e69f38abb49da7e8df2ca98a1ff7b62333ae53690"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/soft-pop-02.wav",
+    "sha256": "3cfd047f2b611c951bd8e0ba884c3aea6a7b64c21fa9c5719c5da786fa36a977"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/soft-pop-03.wav",
+    "sha256": "bcdf9166f05ac89bea5836d587dab1be53fdd2cb58c48772fa4fbff688e8b78f"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/soft-pop-04.wav",
+    "sha256": "fbf62a3229d373bc21ffb8298492281521cac467f30db6022649f01d9a7c8914"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/soft-pop-05.wav",
+    "sha256": "2d50018a68d6dae86be53f2f55045efdaa87a198622d94a6c548d9629fb596b5"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/wood-extra-01.wav",
+    "sha256": "3c10b48248e153b671b8b1bff3eb6f3a8779247c204c5dbd260846cd53f6af8b"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/wood-extra-02.wav",
+    "sha256": "ed748cdf30f2bb108c857252098b0fcf748b48969dd3dfd916f4fb7a961efd62"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/wood-extra-03.wav",
+    "sha256": "4e76f4d53e453504fc4463c5d5f5f2764f8078d128e31bf2a70793b5b90a380f"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/wood-extra-04.wav",
+    "sha256": "602c984a6859475fdb0cfca2faa60637ee7764ab03851a42815cb9bebaeb909f"
+  },
+  {
+    "path": "self-host/public/assets/gomoku-audio/wood-tap.wav",
+    "sha256": "83ee712aeb5c51f3318882337590f939724818bc75774422a8f6e1862779ea30"
+  },
+  {
+    "path": "self-host/public/assets/help/gomoku-play.png",
+    "sha256": "1faef768d605791bb5459804fb2147d14803d3034d16464dae5c2bc4fbfc3d49"
+  },
+  {
+    "path": "self-host/public/assets/help/othello-play.png",
+    "sha256": "2a58adeecb752ffce6b2ee6f5e0de8ba6756193cecee65fe6bdbe3003874eb18"
+  },
+  {
+    "path": "self-host/public/assets/help/README.md",
+    "sha256": "bf2ea69df9afb3f19cf5ca6c70787bc0bee73a91fec0af70ed576d433f0802e0"
+  },
+  {
+    "path": "self-host/public/assets/help/room-overview.png",
+    "sha256": "e33c148b3fd772a472c096908c324b94f768de9807867a858c4d828aeca7c7b5"
+  },
+  {
+    "path": "self-host/public/assets/help/smart-chat.png",
+    "sha256": "05eded11cde5ef12316b640c41d3d510b15ca3b8625f56bc3a3333800d564f3e"
+  },
+  {
+    "path": "self-host/public/assets/help/watch-result.png",
+    "sha256": "d094783dd1734cc28843a07892ccb83e76fabdb1724c67d0fc4440f422bb8d38"
+  },
+  {
+    "path": "self-host/public/audio.js",
+    "sha256": "7df2fe1ee613dab7c5b722305a2f5d973e8654b1b82c2ed05680b2f9b2443e75"
+  },
+  {
+    "path": "self-host/public/board-geometry.js",
+    "sha256": "f79d984ef8eae0e0fde33767b3b60a46ef8c77505253b004342c12ba188cb9c6"
+  },
+  {
+    "path": "self-host/public/choice-buttons.js",
+    "sha256": "70280c9779fe0d3ac18e59f6aef3f161162cf201e85d088fc33b418ea215b600"
+  },
+  {
+    "path": "self-host/public/continuous-watch.js",
+    "sha256": "ec0d5bde5cc04aafb254f3424f7953580003d4f8b92c17034145dd142a36b74e"
+  },
+  {
+    "path": "self-host/public/effect-catalog.js",
+    "sha256": "a96ee665bce3c3f90584c1473f4ea98ed78762c29948a5eb2c005c11d3b255b7"
+  },
+  {
+    "path": "self-host/public/effect-options.css",
+    "sha256": "98ca77911f0ccb49a81a2f17734ef92b9130d6ffe184bb374b2724ee48ccd1ee"
+  },
+  {
+    "path": "self-host/public/effects-extra.js",
+    "sha256": "37afc361f0cb7cfd63c0c9069d715feb593848e79fc89c3c0179c2f4f67e5938"
+  },
+  {
+    "path": "self-host/public/effects-lasers.js",
+    "sha256": "80b4c8bbba3c18671c3f7cc1577f19fa957e501d48fec38f779d222001a2d417"
+  },
+  {
+    "path": "self-host/public/effects.js",
+    "sha256": "2685b51819c25c09605af26845fa56e3ced6cf6efe7adf0f34ce77d4729b0ecf"
+  },
+  {
+    "path": "self-host/public/favicon.svg",
+    "sha256": "936237bc8977b6224871a92b115c2a3c1fa60666bc74fe9582e7966dba02acbf"
+  },
+  {
+    "path": "self-host/public/games.js",
+    "sha256": "e8ca890d2c6252da5506443f905ba4997ed1df1c0d14ea727c225de6e13b25b8"
+  },
+  {
+    "path": "self-host/public/gomoku-ai.js",
+    "sha256": "656965bce524032d06c1af59f0ff50f364ae72cc1b194f9756856e9b0c882182"
+  },
+  {
+    "path": "self-host/public/gomoku-commentary.js",
+    "sha256": "4705e082f86841cedc0bb0ec4687c117a932e3ba0d60a5fb4bccfb7d55edd2ee"
+  },
+  {
+    "path": "self-host/public/gomoku-rules.js",
+    "sha256": "b65b021321d5acd85d0211ae5c9671552c64894a8916f6bebc8b17a64fb20e5f"
+  },
+  {
+    "path": "self-host/public/gomoku-skins-extra.css",
+    "sha256": "00dc7a1c90318b9e65664da6ed1c9098551871d021f439927cdc0b85b10dd431"
+  },
+  {
+    "path": "self-host/public/gomoku-skins-extra.js",
+    "sha256": "7e7cb171a15b8d87f6e2edb2781ad7cd8ade4e995b40063927d753d3cde05f12"
+  },
+  {
+    "path": "self-host/public/gomoku-skins-liquid.js",
+    "sha256": "585604c4c45e6c11a9a72b04935d855e920fdb872fe52b7798568d0de8dbbf87"
+  },
+  {
+    "path": "self-host/public/gomoku-skins.js",
+    "sha256": "ee7454a3cff9251086fca37b3fb2099674e7c5fc855df10b8bc5c348178cdc3a"
+  },
+  {
+    "path": "self-host/public/gomoku-sounds-extra.js",
+    "sha256": "380b25648a0764efe7e42ba71431930ad376f4bdcd4aa6cdc6fe8c1b8ff4ad95"
+  },
+  {
+    "path": "self-host/public/gomoku-sounds.js",
+    "sha256": "5a9617c4906efd7a7d2df198b6344dccec707d4b224be7c958cbde6cbff4fd69"
+  },
+  {
+    "path": "self-host/public/gomoku.css",
+    "sha256": "6ceee02e728d885e025d388314f5c983a512b6429a2414b80fbb03c17999cdb1"
+  },
+  {
+    "path": "self-host/public/help.css",
+    "sha256": "1c943f6d042e9d580162f6de59f238cc7270d065fa30e77e40d819755c4e4fb3"
+  },
+  {
+    "path": "self-host/public/help.html",
+    "sha256": "20d6a7421ef64ee4c31cbad7f68a2b58ff2d5581a92cc7fd4d2a0111c7e84ccb"
+  },
+  {
+    "path": "self-host/public/index.html",
+    "sha256": "98f1f4a1531e962137e05db4b69e2c4195028b90a19ef55f6c8b2b8caa8ea0d4"
+  },
+  {
+    "path": "self-host/public/last-move.js",
+    "sha256": "b06222fd054757c9773523028281c0f4149f32b3677df79da5da4688c36897d3"
+  },
+  {
+    "path": "self-host/public/layout.css",
+    "sha256": "f20099cbbb63e665ebbd146f0b34bb50e50c8307864267279d3646001ba812e2"
+  },
+  {
+    "path": "self-host/public/match-controls.css",
+    "sha256": "a73a20f55ba07a4a52fca7c51ae3a0e51c52a2980fee421e563a1863aa5b1b52"
+  },
+  {
+    "path": "self-host/public/match-labels.js",
+    "sha256": "6fbf5c90238c45e1d8a9072791ff7fa19fb8e8ae06aae70c9deb9cea40e49aeb"
+  },
+  {
+    "path": "self-host/public/preference-storage.js",
+    "sha256": "8bbfa2248624abede1ed995aecf8367033e95b8595150d851cc5695a2ecb0c8c"
+  },
+  {
+    "path": "self-host/public/resign-catalog.js",
+    "sha256": "6467eca4e8a7cef3bab686e69c586ddb3b53cbb87e09b64a6e2d8cc719f48e48"
+  },
+  {
+    "path": "self-host/public/resign-effects.js",
+    "sha256": "353d9046406d15febf411ccb08555db7f2ede188d9be47b25c55db88b15b10d1"
+  },
+  {
+    "path": "self-host/public/result-view.js",
+    "sha256": "99221c7efc0b1401284563f7e998b294114e6cb5ed3c195dafa12b69672beed6"
+  },
+  {
+    "path": "self-host/public/result.css",
+    "sha256": "aa6e407e415daa8527cc8639da964c5b86e2e11ece3b2bef60a3b6ac011830e1"
+  },
+  {
+    "path": "self-host/public/room-chat.css",
+    "sha256": "82769ad42f6b9aa6db30fa0a6c04d56572fcdcfa0a749c5cf64cb6a7222871c6"
+  },
+  {
+    "path": "self-host/public/room-chat.js",
+    "sha256": "659b53e851d6ab86b55fecb3e91dd6c4614590064f81744166cc3b37327a7e65"
+  },
+  {
+    "path": "self-host/public/rules.js",
+    "sha256": "1d6ef56b77eaffb5affbfaf3b49dd65ab7c03e20df87fae87ca644867dba19bf"
+  },
+  {
+    "path": "self-host/public/skins.js",
+    "sha256": "05cc4334e375d30ef0a06da1e7f47192fd45e4ab608fdc52ccef7887f5433142"
+  },
+  {
+    "path": "self-host/public/style.css",
+    "sha256": "94d6fe09d79b3df49c96bfc77d43a7259a9cdab8b8677c0c8ad48c9f944f19cd"
+  },
+  {
+    "path": "self-host/public/window-layout.js",
+    "sha256": "512fb3f1fb6558d4082cb02d7b4f791efd72f7bfaab4dd3a079e001b895992f2"
+  },
+  {
+    "path": "self-host/scripts/serve-layout-check.mjs",
+    "sha256": "c87f608d4b13f5f9416d918d214e99b2e214f65be9f1f90b5ff849d7c80649e5"
+  },
+  {
+    "path": "self-host/scripts/smoke-network.mjs",
+    "sha256": "847abdfc6d1f1ebaa0482c619124001d466c5cd3a14a8b2ab0a2dbfa04d936bd"
+  },
+  {
+    "path": "self-host/server.mjs",
+    "sha256": "e6424d6a728907093b67753d6bd6d23b6660eeb77496f9fb2de35f4d24551b5f"
+  },
+  {
+    "path": "self-host/tests/board-geometry.test.mjs",
+    "sha256": "3e34d181a818280db987932be19d5549ae76cbadd55f9b354112d32c178a4246"
+  },
+  {
+    "path": "self-host/tests/commentary.test.mjs",
+    "sha256": "baac13ba0be023da8ad8bb851fe1e2925d660a135b32866ae3fac994e07ef2df"
+  },
+  {
+    "path": "self-host/tests/continuous-watch.test.mjs",
+    "sha256": "1e3517a567436c4ed8aa8d1e7671c1ce551f45ce5f820e96da5a9aa2ef3e9867"
+  },
+  {
+    "path": "self-host/tests/cpu-waiting.test.mjs",
+    "sha256": "d93191a9fdf9a22c7ced17255df621b24c606386fa9113ffd747787832738d02"
+  },
+  {
+    "path": "self-host/tests/effects.test.mjs",
+    "sha256": "118203267e6cf610387f43e056a08cff49d9ba437378e2aabbf25e11ea7a7a11"
+  },
+  {
+    "path": "self-host/tests/fixtures/original-place-sound-hashes.json",
+    "sha256": "f3899cc49bee84b6bf8f8fa05e6481ba7e69b3cb7dc22661ea1913b743c4774b"
+  },
+  {
+    "path": "self-host/tests/fixtures/result-layout.html",
+    "sha256": "4b9fac917d7923871a9b843035db5d9fa6a2bbc94b51691377c5dc4851659799"
+  },
+  {
+    "path": "self-host/tests/gomoku-audio.test.mjs",
+    "sha256": "fde915232f5bf11d55e3d5118e9591ceb3e3d6514a17bad96732b48055aaba39"
+  },
+  {
+    "path": "self-host/tests/gomoku-balance.test.mjs",
+    "sha256": "88673c2d529e8b034c924541d1653a80874768d44707c505dd3398a726c70138"
+  },
+  {
+    "path": "self-host/tests/gomoku-http.test.mjs",
+    "sha256": "46d4456eeaa333947c99362dbfb68b8595692d72fd7e6de24047d6e1251cf593"
+  },
+  {
+    "path": "self-host/tests/gomoku-materials.test.mjs",
+    "sha256": "fc6e6106c5abe4fce202cb21a70b684840553bf82941e498a0e77c45a83cf49c"
+  },
+  {
+    "path": "self-host/tests/gomoku.test.mjs",
+    "sha256": "6f10ddbd111a3f32e95b4eb81f750a246ce82b90aeebdd1e6d04843a56defa74"
+  },
+  {
+    "path": "self-host/tests/last-move.test.mjs",
+    "sha256": "0fcf0ed0f60299a5b75240810e74fa7ffb6063374754c98ab342d71202c713e8"
+  },
+  {
+    "path": "self-host/tests/liquid-skins.test.mjs",
+    "sha256": "fc64b2c5daf071c5c590ca6cfee4c384b7e7612304a3641a6f9da28957730153"
+  },
+  {
+    "path": "self-host/tests/lobby.test.mjs",
+    "sha256": "3fdac3acf7f29cc5eab4e057aaa3dbae2ebf81a7d5726e1b8e334cd89b6156ac"
+  },
+  {
+    "path": "self-host/tests/match-labels.test.mjs",
+    "sha256": "306c19cde91373f4461647ef190ff641c34c59f39d6ea14666729f4283131405"
+  },
+  {
+    "path": "self-host/tests/multi-match-http.test.mjs",
+    "sha256": "3a433140a79ef66682d8002cd30782ff98ee86530c1aca9206cb4756ca4bbf87"
+  },
+  {
+    "path": "self-host/tests/multi-match.test.mjs",
+    "sha256": "f7a75cebcfd58ec3597988255f0b0c2331a9a8aca93797d3a9907b30fb2d74f9"
+  },
+  {
+    "path": "self-host/tests/preference-storage.test.mjs",
+    "sha256": "ef27acce5a76efeea4c157053095c2798e5a8ce893b717c296098ba1a5327403"
+  },
+  {
+    "path": "self-host/tests/resign.test.mjs",
+    "sha256": "d351ad5621f0295e462a948f11bbccda8aca342ebb56c7da4a1a2b14921049e0"
+  },
+  {
+    "path": "self-host/tests/room-chat.test.mjs",
+    "sha256": "0dd4d5c163b8e245898ba28953227c09e2fc63121bf7a2138b6c61ed0f9f4940"
+  },
+  {
+    "path": "self-host/tests/rules.test.mjs",
+    "sha256": "64cb58f86e547dd206b2a915caf1de1989decc74d60a0296df3b1e90275e6ecc"
+  },
+  {
+    "path": "self-host/tests/skins.test.mjs",
+    "sha256": "ad57a67f43e05032a1b2a4e8537fc8cfd4d9a7184b734614333e3d9007fb6470"
+  },
+  {
+    "path": "self-host/tests/window-layout.test.mjs",
+    "sha256": "81ec6ccc992dd2720364b7b0da2c03a66b48a0cee7cc6a489e62dd16761b90dd"
+  }
+]

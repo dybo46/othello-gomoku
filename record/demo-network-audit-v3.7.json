@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "version": "3.7",
+  "mount": "/othello-gomoku/",
+  "requests": 210,
+  "uniquePaths": 168,
+  "gameApiRequests": 0,
+  "browserWarningsOrErrors": 0,
+  "checks": [
+    "CPU-only entry; online readiness/chat hidden",
+    "93 Gomoku choices: random and 92 skins",
+    "glass category audio preview",
+    "Gomoku CPU vs CPU natural finish",
+    "continuous watch starts another game and offers 6-second countdown",
+    "exit and re-enter resets background to random while audio stays selected",
+    "Othello CPU placement D3, undo and resignation"
+  ],
+  "limitations": [
+    "Physical popup resizing not rechecked; no author-server access in this verification"
+  ]
+}

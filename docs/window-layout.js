@@ -1,7 +1,13 @@
 // Screenshot-approved maximum, including the decorative frame.
 export const MAX_BOARD_SIZE=566;
 export const LARGE_BOARD_SIZE=650;
-export function boardSize(width,height,mode='standard'){return Math.floor(Math.max(0,Math.min(mode==='large'?LARGE_BOARD_SIZE:MAX_BOARD_SIZE,width,height)));}
+export const OVERSIZED_BOARD_SIZES={mega:800,blast:950};
+export const isOversizedBoard=mode=>Object.hasOwn(OVERSIZED_BOARD_SIZES,mode);
+export function boardSize(width,height,mode='standard'){
+  // These explicit choices allow vertical scrolling while still respecting width.
+  if(isOversizedBoard(mode))return Math.floor(Math.max(0,Math.min(OVERSIZED_BOARD_SIZES[mode],width)));
+  return Math.floor(Math.max(0,Math.min(mode==='large'?LARGE_BOARD_SIZE:MAX_BOARD_SIZE,width,height)));
+}
 // Outer-window bounds, constrained to the current monitor's work area.
 export function popupBounds(screen,wide,restore=null){
   const aw=Math.max(1,Number(screen.availWidth)||1280),ah=Math.max(1,Number(screen.availHeight)||720);

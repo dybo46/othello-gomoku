@@ -1,5 +1,5 @@
 import {chooseResignEffect} from './resign-catalog.js';
-export const VERSION='2.6';
+export const VERSION='3.7';
 export const DELAY=850;
 export function normalizeTime(value){return [15,30,60,90,120,180,300].includes(Number(value))?Number(value):60;}
 const dirs=[[-1,-1],[-1,0],[-1,1],[0,-1],[0,1],[1,-1],[1,0],[1,1]];
