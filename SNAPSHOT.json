@@ -34,8 +34,10 @@
     "privacyScanPassed": true,
     "subpathDemoVerified": true,
     "gameApiRequestsFromDemo": 0,
-    "livePagesVerified": false,
-    "livePagesStatus": "Stale deployment canceled; final redeployment verification in progress."
+    "livePagesVerified": true,
+    "livePagesStatus": "Verified CPU-only v3.7 at public URL after Pages configuration reset.",
+    "liveDeploymentRun": "41928587143",
+    "liveSampledFilesMatch": 13
   },
   "repositoryUrl": "https://github.com/dybo46/othello-gomoku",
   "demoUrl": "https://dybo46.github.io/othello-gomoku/",

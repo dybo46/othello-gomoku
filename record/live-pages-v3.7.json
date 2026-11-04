@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-05",
+  "gameVersion": "3.7",
+  "deployedCommit": "43f5d96896b5b04e5293440cbdcc509e5baedc1d",
+  "deploymentRun": "41928587143",
+  "deploymentConclusion": "success",
+  "cpuDemoOnly": true,
+  "sampledFiles": [
+    {
+      "path": "index.html",
+      "match": true,
+      "sha256": "8e3324a5711768f9dc5dd6f634f8544a20e418b1b20e2a3491fdf0cc812c8597"
+    },
+    {
+      "path": "app.js",
+      "match": true,
+      "sha256": "a6873b14723bcf1c825caa2a0397d660eb593f5b58ed0685dbb6bd6120f18181"
+    },
+    {
+      "path": "rules.js",
+      "match": true,
+      "sha256": "3fe3c7255b8a948a6a0e8ef52e5b7dc4ccd09012209f4129b04081cbff776ae0"
+    },
+    {
+      "path": "help.html",
+      "match": true,
+      "sha256": "c3ebc582525c4da1f3ed31577a01d9e4a888e334be89f093d5ef9f41b5f36963"
+    },
+    {
+      "path": "demo.css",
+      "match": true,
+      "sha256": "f6ddeda548b98045c5ffd58793b876192a1baf039b0048b93e4726903ffa977a"
+    },
+    {
+      "path": "ai-worker.js",
+      "match": true,
+      "sha256": "e2d20c99cf175f673da9e8ede19fdeb3dc462d242e2fcd4e98e3740510b3f47d"
+    },
+    {
+      "path": "gomoku-skins-liquid.js",
+      "match": true,
+      "sha256": "1be8578dfc8fe5c3f1226ea8dcaf52543e8d7a98fed2dd070db58e2a2af00a59"
+    },
+    {
+      "path": "gomoku-sounds-extra.js",
+      "match": true,
+      "sha256": "67bbdc2ebeaf62d610a96fbef8bfbebab16b847b143f3fa53189101828b10915"
+    },
+    {
+      "path": "assets/gomoku-audio/manifest.json",
+      "match": true,
+      "sha256": "f9dd66eb93415777f40fdd603a707b97e366f6a278984ccb1a7fe78a3380a916"
+    },
+    {
+      "path": "assets/gomoku-audio/glass-extra-01.wav",
+      "match": true,
+      "sha256": "ff3ecd0c32db986f7a5c7cacdd0f1a072f04260eb8a17df3df23cbb85dfd9472"
+    },
+    {
+      "path": "assets/gomoku/liquid/LJ1.png",
+      "match": true,
+      "sha256": "3eaa85b35481b75a68064ba848ec3505d147a5c39ae3c533da50501f76d38d7a"
+    },
+    {
+      "path": "assets/gomoku/liquid/stones-LJ1.png",
+      "match": true,
+      "sha256": "baf8146e1e87e8743c2c5a3fa99bd9d43d710dcb36a438e877b04f809049b417"
+    },
+    {
+      "path": "assets/gomoku/liquid/thumb-LJ1.webp",
+      "match": true,
+      "sha256": "44785bc44e860fe4e6e3b97a156754c61b5131e39ae495a232da72514fd1e702"
+    }
+  ],
+  "browser": {
+    "heading": "v3.7 CPU DEMO",
+    "gomokuChoices": 93,
+    "onlineReadinessVisible": false,
+    "chatVisible": false,
+    "gomokuCpuWatch": "natural completion; black CPU Lv.1 wins",
+    "audioCategoryPreview": "glass random",
+    "warningsOrErrors": 0
+  }
+}
